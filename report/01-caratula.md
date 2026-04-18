@@ -29,7 +29,7 @@ FruitLogix
 ### Integrantes:
 
 - Contreras Granados, Johan Alexis — u202423752
-- Esteban Eduardo, Chavez Bardales — u20241b761
+- Chavez Bardales, Esteban Eduardo — u20241b761
 - Evangelista Ygnacio, Sergio Joaquín — u202211295
 - Jaime Forcelledo, Gonzalo Alexander — u202319329
 - Palomino Vilcañaupa, Daril Johan — u202317338
