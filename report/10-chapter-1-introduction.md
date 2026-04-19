@@ -1,10 +1,9 @@
 ﻿## 1.1 Startup Profile
 
-### 1.1.1 Descripcion de la Starup
-
-### 1.1.2 Perfil de integrantes del equipo
+### 1.1.1 Descripcion de la Startup
 
 ### 1.1.2 Perfiles de integrantes del equipo
+
 
 |                                                         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 |---------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -15,21 +14,3 @@
 | <img src="assets/images/daril_foto.png" width="1000"> | <br> **Nombre:** Palomino Vilcañaupa, Daril Johan <br><br>**Código:** U202317338<br><br> **Conocimientos y habilidades:** Soy estudiante de Ingeniería de Software en la UPC. Me considero una persona perseverante y constante, siempre enfocada en superarme día a día para afrontar nuevos desafíos con determinación. Me caracterizo por ser empático y saber trabajar con los demás. Además, disfruto practicar deportes y mantengo un fuerte compromiso con el proyecto y mis objetivos académicos.                                                                                                                                                                                                                                                                                                                        |
 
 ---
-## 1.2 Solution Profile
-
-### 1.2.1 Antecedentes y problemática
-
-### 1.2.2 Lean UX Process
-
-#### 1.2.2.1 Lean UX Problem Statements
-
-#### 1.2.2.2 Lean UX Assumptions
-- El objetivo actual del negocio es ayudar a los distribuidores de frutas a gestionar de manera eficiente los pedidos y cumplir con los estándares exigidos por los clientes comerciales en cuanto a calidad y tiempos de entrega. Sin embargo, un problema es la gestión manual o el uso de herramientas aisladas, lo que genera errores operativos, desorganización y dificultades en la coordinación del proceso logístico. Ante ello, ¿Cómo podríamos diseñar una plataforma que optimice la gestión logística y reduzca los errores operativos en la distribución de frutas?
-- El objetivo actual del negocio es asegurar que los productos agrícolas cumplan con los requisitos de calidad establecidos por los clientes antes de su envío. No obstante, un problema es que la validación del estado de los productos depende del criterio humano, lo que puede generar inconsistencias y ocasionar pérdidas económicas debido a rechazos. Ante ello, ¿Cómo podríamos diseñar un sistema que permita validar la calidad de los productos antes de su entrega para reducir el riesgo de rechazo?
-- El objetivo actual del negocio es coordinar de manera eficiente la interacción entre distribuidores, productores y clientes comerciales dentro de la cadena de suministro. Sin embargo, un problema es la falta de trazabilidad y de información centralizada, lo que dificulta el seguimiento de los pedidos y reduce la capacidad de tomar decisiones oportunas. Ante ello, ¿Cómo podríamos diseñar una solución que permita centralizar la información y mejorar la trazabilidad en toda la cadena de distribución?
-
-#### 1.2.2.3 Lean UX Hypothesis Statements
-
-#### 1.2.2.4 Lean UX Canvas
-
-## 1.3 Segmentos Objetivos
