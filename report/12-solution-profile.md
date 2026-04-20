@@ -1,6 +1,19 @@
 ﻿## 1.2 Solution Profile
 
 ### 1.2.1 Antecedentes y problemática
+
+Desarrollando las preguntas clave usando el modelo de las 5W y 2H, ya que es importante para la identificación del problema y sus antecedentes.
+
+| Preguntas | Pregunta formulada para el problema | Respuestas                                                                                                                                                                          |
+|-----------|-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Who?      | ¿Quiénes son los afectados?         | Supermercados, distribuidores, productores y mercados que participan en la cadena de suministro de frutas.                                                                          |
+| What?     | ¿Cuál es el problema?               | La gestión logística se realiza de forma manual o con sistemas poco integrados, generando desorden en pedidos, falta de trazabilidad y riesgos en el control de calidad.            |
+| Where?    | ¿Dónde ocurre?                      | En toda la cadena de distribución de frutas: desde el productor hasta el supermercado o mercado final.                                                                              |
+| When?     | ¿Cuándo sucede?                     | Durante el proceso de distribución: registros de pedidos, asignaciones de pedidos, preparación del producto, etc.                                                                   |
+| Why?      | ¿Por qué ocurre?                    | Ocurre por la falta de digitalización, el uso de herramientas aisladas y la ausencia de un control centralizado, lo que obliga a depender de procesos manuales propensos a errores. |
+| How?      | ¿Cómo se manifiesta?                | En pedidos mal gestionados, retrasos en las entregas, productos en mal estado y pérdida de información, generando baja eficiencia operativa.                                        |
+| How Much? | ¿Cuánto impacto tiene?              | Provoca pérdidas económicas, disminución de la calidad del producto, insatisfacción de los clientes y menor competitividad en el mercado.                                           |
+
 ### 1.2.2 Lean UX Process
 #### 1.2.2.1. Lean UX Problem Statements
 #### 1.2.2.2. Lean UX Assumptions
