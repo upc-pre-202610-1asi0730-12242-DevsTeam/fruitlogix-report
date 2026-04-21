@@ -213,4 +213,32 @@ La verificación de calidad se realiza de forma visual y sensorial, revisando co
 
 La puntualidad es considerada un factor crítico, ya que los retrasos impactan directamente en la preparación de los jugos y la atención al cliente. Como oportunidad de mejora, se identifica la necesidad de implementar un sistema de registro de pedidos que permita llevar un mejor control de cantidades, precios y fechas, y así optimizar la gestión y el seguimiento de ventas.
 
+
 #### 2.2.3. Análisis de entrevistas
+
+
+#### Análisis de Distribuidores:
+
+A partir de las entrevistas realizadas a distribuidores de frutas, se identifican patrones claros en la gestión de pedidos, control de calidad y operación logística.
+
+El 100% de los entrevistados (3 de 3) indicó que gestiona los pedidos mediante un enfoque mixto, combinando herramientas digitales (como Excel, celular o plataformas B2B) con registros manuales (cuadernos o notas). Esto evidencia una transición incompleta hacia la digitalización y una fuerte dependencia de procesos manuales.
+
+En cuanto a los canales de recepción de pedidos, el 100% utiliza medios directos como llamadas o WhatsApp, mientras que solo el 33% emplea una plataforma formal (B2B). Esto demuestra que la comunicación sigue siendo mayormente informal y descentralizada.
+
+Respecto a la organización del trabajo, el 100% de los entrevistados utiliza el celular como herramienta principal, complementado en un 66% por computadoras o laptops. Esto evidencia que la gestión operativa se realiza principalmente de forma móvil, pero sin un sistema integrado.
+
+En relación con la preparación de pedidos, el 100% indicó que el tiempo varía según el volumen, pudiendo ir desde 30 minutos hasta 5 horas. Esto refleja una alta variabilidad operativa y dependencia del tamaño del pedido.
+
+Sobre la gestión de inventario, el 100% de los distribuidores recurre a proveedores de confianza cuando no cuenta con suficiente stock, lo que evidencia la importancia de las redes de contacto y la falta de sistemas formales de control de inventario.
+
+En cuanto al control de calidad, el 66% realiza una validación manual basada en criterios visuales (color, estado, madurez), mientras que solo el 33% trabaja con fichas técnicas formales exigidas por supermercados. Esto demuestra que la mayoría depende del criterio humano, aumentando el riesgo de errores.
+
+Asimismo, el 100% de los entrevistados ha experimentado problemas relacionados con la calidad del producto, incluyendo rechazos por frutas en mal estado o defectos no detectados previamente. Esto evidencia una debilidad en los procesos de control de calidad.
+
+En relación con auditorías, solo el 33% indicó estar sujeto a auditorías constantes (principalmente en el caso de proveedores de supermercados), mientras que el 66% las recibe de manera ocasional o no estructurada. Esto refleja diferentes niveles de formalización en el segmento.
+
+Entre los principales problemas identificados, el 100% mencionó dificultades relacionadas con la variabilidad del stock, la exigencia de calidad y la necesidad de responder rápidamente a los pedidos. Además, el 66% destacó problemas de planificación y coordinación, especialmente en pedidos con poca anticipación.
+
+Finalmente, el 100% de los entrevistados reconoce oportunidades de mejora en la digitalización de sus procesos, especialmente en la gestión de pedidos, control de calidad y trazabilidad. Esto evidencia una alta apertura hacia soluciones tecnológicas como FruitLogix que permitan optimizar su operación.
+
+ 33% utiliza sistemas formales, mientras que el 66% depende principalmente de métodos tradicionales. Sin embargo, el 100% identifica oportunidades de mejora en la gestión de pedidos, especialmente en el control de información, tiempos de respuesta y consistencia en la calidad, lo que evidencia una apertura potencial hacia soluciones digitales como FruitLogix.
