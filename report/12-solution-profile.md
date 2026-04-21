@@ -16,6 +16,12 @@ Desarrollando las preguntas clave usando el modelo de las 5W y 2H, ya que es imp
 
 ### 1.2.2 Lean UX Process
 #### 1.2.2.1. Lean UX Problem Statements
+El objetivo actual del negocio es ayudar a los distribuidores de frutas a gestionar de manera eficiente los pedidos y cumplir con los estándares exigidos por los clientes comerciales en cuanto a calidad y tiempos de entrega. Sin embargo, un problema es la gestión manual o el uso de herramientas aisladas, lo que genera errores operativos, desorganización y dificultades en la coordinación del proceso logístico. Ante ello, ¿Cómo podríamos diseñar una plataforma que optimice la gestión logística y reduzca los errores operativos en la distribución de frutas?
+
+El objetivo actual del negocio es asegurar que los productos agrícolas cumplan con los requisitos de calidad establecidos por los clientes antes de su envío. No obstante, un problema es que la validación del estado de los productos depende del criterio humano, lo que puede generar inconsistencias y ocasionar pérdidas económicas debido a rechazos. Ante ello, ¿Cómo podríamos diseñar un sistema que permita validar la calidad de los productos antes de su entrega para reducir el riesgo de rechazo?
+
+El objetivo actual del negocio es coordinar de manera eficiente la interacción entre distribuidores, productores y clientes comerciales dentro de la cadena de suministro. Sin embargo, un problema es la falta de trazabilidad y de información centralizada, lo que dificulta el seguimiento de los pedidos y reduce la capacidad de tomar decisiones oportunas. Ante ello, ¿Cómo podríamos diseñar una solución que permita centralizar la información y mejorar la trazabilidad en toda la cadena de distribución?
+
 #### 1.2.2.2. Lean UX Assumptions
 **Assumptions Worksheet**
 
