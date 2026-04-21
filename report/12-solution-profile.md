@@ -150,3 +150,15 @@ El objetivo actual del negocio es coordinar de manera eficiente la interacción 
 
 ---
 #### 1.2.2.4. Lean UX Canvas
+
+| 1. Business Problem | 5. Solution Ideas | 2. Business Outcomes |
+|--------------------|------------------|----------------------|
+| La cadena de distribución de frutas entre productores, distribuidores y supermercados opera de forma manual y descoordinada, lo que genera errores en pedidos, rechazos por falta de calidad y pérdida de trazabilidad. Esto resulta en costos logísticos elevados, pérdidas económicas por devoluciones y baja satisfacción de los clientes finales. | - Plataforma web centralizada para el registro y seguimiento de pedidos. <br> - Módulo de validación de calidad con criterios estandarizados. <br> - Asignación automatizada de órdenes entre distribuidores y productores. <br> - Integración de sensores IoT para monitorear temperatura y humedad durante el transporte. <br> - Visualización de datos y reportes de trazabilidad en tiempo real. | - Reducir los errores operativos en la gestión de pedidos. <br> - Disminuir los rechazos por calidad en los centros de distribución. <br> - Mejorar la trazabilidad de los productos a lo largo de toda la cadena. <br> - Optimizar los tiempos de entrega y la coordinación entre actores. |
+
+| 3. Users and Customers | 4. User Benefits |
+|------------------------|------------------|
+| - **Usuarios directos:** Distribuidores medianos que gestionan pedidos y coordinan con productores y supermercados. <br><br> - **Clientes finales:** Grandes cadenas de retail como Plaza Vea. <br><br> - **Usuarios indirectos:** Productores agrícolas que preparan y despachan pedidos según estándares. | - Acceso a información centralizada y en tiempo real. <br><br> - Reducción de rechazos gracias a validación previa. <br><br> - Planificación eficiente de rutas y asignación. <br><br> - Mayor confianza y transparencia en decisiones logísticas. |
+
+| 6. Hypotheses | 7. Assumptions | 8. Experiments |
+|--------------|--------------|----------------|
+| - Creemos que una plataforma centralizada reducirá errores operativos y mejorará la adopción digital. <br><br> - Creemos que el módulo de calidad disminuirá los rechazos. <br><br> - Creemos que la trazabilidad en tiempo real dará mayor visibilidad. | - Asumimos acceso a computadoras o smartphones. <br><br> - Asumimos falta de herramientas centralizadas actuales. <br><br> - Asumimos disposición a adoptar soluciones digitales. <br><br> - Asumimos reducción de costos con mejor trazabilidad. | - Piloto con 3 distribuidores y 2 supermercados (4 semanas). <br><br> - Medir reducción de errores vs proceso manual. <br><br> - Validar adopción ≥70% en el primer mes. <br><br> - Recoger feedback de usabilidad y utilidad. |
