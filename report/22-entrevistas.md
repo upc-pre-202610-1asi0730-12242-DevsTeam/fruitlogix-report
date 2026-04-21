@@ -241,4 +241,45 @@ Entre los principales problemas identificados, el 100% mencionó dificultades re
 
 Finalmente, el 100% de los entrevistados reconoce oportunidades de mejora en la digitalización de sus procesos, especialmente en la gestión de pedidos, control de calidad y trazabilidad. Esto evidencia una alta apertura hacia soluciones tecnológicas como FruitLogix que permitan optimizar su operación.
 
- 33% utiliza sistemas formales, mientras que el 66% depende principalmente de métodos tradicionales. Sin embargo, el 100% identifica oportunidades de mejora en la gestión de pedidos, especialmente en el control de información, tiempos de respuesta y consistencia en la calidad, lo que evidencia una apertura potencial hacia soluciones digitales como FruitLogix.
+
+---
+#### Análisis de Productores:
+
+A partir de las entrevistas realizadas a productores agrícolas, se identificaron patrones comunes tanto en aspectos operativos como en percepciones y necesidades del segmento.
+
+En relación con la gestión de pedidos y comunicación, el 100% de los entrevistados indicó que utiliza medios informales como llamadas telefónicas, WhatsApp o trato directo para coordinar con clientes y distribuidores. Esta práctica genera desorden en la información y dificulta el seguimiento de pedidos, evidenciando la ausencia de herramientas tecnológicas estructuradas.
+
+Respecto a la planificación y organización del trabajo, aproximadamente el 66% de los productores mencionó que los pedidos llegan con poca anticipación o dependen de la demanda diaria, lo que dificulta la planificación de la producción y distribución. Asimismo, el 100% basa su gestión en la experiencia personal y registros manuales, lo que incrementa la probabilidad de errores operativos.
+
+En cuanto al control de calidad, el 100% de los entrevistados realiza una evaluación visual del producto, considerando factores como tamaño, color y estado físico. Sin embargo, también el 100% reconoce que existen factores externos como el clima, transporte o manipulación que afectan la calidad del producto y pueden generar pérdidas o rechazos, incluso cuando los defectos no son visibles inicialmente.
+
+En el ámbito de logística y abastecimiento, el 66% señaló problemas relacionados con la variabilidad en la producción, como estacionalidad, sobreproducción o escasez. Además, el 66% mencionó dificultades causadas por factores externos como condiciones climáticas o eventos imprevistos, que afectan la entrega de productos.
+
+Por otro lado, el 66% de los productores reportó problemas con pérdidas de producto o mermas debido a la falta de previsión o a condiciones inadecuadas de transporte y almacenamiento. Asimismo, el 33% indicó inconvenientes con devoluciones o relaciones comerciales informales que generan incertidumbre en las transacciones.
+
+Finalmente, el 100% de los entrevistados evidenció la necesidad de mejorar sus procesos mediante herramientas tecnológicas, especialmente para organizar pedidos, mejorar la comunicación, gestionar inventarios y reducir pérdidas.
+
+En conjunto, este análisis demuestra que los productores agrícolas enfrentan limitaciones importantes en planificación, control de calidad y gestión de información, lo que impacta directamente en su eficiencia y rentabilidad. Estas características son fundamentales para la construcción de los User Persona y para el diseño de soluciones como FruitLogix.
+
+---
+#### Análisis de Clientes Comerciales:
+
+A partir de las entrevistas realizadas, se identifican patrones comunes en la gestión de compra de frutas por parte de clientes comerciales, tanto en negocios grandes como pequeños.
+
+El 100% de los entrevistados indicó que realiza la compra de frutas de manera periódica según la demanda de su negocio, lo que evidencia que el abastecimiento está directamente ligado al consumo diario y requiere una gestión constante.
+
+En cuanto a los canales de comunicación, el 100% utiliza medios directos como llamadas, WhatsApp o contacto personal con proveedores, mientras que solo el 33% complementa este proceso con sistemas formales de órdenes de compra. Esto demuestra una fuerte dependencia de herramientas informales para la gestión de pedidos.
+
+Respecto a la selección de proveedores, el 100% de los entrevistados prioriza la calidad del producto como factor principal, seguido por criterios como confiabilidad, precio y cumplimiento en la entrega. Esto evidencia que la calidad y la confianza son elementos clave en la toma de decisiones.
+
+En relación con la verificación de calidad, el 100% realiza controles al momento de la recepción del producto, principalmente de forma visual y sensorial (frescura, estado, color, olor). Esto refleja una alta dependencia del criterio humano para validar la calidad de la fruta.
+
+Asimismo, el 100% de los entrevistados afirmó que rechaza pedidos cuando los productos no cumplen con los estándares esperados, ya sea por daños, exceso de maduración o diferencias con lo solicitado. Esto evidencia la importancia crítica de la calidad en el proceso.
+
+En cuanto a problemas recurrentes, el 100% mencionó haber enfrentado inconvenientes como retrasos en las entregas o inconsistencias en la calidad del producto. Además, el 33% indicó problemas adicionales como variaciones inesperadas de precios. Esto demuestra que existen fallas constantes en la coordinación con proveedores.
+
+Para mitigar estos riesgos, el 100% de los entrevistados trabaja con más de un proveedor, variando entre dos y tres, lo que les permite asegurar el abastecimiento ante posibles fallas. Esto evidencia una estrategia de diversificación para reducir la dependencia.
+
+En términos de puntualidad, el 100% considera este factor como crítico, ya que impacta directamente en la operación diaria del negocio, especialmente en rubros como restaurantes o juguerías donde el producto es altamente perecible.
+
+Finalmente, respecto al uso de tecnología, solo el 33% utiliza sistemas formales, mientras que el 66% depende principalmente de métodos tradicionales. Sin embargo, el 100% identifica oportunidades de mejora en la gestión de pedidos, especialmente en el control de información, tiempos de respuesta y consistencia en la calidad, lo que evidencia una apertura potencial hacia soluciones digitales como FruitLogix.
