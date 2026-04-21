@@ -9,6 +9,11 @@
 * TrazAgro: Plataforma latinoamericana de trazabilidad agrícola que permite el seguimiento de productos desde su origen hasta el consumidor final. Se enfoca en el cumplimiento de estándares de inocuidad alimentaria y la certificación de procesos para exportación y retail.
 
 #### 2.1.1. Análisis competitivo
+![AnalisisCompe1titivo](../assets/images/AnalisisCompe1.PNG)
+![AnalisisCompe1titivo](../assets/images/AnalisisCompe2.PNG)
+![AnalisisCompe1titivo](../assets/images/AnalisisCompe3.PNG)
+![AnalisisCompe1titivo](../assets/images/AnalisisCompe4.PNG)
+
 #### 2.1.2. Estrategias y tácticas frente a competidores
 #### Estrategias:
 #### Diferenciación mediante integración completa del flujo logístico
