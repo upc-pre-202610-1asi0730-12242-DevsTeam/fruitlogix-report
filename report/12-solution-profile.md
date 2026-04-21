@@ -70,19 +70,27 @@ El objetivo actual del negocio es coordinar de manera eficiente la interacción 
 
 * El valor #1 que un cliente quiere de nuestro servicio es mejorar la eficiencia en la gestión de pedidos y reducir los errores operativos en su proceso logístico.
 
+
 * El cliente también puede obtener estos beneficios adicionales: mayor control de calidad, mejor trazabilidad de los productos, reducción de pérdidas económicas y mejor coordinación con proveedores y clientes.
+
 
 * Vamos a adquirir la mayoría de nuestros clientes a través de contactos directos en el rubro, recomendaciones y demostraciones del sistema mostrando mejoras en sus procesos actuales.
 
+
 * Haremos dinero a través de un modelo de suscripción basado en la cantidad de pedidos gestionados mensualmente.
+
 
 * Nuestra competencia principal en el mercado serán métodos tradicionales como Excel, papel, WhatsApp y sistemas logísticos genéricos no especializados.
 
+
 * Los venceremos debido a que nuestra plataforma está especializada en la distribución de frutas, integrando gestión logística, control de calidad y trazabilidad en un solo sistema.
+
 
 * Nuestro mayor riesgo de producto es que los usuarios no adopten la plataforma debido a resistencia al cambio o falta de familiaridad con herramientas digitales.
 
+
 * Resolveremos esto a través de validaciones tempranas, entrevistas, pruebas de usuario y un diseño simple e intuitivo que facilite la adopción.
+
 
 * Otra suposición es que los usuarios estarán dispuestos a digitalizar sus procesos. Si esto resulta falso, el sistema no será adoptado, lo que afectaría la viabilidad del proyecto.
 
@@ -90,7 +98,9 @@ El objetivo actual del negocio es coordinar de manera eficiente la interacción 
 
 * Reducción de errores operativos en un 30% en los primeros 6 meses de uso.
 
+
 * Disminución de rechazos de productos en un 25% tras la implementación del módulo de calidad.
+
 
 * Mejora en la eficiencia del proceso logístico medida por reducción del tiempo promedio de preparación de pedidos.
 
