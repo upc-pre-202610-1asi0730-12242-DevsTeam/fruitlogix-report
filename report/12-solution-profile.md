@@ -105,4 +105,48 @@ El objetivo actual del negocio es coordinar de manera eficiente la interacción 
 * Mejora en la eficiencia del proceso logístico medida por reducción del tiempo promedio de preparación de pedidos.
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
+### Statement 1
+**Creemos que** al implementar una plataforma web centralizada para la gestión de pedidos, los distribuidores podrán reducir la desorganización y los errores operativos.
+
+**Sabremos que hemos tenido éxito**
+
+**Cuando** al menos el 30% de los errores en pedidos se reduzcan y el 70% de los usuarios adopten activamente la plataforma en los primeros 3 meses
+
+---
+
+### Statement 2
+**Creemos que** al incluir un sistema de validación de calidad previo al envío, se reducirá el envío de productos defectuosos hacia los supermercados.
+
+**Sabremos que hemos tenido éxito**
+
+**Cuando** los rechazos por calidad disminuyan en un 40% y el 80% de los pedidos sean aceptados en la primera entrega
+
+---
+
+### Statement 3
+**Creemos que** al integrar un sistema de trazabilidad en tiempo real, los usuarios podrán tener mayor visibilidad y control del estado de los pedidos.
+
+**Sabremos que hemos tenido éxito**
+
+**Cuando** el 75% de los usuarios consulte el estado de pedidos en la plataforma y los problemas de seguimiento se reduzcan en un 35%
+
+---
+
+### Statement 4
+**Creemos que** al automatizar la asignación de pedidos entre distribuidores y productores, se mejorará la eficiencia en la coordinación logística.
+
+**Sabremos que hemos tenido éxito**
+
+**Cuando** el tiempo de asignación de pedidos se reduzca en un 25% y el 70% de los pedidos sean asignados en menos tiempo que el proceso manual
+
+---
+
+### Statement 5
+**Creemos que** al integrar sensores IoT para monitorear temperatura y condiciones de transporte, se podrá garantizar la calidad del producto durante su traslado.
+
+**Sabremos que hemos tenido éxito**
+
+**Cuando** las pérdidas por deterioro se reduzcan en un 30% y el 85% de los envíos mantengan condiciones óptimas registradas
+
+---
 #### 1.2.2.4. Lean UX Canvas
