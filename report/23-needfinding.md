@@ -1,5 +1,12 @@
 ﻿### 2.3. Needfinding
 #### 2.3.1. User Personas
+En esta sección se presentan los User Personas de los segmentos objetivo de FruitLogix, construidos a partir del análisis de entrevistas y del contexto del mercado. Estos arquetipos reflejan las principales necesidades, comportamientos y problemas de los usuarios, y sirven como base para orientar el diseño de la solución.
+#### User Persona del 1er segmento objetivo – Clientes Comerciales
+![UserPersonaClienteComercial](../assets/images/UserPersona-Maria%20Gomez.png)
+#### As-Is Scenario Map del 2do segmento objetivo – Productores
+![UserPersonaProductor](../assets/images/UserPersona-Alexandra%20JImenez.png)
+#### As-Is Scenario Map del 3er segmento objetivo - Distribuidores de Frutas
+![UserPersonaDistribuidor](../assets/images/UserPersona-Juan%20Vega.png)
 
 #### 2.3.2. User Task Matrix
 
