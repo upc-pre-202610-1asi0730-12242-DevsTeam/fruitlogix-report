@@ -55,7 +55,7 @@ El objetivo de la entrevista es comprender las necesidades, frustraciones y las 
 * **Nombre:** Jorge Contreras Ballarta
 * **Edad:** 60
 * **Distrito:** Cieneguilla
-* **Link:** Entrevista_JorgeContreras.mp4
+* **Link:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423752_upc_edu_pe/IQACaNv5o87_RIsT2c-UHQ_3AWWKkdA1VZwrx3e4pSgeYu0?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=FraRAI
 * **Duración:** 8:50 min
 
 ![Descripción de la imagen](../assets/images/Entrevista%201.png)
@@ -71,7 +71,7 @@ Además, solo compra a proveedores que cumplen con los estándares exigidos, per
 * **Nombre:** Paola Jimenez
 * **Edad:** 25 años
 * **Distrito:** San Juan de Miraflores
-* **Link:** Entrevista-PaolaJimenez.mp4
+* **Link:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423752_upc_edu_pe/IQCie40zvOA1Tp65e4cMrSZNAcXTrZQ_wkVB0zkiRZ6HEnU?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=z2bzZB
 * **Duración:** 4:03 min
 
 ![Descripción de la imagen](../assets/images/Entrevista%202.png)
@@ -89,7 +89,7 @@ En cuanto a información clave, prioriza registrar la fecha de entrega, la calid
 * **Nombre:** Edwin Lozano
 * **Edad:** 52
 * **Distrito:** Perene
-* **Link:** Entrevista-Edwin Lozano.mp4
+* **Link:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423752_upc_edu_pe/IQB6K_2respaT6h0CQwThwdUAScx39Rdr8tcl3nS0BwuzT8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=AfBTqe
 * **Duración:** 7:10
 
 ![Descripción de la imagen](../assets/images/Entrevista%203.png)
@@ -102,14 +102,14 @@ Para organizar su trabajo, utiliza principalmente el celular como herramienta cl
 El control de calidad lo realiza de forma visual, revisando el estado del plátano, su color y nivel de maduración. Sin embargo, en algunas ocasiones ha enfrentado problemas con productos que no cumplen con las expectativas del cliente, lo que puede generar rechazos. Entre los principales retos que identifica se encuentran la exigencia en la calidad del producto, la variabilidad del stock y la necesidad de responder rápidamente a los pedidos, lo que hace su labor demandante y poco predecible.
 
 ---
-
+    
 **Segmento de Productores Agrícolas.**
 
 **Entrevista 1:**
 * **Nombre:** Renato Navarro
 * **Edad:** 25
 * **Distrito:** Cercado de lima
-* **Link:** (No proporcionado)
+* **Link:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423752_upc_edu_pe/IQD8kaZExLWjR7XF49TkUsbkAR4z6VkwultrB9vCNrE7bI0?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=bxub4a(No proporcionado)
 * **Duración:** 6:05
 
 ![Descripción de la imagen](../assets/images/Entrevista%204.png)
@@ -127,7 +127,7 @@ Finalmente, Renato señala que necesita mejores herramientas tecnológicas para 
 * **Nombre:** Jessica
 * **Edad:** 52
 * **Distrito:** San Martin de Porres
-* **Link:** Entrevista_Jessica.mp4
+* **Link:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423752_upc_edu_pe/IQD3SvrK4Q1ATbZjboZyH0drAcG0CrBRhUSGbUwvex9nR38?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=nTKy35
 * **Duración:** 9:16
 
 ![Descripción de la imagen](../assets/images/Entrevista%205.png)
@@ -143,7 +143,7 @@ En cuanto a la gestión interna, el negocio no solo vende el producto bruto, sin
 * **Nombre:** Karen Forcelledo
 * **Edad:** 37
 * **Distrito:** San Borja
-* **Link:** Entrevista_Karen Forcelledo.mp4
+* **Link:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423752_upc_edu_pe/IQA8Z7xWsTCjQqOaf5eyuMZRAdJWQjTfxQtgSsBf0l7KxOc?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=eJ631g
 * **Duración:** 3:30
 
 ![Descripción de la imagen](../assets/images/Entrevista%206.png)
@@ -163,7 +163,7 @@ Finalmente, la productora señala problemas de eficiencia en situaciones de sobr
 * **Nombre:** Bianzel Milagritos Noriega Donayre
 * **Edad:** 22
 * **Distrito:** San Isidro
-* **Link:** Entrevista_BianzelNoriega.mp4
+* **Link:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423752_upc_edu_pe/IQAYtFfrgxMCQY7fxL0GX1-KAS-BPMT7IrlvfKKInTAHiZw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ydbAx1
 * **Duración:** 5:40 min
 
 ![Descripción de la imagen](../assets/images/Entrevista%207.png)
@@ -181,7 +181,7 @@ Finalmente, la puntualidad es crítica debido a la operación diaria de los rest
 * **Nombre:** Rosa Arana Medina
 * **Edad:** 43
 * **Distrito:** (No proporcionado)
-* **Link:** Entrevista_RosaMedina.mp4
+* **Link:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423752_upc_edu_pe/IQD6nJ7J-6KLSqGLNPz6D73KAegbtlE5n-5Ny5JOhxBUF1U?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=2etb46
 * **Duración:** 8:19 min
 
 ![Descripción de la imagen](../assets/images/Entrevista%208.png)
@@ -199,7 +199,7 @@ Finalmente, indica que no siente una gran necesidad de herramientas digitales, y
 * **Nombre:** Luciana Breña
 * **Edad:** 25 años
 * **Distrito:** San Juan de Miraflores
-* **Link:** Entrevista_LucianaBreña.mp4
+* **Link:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423752_upc_edu_pe/IQBdMV3je_jYSLenA5T7jSL4AbLI9EZu_rbyDfFD6gWQn5c?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=4r6fzk
 * **Duración:** 3:31 min
 
 ![Descripción de la imagen](../assets/images/Entrevista%209.png)
