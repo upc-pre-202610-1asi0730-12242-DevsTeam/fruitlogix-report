@@ -34,7 +34,7 @@ Se utilizan contrastes adecuados, tamaños de texto legibles y etiquetas claras 
 La selección de los colores transmitirá al usuario la confianza y eficacia, alineando al sector agrícola:
 
 
-![Paleta de Colores](../assets/images/paleta_colores.png)
+![Paleta de Colores](../assets/images/style_colors.png)
 
 
 #### Tipografía:
