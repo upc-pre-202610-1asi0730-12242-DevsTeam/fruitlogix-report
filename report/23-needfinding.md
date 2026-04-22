@@ -45,3 +45,12 @@ Para FruitLogix, elaborar un Empathy Mapping para cada segmento objetivo fue cla
 **Empathy Map del 3er segmento objetivo - Distribuidores de Frutas**
 ![ClienteComercial](../assets/images/empathy-mapping-distribuidor.jpeg)
 
+#### 2.3.5. As-Is Scenario Maps
+El “As-is Scenario Mapping” será un componente clave de nuestro enfoque de trabajo, ya que nos ayudará a entender la situación actual de nuestros procesos, detectar oportunidades de mejora y definir las acciones necesarias para lograr nuestros objetivos. 
+#### As-Is Scenario Map del 1er segmento objetivo – Clientes Comerciales
+![AsIsClienteComercial](../assets/images/As-Is%20Clientes%20Comerciales.PNG)
+#### As-Is Scenario Map del 2do segmento objetivo – Productores
+![AsIsProductores](../assets/images/As-Is%20Productor%20Agricola.PNG)
+#### As-Is Scenario Map del 3er segmento objetivo - Distribuidores de Frutas
+![AsIsDistribuidores](../assets/images/As-Is%20Distribuidor%20de%20Frutas.PNG)
+
