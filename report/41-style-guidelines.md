@@ -88,4 +88,158 @@ El tono de comunicación de FruitLogix es:
 
 
 Como referencia, se toman principios de sistemas de diseño como Material Design, especialmente en el uso de componentes, jerarquía visual y consistencia en la interacción, adaptándolos al contexto del sector logístico agrícola.
+
+***
 #### 4.1.2. Web Style Guidelines
+
+### 1. Layout y estructura
+
+La interfaz de FruitLogix sigue una estructura basada en dashboards, orientada a facilitar la gestión operativa de los usuarios.
+
+
+* Se utiliza un layout con sidebar lateral para navegación principal.
+* El contenido se organiza en una zona central jerárquica, priorizando la información crítica.
+* Se emplean cards (tarjetas) para agrupar información relacionada, como pedidos, métricas o incidencias.
+
+
+**Justificación:**
+Este enfoque permite una navegación rápida y familiar, especialmente en sistemas de gestión logística.
+
+
+### 2. Sistema de grillas (Grid System)
+
+* Se utiliza un sistema de grillas basado en 12 columnas.
+* Espaciado consistente basado en múltiplos de 8px.
+* Contenedores responsivos que se adaptan a diferentes resoluciones.
+
+
+**Justificación:**
+Facilita la escalabilidad del diseño y la correcta distribución de elementos en distintos dispositivos.
+
+
+### 3. Componentes UI principales
+
+**Tablas:**
+Usadas para listar pedidos, productores e incidencias.
+
+
+Incluyen:
+* Paginación
+* Filtros
+* Ordenamiento
+
+
+**Justificación:**
+Permiten manejar grandes volúmenes de información de forma clara.
+
+
+**Botones**
+
+Tipos:
+* **Primario:** acciones principales (Guardar, Confirmar)
+* **Secundario:** acciones alternativas
+* **Peligro:** eliminar o rechazar
+
+
+Estados:
+* Hover
+* Activo
+* Deshabilitado
+
+
+**Badges (etiquetas de estado)**
+Uso de colores para identificación rápida.
+
+
+Representan estados del sistema:
+* Pendiente
+* En proceso
+* Entregado
+* Rechazado
+
+
+**Formularios**
+* Inputs claros con labels visibles
+* Validaciones en tiempo real
+* Mensajes de error específicos
+
+
+Ejemplo: “Cantidad es obligatoria”
+
+
+**Notificaciones**
+Alertas visuales para:
+* Errores
+* Confirmaciones
+* Retrasos
+
+
+Tipos:
+* Toasts (mensajes flotantes)
+* Alertas dentro de la interfaz
+
+
+### 4. Interacción (UX behavior)
+
+**Feedback inmediato**
+El sistema proporciona retroalimentación inmediata ante cada acción:
+
+
+* Guardado exitoso
+* Error en formulario
+* Cambio de estado
+
+
+**Justificación:**
+Reduce incertidumbre del usuario.
+
+
+**Restricciones de acciones**
+* No se permite editar pedidos en estado “Enviado”
+* No se puede marcar como entregado sin estar “En camino”
+
+
+**Visualización de estado**
+Uso de:
+* Colores
+* Íconos
+* Timeline de progreso
+
+
+### 5. Responsive Design
+
+**Adaptación a dispositivos**
+FruitLogix está diseñado para ser accesible desde:
+
+
+* Desktop (principal)
+* Tablet
+* Mobile
+
+
+**Desktop**
+* Sidebar visible
+* Tablas completas
+
+
+**Mobile**
+* Sidebar colapsable
+* Tablas: convertidas a cards
+* Botones más grandes
+* Prioridad a acciones clave
+
+
+### 6. Navegación
+* Sidebar persistente (desktop)
+* Breadcrumbs para ubicación
+* Menú claro y jerárquico
+
+
+### 7. Iconografía
+Uso de iconos simples y universales.
+
+
+Ejemplo:
+* Eliminar
+* Editar
+* Pedidos
