@@ -30,7 +30,7 @@ El objetivo actual del negocio es coordinar de manera eficiente la interacción 
 * **Domain:** Nos encontramos en el dominio de la logística agrícola y cadena de suministro de frutas, donde la digitalización es aún incipiente y los procesos manuales predominan entre productores, distribuidores y clientes comerciales en el Perú.
 
 
-* **Customer Segments:** Nuestros usuarios principales son distribuidores de frutas medianos que operan en Lima, productores agrícolas de regiones como Ayacucho y la costa peruana, y clientes comerciales como supermercados, restaurantes y juguerías que requieren abastecimiento constante de productos frescos.
+* **Customer Segments:** Nuestros usuarios principales son distribuidores de frutas medianos que operan en Lima, productores agrícolas en distintas zonas rurales, y clientes comerciales como supermercados, restaurantes y juguerías que requieren abastecimiento constante de productos frescos.
 
 
 * **Pain Points:** Los distribuidores enfrentan desorganización en la gestión de pedidos, falta de trazabilidad y dependencia de procesos manuales propensos a errores. Los productores tienen dificultades para coordinar entregas y reciben retroalimentación tardía sobre la calidad de su producto. Los clientes comerciales sufren retrasos en las entregas, inconsistencia en la calidad recibida y ausencia de sistemas formales de seguimiento.
@@ -39,17 +39,17 @@ El objetivo actual del negocio es coordinar de manera eficiente la interacción 
 * **Gap:** Actualmente no existe una solución accesible y especializada en el mercado peruano que integre en una sola plataforma la gestión de pedidos, el control de calidad y la trazabilidad para la distribución de frutas entre estos tres actores.
 
 
-* **Vision / Strategy:** Nuestra visión es convertirnos en la plataforma de referencia para la digitalización de la cadena de suministro frutícola en el Perú, comenzando con distribuidores medianos en Lima y expandiéndonos hacia otras regiones y productos agrícolas. La estrategia consiste en ofrecer una solución accesible con un modelo de suscripción basado en volumen de pedidos, acompañada de onboarding asistido para reducir la resistencia al cambio tecnológico.
+* **Vision / Strategy:** Nuestra visión es convertirnos en la plataforma de referencia para la digitalización de la cadena de suministro frutícola en el Perú, comenzando con distribuidores medianos en Lima y expandiéndonos hacia otras regiones y productos agrícolas. La estrategia consiste en ofrecer una solución accesible con un modelo de suscripción basado en volumen de pedidos, conectando la aplicación con los tres segmentos identificados.
 
 
 * **Initial Segment:** Nuestro segmento inicial son los distribuidores de frutas medianos con operaciones activas en Lima Metropolitana que abastecen a cadenas de retail o restaurantes, ya que son el actor central de la cadena y quienes más se benefician de una plataforma integrada.
 
 **User Assumptions:**
 
-* **¿Dónde encaja nuestro producto en su trabajo o vida?** Nuestro producto sería usado en su día a día durante la gestión de pedidos, coordinación con proveedores, validación de calidad y seguimiento de entregas dentro de la cadena de distribución de frutas.
+* **¿Dónde encaja nuestro producto en su trabajo o vida?** Nuestro producto sería usado en su día a día durante la gestión de pedidos, coordinación con productores, validación de calidad y seguimiento de entregas dentro de la cadena de distribución de frutas.
 
 
-* **¿Qué problemas tiene nuestro producto que debe resolver?** Limitaciones en la organización de pedidos, uso de procesos manuales, falta de trazabilidad, dependencia del criterio humano para validar calidad y dificultades en la coordinación entre los actores de la cadena.
+* **¿Qué problemas tiene nuestro producto que debe resolver?** Limitaciones en la organización de pedidos, dependencia a los procesos manuales, falta de trazabilidad, y dificultades en la coordinación entre los actores de la cadena.
 
 
 * **¿Cuándo y cómo es usado nuestro producto?** El producto será utilizado en la rutina diaria de trabajo de distribuidores y productores, especialmente en momentos de recepción de pedidos, preparación de productos, control de calidad y despacho. Se usará mediante una aplicación web donde los usuarios monitorean pedidos, calidad y entregas en tiempo real.
@@ -80,7 +80,7 @@ El objetivo actual del negocio es coordinar de manera eficiente la interacción 
 * Haremos dinero a través de un modelo de suscripción basado en la cantidad de pedidos gestionados mensualmente.
 
 
-* Nuestra competencia principal en el mercado serán métodos tradicionales como Excel, papel, WhatsApp y sistemas logísticos genéricos no especializados.
+* Nuestra competencia principal en el mercado serán AgroData Perú, SAP Agri y TrazAgro, además de métodos tradicionales como Excel, papel, WhatsApp y sistemas logísticos genéricos no especializados.
 
 
 * Los venceremos debido a que nuestra plataforma está especializada en la distribución de frutas, integrando gestión logística, control de calidad y trazabilidad en un solo sistema.
