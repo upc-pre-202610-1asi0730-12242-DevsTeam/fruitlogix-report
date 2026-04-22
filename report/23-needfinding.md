@@ -34,6 +34,13 @@ Para diseñar una solución que optimice la cadena de suministro de frutas, se i
 La tabla muestra que los tres segmentos coinciden en considerar de alta importancia tareas como la verificación de calidad, la coordinación de entregas y la comunicación entre actores, aunque los distribuidores y clientes comerciales las realizan con mayor frecuencia debido a su rol operativo diario. Asimismo, las tareas más relevantes para los productores están relacionadas con la producción y cumplimiento de estándares, mientras que los distribuidores se enfocan en la gestión logística y resolución de problemas, y los clientes comerciales en la planificación de la demanda y evaluación de proveedores. Estas diferencias reflejan sus roles dentro del sistema: el productor busca garantizar calidad desde el origen, el distribuidor asegurar la entrega eficiente y el cliente comercial mantener la continuidad de su operación mediante un abastecimiento confiable.
 
 #### 2.3.3. User Journey Mapping
+ El User Journey Mapping es una herramienta que permite visualizar de forma estructurada la experiencia del usuario a lo largo de su interacción con un producto o servicio. En el caso de FruitLogix, realizamos los User Journey Maps en su versión As-Is para los tres segmentos objetivos.
+#### User Journey Map del 1er segmento objetivo – Clientes Comerciales
+![UserJourneyMapClienteComercial](../assets/images/UserJourney-MariaGomez.png)
+#### User Journey Map del 2do segmento objetivo – Productores
+![UserJourneyMapProductor](../assets/images/UserJourney-AlexandraJimenez.png)
+#### User Journey Map del 3er segmento objetivo - Distribuidores de Frutas
+![UserJourneyMapDistribuidor](../assets/images/UserJourney-JuanVega.png)
 
 #### 2.3.4. Empathy Mapping
 
