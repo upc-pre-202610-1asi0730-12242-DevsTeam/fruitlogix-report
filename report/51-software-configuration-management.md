@@ -19,4 +19,13 @@ Para mantener un historial de cambios legible y facilitar la generación automá
 ![MensajeCommits](../assets/images/MensajeCommit.PNG)
 
 #### 5.1.3. Source Code Style Guide & Conventions
+#### Naming Conventions:
+* Variables y Métodos: camelCase (ej. currentTemperature).
+* Clases e Interfaces: PascalCase (ej. LaboratoryController).
+* Constantes: UPPER_CASE (ej. MAX_GAS_LEVEL).
+* Archivos CSS/HTML/Componentes: kebab-case (ej. dashboard-view.component.html).
+#### Guías de Estilo por Lenguaje:
+* Java: Google Java Style Guide.
+* TypeScript/Angular: Angular Coding Style Guide y Google TypeScript Style Guide.
+* HTML/CSS: Google HTML/CSS Style Guide.
 #### 5.1.4. Software Deployment Configuration
