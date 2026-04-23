@@ -18,9 +18,9 @@ A través de este proceso, logramos identificar los siguientes elementos clave:
 
 * **Puntos de Dolor (Rosado):** Se detectaron cuellos de botella importantes, principalmente en la falta de digitalización de las pruebas de calidad y la escasa trazabilidad en tiempo real durante el transporte, lo cual genera incertidumbre en el cliente comercial.
 
-![Logo](../assets/images/Bigpicture1.png)
-![Logo](../assets/images/Bigpicture2.png)
-![Logo](../assets/images/Bigpicture3.png)
-![Logo](../assets/images/Bigpicture4.png)
-![Logo](../assets/images/Bigpicture5.png)
-![Logo](../assets/images/Bigpicture6.png)
+![bigpicture](../assets/images/Bigpicture1.png)
+![bigpicture](../assets/images/Bigpicture2.png)
+![bigpicture](../assets/images/Bigpicture3.png)
+![bigpicture](../assets/images/Bigpicture4.png)
+![bigpicture](../assets/images/Bigpicture5.png)
+![bigpicture](../assets/images/Bigpicture6.png)
