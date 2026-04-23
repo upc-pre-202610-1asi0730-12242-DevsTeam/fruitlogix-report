@@ -6,4 +6,6 @@
 ![ContextDiagram](../assets/images/Context Diagram.png)
 #### 4.6.3. Software Architecture Container Diagrams
 
+![Container Diagrams](../assets/images/Container Diagrams.png)
 #### 4.6.4. Software Architecture Components Diagrams
+
