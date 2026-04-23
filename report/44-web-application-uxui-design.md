@@ -39,4 +39,38 @@ Este análisis permite anticipar posibles fricciones en la experiencia de usuari
 ![Wireflow](../assets/images/wireflow4.png)
 
 #### 4.4.3. Web Applications Mock-ups
+
+---
+* Inicio Sesion
+![Mockups](../assets/images/mockup1.png)
+![Mockups](../assets/images/mockup2.png)
+---
+* Inicio Sesion
+
+![Mockups](../assets/images/mockup3.png)
+![Mockups](../assets/images/mockup4.png)
+![Mockups](../assets/images/mockup5.png)
+![Mockups](../assets/images/mockup6.png)
+![Mockups](../assets/images/mockup7.png)
+![Mockups](../assets/images/mockup8.png)
+![Mockups](../assets/images/mockup9.png)
+![Mockups](../assets/images/mockup10.png)
+---
+* Productor
+![Mockups](../assets/images/mockup11.png)
+![Mockups](../assets/images/mockup12.png)
+![Mockups](../assets/images/mockup13.png)
+![Mockups](../assets/images/mockup14.png)
+
+* Cliente Comercial
+![Mockups](../assets/images/mockup13.png)
+![Mockups](../assets/images/mockup13.png)
+
+
+
+
+
+
+
+
 #### 4.4.4. Web Applications User Flow Diagrams
