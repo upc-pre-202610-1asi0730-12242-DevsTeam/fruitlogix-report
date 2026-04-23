@@ -73,6 +73,74 @@ La plataforma se organiza en módulos principales que reflejan el flujo operativ
 Esta estructura permite que los usuarios naveguen de forma lógica dentro del sistema, alineando la organización de la información con las actividades reales de la cadena de suministro.
 
 #### 4.2.2. Labeling Systems
+
+El sistema de etiquetado de **FruitLogix** está diseñado para representar la información de manera clara, breve y consistente, facilitando la comprensión por parte de los usuarios y reduciendo la ambigüedad en la interacción con la plataforma.
+
+Se prioriza el uso de etiquetas cortas, directas y alineadas con el lenguaje del dominio (*Ubiquitous Language*), considerando que los usuarios pueden tener distintos niveles de experiencia tecnológica.
+
+
+
+### Principios de etiquetado:
+
+#### Simplicidad:
+Se utilizan etiquetas con el menor número de palabras posible, evitando términos técnicos o complejos. Esto permite que los usuarios identifiquen rápidamente la funcionalidad de cada elemento.
+
+#### Claridad:
+Las etiquetas representan de forma directa la acción o contenido al que hacen referencia, evitando ambigüedades o interpretaciones múltiples.
+
+#### Consistencia:
+Se mantiene un uso uniforme de términos en toda la plataforma.  
+Por ejemplo, siempre se utiliza **“Pedidos”** en lugar de alternar con términos como “Órdenes” o “Solicitudes”.
+
+#### Lenguaje del dominio:
+Se emplean términos familiares para los usuarios, como **“Productores”**, **“Calidad”** o **“Incidencias”**, alineados con el contexto de la cadena de suministro de frutas.
+
+
+#### Etiquetas principales del sistema:
+
+Las siguientes etiquetas representan los módulos principales:
+
+- Dashboard
+- Pedidos
+- Productores
+- Calidad
+- Incidencias
+- Reportes
+
+Estas etiquetas corresponden a las funcionalidades clave del sistema y permiten una navegación clara y directa.
+
+
+
+#### Etiquetas de acciones
+
+Para las acciones principales, se utilizan verbos claros y directos:
+
+- Crear pedido
+- Editar
+- Eliminar
+- Asignar productor
+- Registrar calidad
+- Validar
+- Rechazar
+- Marcar como entregado
+
+Estas etiquetas permiten al usuario comprender rápidamente la acción que realizará.
+
+
+
+#### Etiquetas de asociaciones
+
+Las relaciones entre los elementos del sistema se representan mediante etiquetas claras:
+
+- Pedido asociado
+- Productor asignado
+- Cliente relacionado
+- Lote registrado
+
+Estas etiquetas permiten entender cómo se conectan los datos dentro del sistema.
+
+
+
 #### 4.2.3. SEO Tags and Meta Tags
 #### 4.2.4. Searching Systems
 #### 4.2.5. Navigation Systems
