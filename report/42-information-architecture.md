@@ -316,3 +316,79 @@ El sistema proporciona retroalimentación clara durante la búsqueda:
 
 
 #### 4.2.5. Navigation Systems
+
+
+#### Sistema de Navegación:
+
+El sistema de navegación de **FruitLogix** está diseñado para guiar a los usuarios a través de la plataforma de manera clara, eficiente y predecible, permitiéndoles cumplir sus objetivos sin dificultad.
+
+Se prioriza una navegación intuitiva basada en la estructura de tareas del sistema y adaptada a los diferentes tipos de usuarios (distribuidores, productores y clientes).
+
+
+
+#### Estructura de navegación principal:
+
+La aplicación utiliza una navegación jerárquica mediante un menú lateral (*sidebar*), que permite acceder a los módulos principales del sistema:
+
+- Dashboard
+- Pedidos
+- Productores
+- Calidad
+
+Esto permite una navegación rápida y consistente, especialmente en entornos operativos.
+
+---
+
+#### Navegación en la Landing Page:
+
+La landing page utiliza una navegación superior (*navbar*) con acceso a las secciones principales:
+
+- Inicio
+- Beneficios
+- Clientes
+- Testimonios
+- Iniciar sesión
+- Registrarse
+
+Adicionalmente, se incluyen llamados a la acción como **“Comenzar ahora”** y **“Ver demo”**, que guían al usuario hacia el uso del sistema.
+
+Esto facilita la exploración del contenido y orienta al usuario hacia la conversión.
+
+---
+
+#### Navegación contextual:
+
+Dentro de cada módulo, la navegación se complementa con elementos contextuales:
+
+- Botones de acción (crear, editar, asignar, validar)
+- Enlaces a detalles de registros
+- Tablas interactivas
+
+Esto permite que el usuario realice acciones directamente desde el contexto en el que se encuentra.
+
+---
+
+#### Flujos de navegación (recorrido del usuario):
+
+El sistema guía a los usuarios a través de flujos definidos según sus objetivos:
+
+#### Gestión de pedidos (Distribuidor):
+ Dashboard → Pedidos → Crear pedido → Asignar productor → Seguimiento → Entrega
+
+#### Registro de calidad (Productor):
+ Inicio → Pedidos asignados → Registrar calidad → Enviar información
+
+#### Seguimiento de pedidos (Cliente):
+ Ingreso al sistema → Consulta de pedido → Visualización de estado y progreso
+
+Estos flujos reflejan los procesos reales del negocio, facilitando la ejecución de tareas.
+
+---
+
+### Navegación responsive:
+
+En dispositivos móviles, la navegación se adapta mediante:
+
+- Menú lateral colapsable
+- Reorganización del contenido en formato vertical
+- Priorización de acciones principales  
