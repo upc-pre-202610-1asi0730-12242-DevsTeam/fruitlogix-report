@@ -19,11 +19,6 @@ Para mantener un historial de cambios legible y facilitar la generación automá
 ![MensajeCommits](../assets/images/MensajeCommit.PNG)
 
 #### 5.1.3. Source Code Style Guide & Conventions
-#### Naming Conventions:
-* Variables y Métodos: camelCase (ej. currentTemperature).
-* Clases e Interfaces: PascalCase (ej. LaboratoryController).
-* Constantes: UPPER_CASE (ej. MAX_GAS_LEVEL).
-* Archivos CSS/HTML/Componentes: kebab-case (ej. dashboard-view.component.html).
 #### Guías de Estilo por Lenguaje:
 * Java: Google Java Style Guide.
 * TypeScript/Angular: Angular Coding Style Guide y Google TypeScript Style Guide.
@@ -40,8 +35,7 @@ En esta sección se especifica la configuración y los pasos necesarios para el 
 
 #### Web Services (Backend):
 * Tecnología: ASP.NET Core utilizando C# como lenguaje de programación. 
-* Entorno de Desarrollo: JetBrains Rider. 
-* Proceso: Se utiliza la interfaz de línea de comandos de .NET (dotnet CLI) para la gestión de dependencias y la construcción del artefacto mediante el comando dotnet publish. La aplicación se despliega en Azure App Service. Se han configurado variables de entorno para proteger las credenciales de la base de datos y las llaves de servicios externos. 
+* Entorno de Desarrollo: JetBrains Rider.
 * Documentación: Una vez desplegado, el contrato de la API es accesible a través de Swagger UI (OpenAPI Specification) para facilitar la integración con el equipo de frontend. 
 
 #### Frontend Web Application:
