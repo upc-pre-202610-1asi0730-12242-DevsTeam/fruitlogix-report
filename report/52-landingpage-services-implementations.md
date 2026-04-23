@@ -54,7 +54,7 @@ A continuación, se presenta el tablero correspondiente al Sprint 1 junto con su
 
 https://trello.com/invite/b/69e8591bc5e24c8aae6fefb7/ATTI43de960425182289c279df7734d6424548D550DA/developersteam-product-backlog
 
-![SprintBacklog](assets/images/trello.jpeg)
+![SprintBacklog](../assets/images/trello.png)
 
 | Sprint # | User Story | Work-Item / Task | Descripción | Estimation (Hours) | Assigned To | Status |
 |----------|------------|------------------|-------------|--------------------|-------------|--------|
