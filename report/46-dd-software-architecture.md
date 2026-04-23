@@ -13,17 +13,25 @@
 
 #### 4.6.2. Software Architecture Context Diagram
 
-![ContextDiagram](../assets/images/ContextDiagram.png)
+![ContextDiagram](../assets/images/ContextDiagrams.png)
 
-**Nota:** Elaboración propia en Lucidchart.
+**Nota:** Elaboración propia en Structurizr.
 
 #### 4.6.3. Software Architecture Container Diagrams
 
-![Container Diagrams](../assets/images/ContainerDiagrams.png)
-**Nota:** Elaboración propia en Lucidchart.
+![Container Diagrams](../assets/images/ContainerDiagram.png)
+**Nota:** Elaboración propia en Structurizr.
 
 #### 4.6.4. Software Architecture Components Diagrams
 
-![ComponentsDiagrams](../assets/images/ComponentsDiagrams.png)
-**Nota:** Elaboración propia en Lucidchart.
+* Diagrama de Componentes Pedidos
 
+![ContextDiagram](../assets/images/ComponentsDiagram.png)
+
+**Nota:** Elaboración propia en Structurizr.
+
+* Diagrama de Componentes Calidad
+
+![ContextDiagram](../assets/images/ComponentsDiagrams2.png)
+
+**Nota:** Elaboración propia en Structurizr.
