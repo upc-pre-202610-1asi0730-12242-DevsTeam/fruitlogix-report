@@ -54,7 +54,7 @@ A continuación, se presenta el tablero correspondiente al Sprint 1 junto con su
 
 https://trello.com/invite/b/69e8591bc5e24c8aae6fefb7/ATTI43de960425182289c279df7734d6424548D550DA/developersteam-product-backlog
 
-![SprintBacklog](../assets/images/trello.jpeg)
+![SprintBacklog](assets/images/trello.jpeg)
 
 | Sprint # | User Story | Work-Item / Task | Descripción | Estimation (Hours) | Assigned To | Status |
 |----------|------------|------------------|-------------|--------------------|-------------|--------|
@@ -94,27 +94,27 @@ A continuación, se presentan evidencias visuales de las principales vistas impl
 ### Screenshots del Landing Page
 ### Vista general (Hero + Navbar)
 
-![HeroNavBar](../assets/images/lp-hero-navbar.jpeg)
+![HeroNavBar](assets/images/lp-hero-navbar.jpeg)
 
 ### Seccion Beneficios
 
-![Beneficios](../assets/images/lp-beneficios.jpeg)
+![Beneficios](assets/images/lp-beneficios.jpeg)
 
 ### Seccion Planes
 
-![Planes](../assets/images/lp-planes.jpeg)
+![Planes](assets/images/lp-planes.jpeg)
 
 ### Seccion de Clientes
 
-![Clientes](../assets/images/lp-clientes.jpeg)
+![Clientes](assets/images/lp-clientes.jpeg)
 
 ### Seccion de Testimonios
 
-![Testimonios](../assets/images/lp-testimonios.jpeg)
+![Testimonios](assets/images/lp-testimonios.jpeg)
 
 ### Seccion de Footer
 
-![Footer](../assets/images/lp-footer.jpeg)
+![Footer](assets/images/lp-footer.jpeg)
 
 ##### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
@@ -153,11 +153,11 @@ La integración del trabajo se realizó de manera progresiva, consolidando las d
 
 ### Commits para landing page:
 
-![TopComitters](../assets/images/cantCommits.jpeg)
+![TopComitters](assets/images/cantCommits.jpeg)
 
-![Ramas](../assets/images/rama.jpeg)
+![Ramas](assets/images/rama.jpeg)
 
-![Contributors](../assets/images/contributors.jpeg)
+![Contributors](assets/images/contributors.jpeg)
 
 #### Análisis de colaboración
 
