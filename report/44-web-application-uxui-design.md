@@ -25,6 +25,18 @@ Estos prototipos permiten validar la usabilidad y la disposición de los compone
 ![Wireframe](../assets/images/wireframe13.png)
 ![Wireframe](../assets/images/wireframe14.png)
 
+---
 #### 4.4.2. Web Applications Wireflow Diagrams
+
+En esta sección se presentan los wireflows de la aplicación web, los cuales combinan la estructura de los wireframes con diagramas de flujo de interacción. El propósito es visualizar el recorrido del usuario a través de los diferentes módulos del sistema, detallando cómo cada acción desencadena una respuesta o un cambio de vista.
+
+Este análisis permite anticipar posibles fricciones en la experiencia de usuario y garantizar que procesos críticos, como el registro de inspecciones de calidad o el seguimiento de rutas, sean lógicos y eficientes.
+
+---
+![Wireflow](../assets/images/wireflow1.png)
+![Wireflow](../assets/images/wireflow2.png)
+![Wireflow](../assets/images/wireflow3.png)
+![Wireflow](../assets/images/wireflow4.png)
+
 #### 4.4.3. Web Applications Mock-ups
 #### 4.4.4. Web Applications User Flow Diagrams
