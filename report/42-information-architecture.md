@@ -13,7 +13,7 @@ En **FruitLogix**, los sistemas de organización se definen con el objetivo de e
 
 Para ello, se combinan enfoques de organización visual y esquemas de categorización alineados con los procesos de la cadena de suministro.
 
----
+
 
 ##### Organización visual del contenido:
 
@@ -111,7 +111,7 @@ Estas etiquetas corresponden a las funcionalidades clave del sistema y permiten 
 
 
 
-#### Etiquetas de acciones
+#### Etiquetas de acciones:
 
 Para las acciones principales, se utilizan verbos claros y directos:
 
@@ -128,7 +128,7 @@ Estas etiquetas permiten al usuario comprender rápidamente la acción que reali
 
 
 
-#### Etiquetas de asociaciones
+#### Etiquetas de asociaciones:
 
 Las relaciones entre los elementos del sistema se representan mediante etiquetas claras:
 
@@ -149,9 +149,9 @@ Estas etiquetas permiten optimizar la indexación del contenido y facilitar que 
 
 Las meta etiquetas se implementan dentro del documento HTML para describir el contenido de cada página mediante elementos como title, description, keywords y author.
 
----
 
-#### Landing Page
+
+#### Landing Page:
 
 - **Title:**  
   FruitLogix | Optimiza tu cadena de suministro de frutas en tiempo real
@@ -167,7 +167,7 @@ Las meta etiquetas se implementan dentro del documento HTML para describir el co
 
 ---
 
-#### Página de funcionalidades
+#### Página de funcionalidades:
 
 - **Title:**  
   Funciones de FruitLogix | Gestión de pedidos y control de calidad
@@ -183,7 +183,7 @@ Las meta etiquetas se implementan dentro del documento HTML para describir el co
 
 ---
 
-#### Página de contacto
+#### Página de contacto:
 
 - **Title:**  
   Contacto | FruitLogix
@@ -199,7 +199,7 @@ Las meta etiquetas se implementan dentro del documento HTML para describir el co
 
 ---
 
-#### Página de inicio de sesión (Web Application)
+#### Página de inicio de sesión (Web Application):
 
 - **Title:**  
   Iniciar sesión | FruitLogix
@@ -215,7 +215,7 @@ Las meta etiquetas se implementan dentro del documento HTML para describir el co
 
 ---
 
-#### Dashboard (Web Application)
+#### Dashboard (Web Application):
 
 - **Title:**  
   Dashboard | FruitLogix
@@ -231,7 +231,7 @@ Las meta etiquetas se implementan dentro del documento HTML para describir el co
 
 ---
 
-#### Página de gestión de pedidos
+#### Página de gestión de pedidos:
 
 - **Title:**  
   Gestión de pedidos | FruitLogix
@@ -247,4 +247,72 @@ Las meta etiquetas se implementan dentro del documento HTML para describir el co
 
 
 #### 4.2.4. Searching Systems
+
+El sistema de búsqueda de **FruitLogix** está diseñado para facilitar el acceso rápido y eficiente a la información dentro de la plataforma, evitando que los usuarios se sientan abrumados por el volumen de datos.
+
+Se prioriza una experiencia de búsqueda simple, precisa y orientada a tareas, permitiendo localizar información clave en el menor tiempo posible.
+
+
+
+#### Tipos de búsqueda:
+
+La plataforma incorpora un sistema de búsqueda directa mediante barras de búsqueda ubicadas en los módulos principales, como pedidos, productores e incidencias.
+
+El usuario puede realizar búsquedas utilizando distintos criterios:
+
+- ID de pedido
+- Nombre del cliente
+- Tipo de fruta
+- Nombre del productor
+
+Estas búsquedas permiten acceder rápidamente a registros específicos dentro del sistema.
+
+---
+
+#### Filtros de búsqueda:
+
+Para complementar la búsqueda, se implementan filtros que permiten refinar los resultados según diferentes criterios:
+
+##### En el módulo de pedidos:
+- Estado (pendiente, en preparación, en camino, entregado, rechazado)
+- Fecha de entrega
+- Tipo de fruta
+- Cliente
+
+#### En el módulo de productores:
+- Tipo de fruta
+- Ubicación
+- Disponibilidad
+
+#### En el módulo de incidencias:
+- Estado (abierta, cerrada)
+- Tipo de problema
+- Fecha
+
+El uso de filtros permite reducir el volumen de resultados y facilita la localización de información relevante.
+
+---
+
+#### Presentación de resultados:
+
+Los resultados de búsqueda se presentan de manera clara y estructurada, mediante:
+
+- Tablas organizadas con columnas relevantes
+- Ordenamiento por criterios (fecha, estado, nombre)
+- Paginación para manejar grandes volúmenes de datos
+
+Cada resultado muestra información clave como identificador, estado, fecha y relaciones (cliente, productor), permitiendo una rápida interpretación.
+
+---
+
+#### Retroalimentación al usuario:
+
+El sistema proporciona retroalimentación clara durante la búsqueda:
+
+- Mensajes cuando no se encuentran resultados
+- Indicadores de carga en búsquedas extensas
+- Actualización dinámica de resultados al aplicar filtros
+
+
+
 #### 4.2.5. Navigation Systems
