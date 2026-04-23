@@ -10,7 +10,7 @@ En esta sección se presentan los esquemas visuales de baja fidelidad (wireframe
 Estos prototipos permiten validar la usabilidad y la disposición de los componentes funcionales sin la distracción de elementos estéticos, asegurando que la interfaz sea intuitiva para los tres segmentos de usuario identificados.
 
 ---
-![Wireframe](../assets/images/wireframe1.png)
+![Wireframe](../assets/images/wire1.png)
 ![Wireframe](../assets/images/wireframe2.png)
 ![Wireframe](../assets/images/wireframe3.png)
 ![Wireframe](../assets/images/wireframe4.png)
@@ -42,7 +42,7 @@ Este análisis permite anticipar posibles fricciones en la experiencia de usuari
 
 ---
 * Inicio Sesion
-![Mockups](../assets/images/mockup1.png)
+![Mockups](../assets/images/mock1.png)
 ![Mockups](../assets/images/mockup2.png)
 ---
 * Inicio Sesion
