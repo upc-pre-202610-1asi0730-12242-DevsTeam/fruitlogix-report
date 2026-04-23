@@ -142,5 +142,109 @@ Estas etiquetas permiten entender cómo se conectan los datos dentro del sistema
 
 
 #### 4.2.3. SEO Tags and Meta Tags
+
+En **FruitLogix**, los SEO Tags y Meta Tags se definen con el objetivo de mejorar la visibilidad del sitio web en motores de búsqueda y comunicar de manera clara el propósito de cada página.
+
+Estas etiquetas permiten optimizar la indexación del contenido y facilitar que usuarios interesados en soluciones de gestión logística en el sector agrícola puedan encontrar la plataforma.
+
+Las meta etiquetas se implementan dentro del documento HTML para describir el contenido de cada página mediante elementos como title, description, keywords y author.
+
+---
+
+#### Landing Page
+
+- **Title:**  
+  FruitLogix | Optimiza tu cadena de suministro de frutas en tiempo real
+
+- **Meta Description:**  
+  Optimiza tu cadena de suministro desde el campo con FruitLogix. Monitorea pedidos, calidad y envíos en tiempo real, reduce desperdicios y mejora la rentabilidad.
+
+- **Keywords:**  
+  cadena de suministro frutas, monitoreo en tiempo real, logística agrícola, control de calidad, trazabilidad, distribución de frutas, IoT agricultura
+
+- **Author:**  
+  DevelopersTeam
+
+---
+
+#### Página de funcionalidades
+
+- **Title:**  
+  Funciones de FruitLogix | Gestión de pedidos y control de calidad
+
+- **Meta Description:**  
+  Conoce las funcionalidades de FruitLogix para gestionar pedidos, productores y calidad en la cadena de suministro de frutas.
+
+- **Keywords:**  
+  gestión de pedidos, control de calidad, productores, logística agrícola, software de distribución
+
+- **Author:**  
+  DevelopersTeam
+
+---
+
+#### Página de contacto
+
+- **Title:**  
+  Contacto | FruitLogix
+
+- **Meta Description:**  
+  Contáctanos para conocer más sobre FruitLogix y optimizar la distribución de frutas en tu negocio.
+
+- **Keywords:**  
+  contacto FruitLogix, soporte, consultas, logística agrícola
+
+- **Author:**  
+  DevelopersTeam
+
+---
+
+#### Página de inicio de sesión (Web Application)
+
+- **Title:**  
+  Iniciar sesión | FruitLogix
+
+- **Meta Description:**  
+  Accede a tu cuenta de FruitLogix para gestionar pedidos, productores y control de calidad.
+
+- **Keywords:**  
+  login FruitLogix, gestión de pedidos, plataforma logística
+
+- **Author:**  
+  DevelopersTeam
+
+---
+
+#### Dashboard (Web Application)
+
+- **Title:**  
+  Dashboard | FruitLogix
+
+- **Meta Description:**  
+  Panel principal para monitorear pedidos, incidencias y métricas de distribución en FruitLogix.
+
+- **Keywords:**  
+  dashboard logística, pedidos, métricas, distribución de frutas
+
+- **Author:**  
+  DevelopersTeam
+
+---
+
+#### Página de gestión de pedidos
+
+- **Title:**  
+  Gestión de pedidos | FruitLogix
+
+- **Meta Description:**  
+  Administra y realiza seguimiento de pedidos en tiempo real con FruitLogix.
+
+- **Keywords:**  
+  pedidos, seguimiento, logística, distribución de frutas
+
+- **Author:**  
+  DevelopersTeam
+
+
 #### 4.2.4. Searching Systems
 #### 4.2.5. Navigation Systems
