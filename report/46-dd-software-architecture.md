@@ -9,3 +9,5 @@
 ![Container Diagrams](../assets/images/Container Diagrams.png)
 #### 4.6.4. Software Architecture Components Diagrams
 
+![ComponentsDiagrams](../assets/images/Components Diagrams.png)
+
