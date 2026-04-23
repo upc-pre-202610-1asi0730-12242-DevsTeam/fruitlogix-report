@@ -94,27 +94,27 @@ A continuación, se presentan evidencias visuales de las principales vistas impl
 ### Screenshots del Landing Page
 ### Vista general (Hero + Navbar)
 
-![HeroNavBar](assets/images/lp-hero-navbar.jpeg)
+![HeroNavBar](../assets/images/lp-hero-navbar.png)
 
 ### Seccion Beneficios
 
-![Beneficios](assets/images/lp-beneficios.jpeg)
+![Beneficios](../assets/images/lp-beneficios.png)
 
 ### Seccion Planes
 
-![Planes](assets/images/lp-planes.jpeg)
+![Planes](../assets/images/lp-planes.png)
 
 ### Seccion de Clientes
 
-![Clientes](assets/images/lp-clientes.jpeg)
+![Clientes](../assets/images/lp-clientes.png)
 
 ### Seccion de Testimonios
 
-![Testimonios](assets/images/lp-testimonios.jpeg)
+![Testimonios](../assets/images/lp-testimonios.png)
 
 ### Seccion de Footer
 
-![Footer](assets/images/lp-footer.jpeg)
+![Footer](../assets/images/lp-footer.png)
 
 ##### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
@@ -153,11 +153,11 @@ La integración del trabajo se realizó de manera progresiva, consolidando las d
 
 ### Commits para landing page:
 
-![TopComitters](assets/images/cantCommits.jpeg)
+![TopComitters](../assets/images/cantCommits.png)
 
-![Ramas](assets/images/rama.jpeg)
+![Ramas](../assets/images/rama.png)
 
-![Contributors](assets/images/contributors.jpeg)
+![Contributors](../assets/images/contributors.png)
 
 #### Análisis de colaboración
 
