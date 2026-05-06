@@ -1,11 +1,9 @@
 ﻿# Project Report Collaboration Insights
-El repositorio público del trabajo se encuentra en el siguiente enlace: 
-https://github.com/upc-pre-202610-1asi0730-12242-DevsTeam
+El repositorio público del trabajo se encuentra en el siguiente enlace:
 
-Colaboraciones en Landing Page:
+https://github.com/upc-pre-202610-1asi0730-12242-DevsTeam/fruitlogix-report
 
-![top-commiters](../assets/images/top_commiters_landing.jpeg)
+Colaboraciones en Project Report:
 
-![contributors](../assets/images/contributors.jpeg)
+![ProjectContributors](../assets/images/Project-contributors.png)
 
-![RamaLanding](../assets/images/ramaslanding.jpeg)
