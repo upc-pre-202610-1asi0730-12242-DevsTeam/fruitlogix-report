@@ -49,169 +49,78 @@ El objetivo de la entrevista es comprender las necesidades, frustraciones y las 
 
 **2.2.2. Registro de entrevistas.**
 
-**Segmento de Distribuidores de frutas.**
+### Segmento objetivo: Distribuidores de frutas
 
-**Entrevista 1:**
-* **Nombre:** Jorge Contreras Ballarta
-* **Edad:** 60
-* **Distrito:** Cieneguilla
-* **Link:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423752_upc_edu_pe/IQACaNv5o87_RIsT2c-UHQ_3AWWKkdA1VZwrx3e4pSgeYu0?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=FraRAI
-* **Duración:** 8:50 min
+URL de todas las entrevistas del segmento: https://goo.su/Cffj7
 
-![Descripción de la imagen](../assets/images/Entrevista%201.png)
+| Campo | ![Entrevista1](../assets/images/Entrevista%201.png) <br/>Entrevista 1 | ![Entrevista1](../assets/images/Entrevista%202.png) <br/>Entrevista 2 | ![Entrevista1](../assets/images/Entrevista%203.png) <br/>Entrevista 3 |
+|---|-----------------------------------------------------------------------|-----------------------------------------------------------------------|-----------------------------------------------------------------------|
+| **Nombre** | Jorge Contreras Ballarta                                              | Paola Jiménez                                                         | Edwin Lozano                                                          |
+| **Edad** | 60 años                                                               | 25 años                                                               | 52 años                                                               |
+| **Distrito** | Cieneguilla                                                           | San Juan de Miraflores                                                | Perene                                                                |
+| **Duración** | 0:03 – 9:00 min                                                       | 9:04 – 13:03 min                                                      | 13:10 – 20:10 min                                                     |
 
-**Resumen:**
-La entrevista a Jorge Contreras Ballarta, distribuidor de 60 años que abastece a supermercados, permitió entender su proceso de trabajo actual. Él gestiona los pedidos mediante una plataforma B2B, donde debe cumplir estrictos estándares de calidad, peso y precio. Los pedidos se reciben con 48 horas de anticipación, lo que dificulta la planificación y coordinación con proveedores y transporte.
+**Resumen – Jorge Contreras Ballarta**
 
-Para organizar su trabajo, utiliza principalmente una computadora para gestionar órdenes de compra y documentos como guías de remisión. Trabaja de manera independiente, lo que influye en su capacidad de respuesta, demorando entre 4 a 5 horas en preparar pedidos pequeños. El control de calidad se basa en fichas técnicas que especifican requisitos precisos del producto, aunque enfrenta problemas debido a la estacionalidad y la variabilidad en la duración de las frutas, lo que puede ocasionar rechazos.
+La entrevista a Jorge Contreras Ballarta, distribuidor de 60 años que abastece a supermercados, permitió entender su proceso de trabajo actual. Él gestiona los pedidos mediante una plataforma B2B, donde debe cumplir estrictos estándares de calidad, peso y precio. Los pedidos se reciben con 48 horas de anticipación, lo que dificulta la planificación y coordinación con proveedores y transporte. Para organizar su trabajo, utiliza principalmente una computadora para gestionar órdenes de compra y documentos como guías de remisión. Trabaja de manera independiente, demorando entre 4 a 5 horas en preparar pedidos pequeños. El control de calidad se basa en fichas técnicas, aunque enfrenta problemas por la estacionalidad y variabilidad en la duración de las frutas. Finalmente, resalta la importancia de las auditorías anuales que garantizan la calidad y le permiten operar con los supermercados.
 
-Además, solo compra a proveedores que cumplen con los estándares exigidos, pero aun así puede haber inconvenientes por defectos no visibles inicialmente. Finalmente, resalta la importancia de las auditorías anuales, que garantizan la calidad y le permiten operar con los supermercados. En conjunto, se identifican oportunidades para mejorar la planificación, la coordinación y el control de calidad mediante soluciones digitales como FruitLogix.
+**Resumen – Paola Jiménez**
 
-**Entrevista 2:**
-* **Nombre:** Paola Jimenez
-* **Edad:** 25 años
-* **Distrito:** San Juan de Miraflores
-* **Link:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423752_upc_edu_pe/IQCie40zvOA1Tp65e4cMrSZNAcXTrZQ_wkVB0zkiRZ6HEnU?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=z2bzZB
-* **Duración:** 4:03 min
+La entrevista a Paola Jiménez, distribuidora independiente de 25 años, permitió comprender cómo gestiona su operación diaria. Administra pedidos de forma mixta: anota encargos en un cuaderno y luego los organiza en su laptop o celular, apoyándose en Excel para registrar fechas y entregas. La comunicación se da principalmente por llamadas y WhatsApp. El tiempo de preparación varía entre 30 minutos para pedidos pequeños y hasta 4 horas para pedidos mayores. El control de calidad es visual, evaluando color, estado de la cáscara y madurez. Ha enfrentado rechazos por productos en mal estado, especialmente mangos demasiado aguados. Prioriza registrar fecha de entrega, calidad del producto y datos del cliente.
 
-![Descripción de la imagen](../assets/images/Entrevista%202.png)
+**Resumen – Edwin Lozano**
 
-**Resumen:**
-La entrevista a Paola Jiménez, proveedora de frutas de 25 años residente en San Juan de Miraflores, permitió comprender cómo una distribuidora independiente gestiona su operación diaria. Ella administra los pedidos de forma mixta: anota los encargos inicialmente en un cuaderno para capturar la información al instante y luego los organiza con mayor detalle en su laptop o celular, apoyándose también en Excel para registrar fechas y entregas. La comunicación con sus clientes se da principalmente por llamadas y WhatsApp.
-
-Para organizar su trabajo, el celular es su herramienta principal, siendo un elemento central en su gestión diaria junto con aplicativos de notas digitales. El tiempo de preparación de pedidos varía considerablemente según el volumen: entre 30 minutos y 1 hora para pedidos de 10 a 20 kilogramos, y entre 2 a 4 horas para pedidos de 40 a 60 kilogramos. Ante la falta de stock, recurre a proveedores de confianza y realiza reajustes en los pedidos previamente acordados con sus clientes.
-
-El control de calidad se realiza de forma visual, evaluando el color, el estado de la cáscara y el punto de madurez de la fruta. Aun así, ha enfrentado rechazos por productos que llegan en mal estado, especialmente frutas demasiado aguadas, siendo el mango un caso frecuente. Entre los principales retos identifica la exigencia de sus clientes respecto a la calidad, lo que representa una presión constante en su operación.
-
-En cuanto a información clave, prioriza registrar la fecha de entrega, la calidad del producto y los datos del cliente. Recibe auditorías de manera ocasional. En conjunto, se identifican oportunidades claras para mejorar la trazabilidad de pedidos, optimizar la gestión de inventario y digitalizar el flujo de información mediante soluciones como FruitLogix.
-
-**Entrevista 3:**
-* **Nombre:** Edwin Lozano
-* **Edad:** 52
-* **Distrito:** Perene
-* **Link:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423752_upc_edu_pe/IQB6K_2respaT6h0CQwThwdUAScx39Rdr8tcl3nS0BwuzT8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=AfBTqe
-* **Duración:** 7:10
-
-![Descripción de la imagen](../assets/images/Entrevista%203.png)
-
-**Resumen:**
-La entrevista a Edwin Lozano, proveedor de plátanos de 52 años, permitió comprender cómo gestiona sus actividades en la distribución diaria. Él maneja los pedidos de manera práctica, recibiéndolos principalmente por llamadas o mensajes y anotándolos en un cuaderno para no perder la información. En algunos casos, complementa este registro utilizando su celular para organizar mejor los pedidos y coordinar las entregas.
-
-Para organizar su trabajo, utiliza principalmente el celular como herramienta clave de comunicación y coordinación, apoyándose en su experiencia para planificar los tiempos de entrega. La preparación de pedidos depende de la cantidad solicitada, tomando más tiempo cuando los volúmenes son mayores, ya que debe seleccionar, agrupar y acondicionar el producto antes de enviarlo. Cuando no cuenta con suficiente stock, recurre a proveedores de confianza o ajusta los pedidos en acuerdo con sus clientes.
-
-El control de calidad lo realiza de forma visual, revisando el estado del plátano, su color y nivel de maduración. Sin embargo, en algunas ocasiones ha enfrentado problemas con productos que no cumplen con las expectativas del cliente, lo que puede generar rechazos. Entre los principales retos que identifica se encuentran la exigencia en la calidad del producto, la variabilidad del stock y la necesidad de responder rápidamente a los pedidos, lo que hace su labor demandante y poco predecible.
-
----
-    
-**Segmento de Productores Agrícolas.**
-
-**Entrevista 1:**
-* **Nombre:** Renato Navarro
-* **Edad:** 25
-* **Distrito:** Cercado de lima
-* **Link:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423752_upc_edu_pe/IQD8kaZExLWjR7XF49TkUsbkAR4z6VkwultrB9vCNrE7bI0?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=bxub4a(No proporcionado)
-* **Duración:** 6:05
-
-![Descripción de la imagen](../assets/images/Entrevista%204.png)
-
-**Resumen:**
-La entrevista a Renato, productor de manzanas, permitió entender cómo trabaja y qué dificultades tiene en su día a día. Él se comunica con sus clientes principalmente por llamadas y mensajes, lo que a veces genera desorden en los pedidos.
-
-Los pedidos suelen llegar con poco tiempo de anticipación, lo que hace difícil organizar la cosecha y entrega. Para manejar su trabajo, usa su experiencia y anotaciones manuales, lo que puede causar errores.
-
-Para revisar la calidad, observa las manzanas fijándose en su tamaño, color y estado. Sin embargo, factores como el clima pueden afectar el producto y ocasionar rechazos. También trabaja con proveedores de confianza, pero no siempre puede asegurar que toda la fruta tenga la misma calidad, ya que algunos problemas no se ven fácilmente.
-
-Finalmente, Renato señala que necesita mejores herramientas tecnológicas para organizar sus pedidos, comunicarse mejor y controlar la calidad. Esto muestra que hay oportunidad de usar soluciones digitales para mejorar su trabajo.
-
-**Entrevista 2:**
-* **Nombre:** Jessica
-* **Edad:** 52
-* **Distrito:** San Martin de Porres
-* **Link:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423752_upc_edu_pe/IQD3SvrK4Q1ATbZjboZyH0drAcG0CrBRhUSGbUwvex9nR38?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=nTKy35
-* **Duración:** 9:16
-
-![Descripción de la imagen](../assets/images/Entrevista%205.png)
-
-**Resumen:**
-La entrevista revela la operativa diaria de Jessica, una comerciante con 12 años de experiencia en el sector de abastos. Su jornada comienza a las 2:00 AM con el traslado al Gran Mercado Mayorista de Santa Anita para asegurar mercadería fresca que luego distribuye a sus clientes directos. A pesar de que existen mercados cercanos como Huamantanga en Comas o el Conzac, Jessica prioriza Santa Anita debido a que productos específicos, como las hierbas y verduras de hoja, se encarecen fuera de ese centro principal. Su modelo de negocio se basa en la alta rotación y en una logística de abastecimiento diaria para garantizar la calidad del producto.
-
-Un punto crítico identificado es la vulnerabilidad de la mercadería frente a factores externos. Jessica explica que las verduras de hoja, como la espinaca y las hierbas, son sumamente delicadas y se "maltratan" fácilmente durante el transporte en camión. Además, el factor climático juega un rol determinante; por ejemplo, las lluvias en zonas de origen como Arequipa provocan que productos como la cebolla lleguen mojados, lo que causa que se pelen y pierdan valor comercial, obligándola a vender a precios más bajos.
-
-En cuanto a la gestión interna, el negocio no solo vende el producto bruto, sino que incluye un proceso de producción y valor agregado. Jessica menciona que pelan, pican y embolsan zanahorias y otras verduras para facilitar la venta. También destaca el riesgo en frutas específicas como la palta, que puede parecer perfecta por fuera pero queda inutilizable tras un golpe accidental en la caja. Este flujo de trabajo subraya la necesidad de un control de inventario que contemple tanto el procesamiento del producto como la pérdida por mermas físicas.
-
-**Entrevista 3:**
-* **Nombre:** Karen Forcelledo
-* **Edad:** 37
-* **Distrito:** San Borja
-* **Link:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423752_upc_edu_pe/IQA8Z7xWsTCjQqOaf5eyuMZRAdJWQjTfxQtgSsBf0l7KxOc?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=eJ631g
-* **Duración:** 3:30
-
-![Descripción de la imagen](../assets/images/Entrevista%206.png)
-
-**Resumen:**
-La entrevista se centra en la operación logística y comercial de Karen Forcelledo, quien se desempeña en el sector de producción agrícola. Su modelo de negocio es predominantemente local y directo, vendiendo sus productos a clientes conocidos de su zona y manteniendo una relación con solo dos distribuidores. La comunicación con sus compradores se realizan de manera informal a través de WhatsApp, redes sociales y el trato directo presencial, careciendo de un sistema tecnológico o plataforma formal para la gestión de pedidos.
-
-En cuanto al control de calidad y gestión de inventario, Karen asegura que se rige por los estándares de fábrica y el estado físico de la fruta. Sin embargo, enfrenta desafíos significativos debido a la estacionalidad de los productos y factores externos impredecibles. Uno de los mayores obstáculos mencionados es el impacto de los huaicos, los cuales dificultan el cumplimiento de las entregas y alteran la logística de distribución.
-
-Finalmente, la productora señala problemas de eficiencia en situaciones de sobreproducción o escasez, mencionando que la falta de una estructura comercial sólida lleva a que el producto se pierda o se malogre. Además, destaca una problemática con las devoluciones, las cuales ocurren frecuentemente debido a la informalidad de las empresas con las que interactúa. Esto refleja una necesidad latente de formalización y mejores herramientas de previsión para evitar pérdidas materiales.
+La entrevista a Edwin Lozano, proveedor de plátanos de 52 años, permitió comprender cómo gestiona la distribución diaria. Recibe pedidos por llamadas o mensajes y los anota en un cuaderno, complementando con el celular para coordinar entregas. La preparación depende del volumen solicitado, recurriendo a proveedores de confianza cuando no cuenta con stock suficiente. El control de calidad es visual, revisando estado, color y nivel de maduración del plátano. Entre sus principales retos se encuentran la exigencia de calidad, la variabilidad del stock y la necesidad de responder rápidamente a los pedidos.
 
 ---
 
-**Segmento de Clientes Comerciales:**
+### Segmento objetivo: Productores Agrícolas
 
-**Entrevista 1:**
-* **Nombre:** Bianzel Milagritos Noriega Donayre
-* **Edad:** 22
-* **Distrito:** San Isidro
-* **Link:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423752_upc_edu_pe/IQAYtFfrgxMCQY7fxL0GX1-KAS-BPMT7IrlvfKKInTAHiZw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ydbAx1
-* **Duración:** 5:40 min
+URL de todas las entrevistas del segmento: https://goo.su/Z7kcf
 
-![Descripción de la imagen](../assets/images/Entrevista%207.png)
+| Campo | ![Entrevista1](../assets/images/Entrevista%204.png) <br/>Entrevista 1 | ![Entrevista1](../assets/images/Entrevista%206.png) <br/> Entrevista 2 | ![Entrevista1](../assets/images/Entrevista%205.png) <br/> Entrevista 3 |
+|---|-----------------------------------------------------------------------|------------------------------------------------------------------------|------------------------------------------------------------------------|
+| **Nombre** | Renato Navarro                                                        | Karen Forcelledo                                                       | Jessica                                                                |
+| **Edad** | 25 años                                                               | 37 años                                                                | 52 años                                                                |
+| **Distrito** | Cercado de Lima                                                       | San Borja                                                              | San Martín de Porres                                                   |
+| **Duración** | 0:03 – 5:59 min                                                       | 6:05 – 9:31 min                                                        | 9:35 – 18:50 min                                                       |
 
-**Resumen:**
-La entrevista a Bianzel Noriega, de 22 años y parte del área de logística de la empresa Edge, permitió entender cómo los clientes comerciales gestionan la compra de frutas. Este proceso se realiza principalmente a través de un sistema formal donde se generan órdenes de compra basadas en el consumo y la demanda de los restaurantes. Sin embargo, también se complementa con comunicación directa con proveedores mediante llamadas, correo o WhatsApp, lo que evidencia un proceso mixto entre lo digital y lo manual.
+**Resumen – Renato Navarro**
 
-Al seleccionar proveedores, se consideran factores como la experiencia en el mercado, confiabilidad, capacidad de abastecimiento y condiciones de pago. Además, deben cumplir con estrictos requisitos sanitarios, controles de calidad (como pesticidas y metales pesados) y certificaciones que garanticen que el producto es apto para el consumo. Al momento de la entrega, se espera que la fruta llegue con información que coincida con la orden de compra, incluyendo cantidades, tipo y condiciones del producto.
+La entrevista a Renato Navarro, productor de manzanas de 25 años, permitió entender sus dificultades diarias. Se comunica con clientes por llamadas y mensajes, lo que genera desorden en los pedidos. Estos suelen llegar con poco tiempo de anticipación, dificultando organizar la cosecha y entrega. Usa experiencia y anotaciones manuales para gestionar su trabajo, lo que puede causar errores. El control de calidad es visual, revisando tamaño, color y estado, aunque factores como el clima pueden afectar el producto. Reconoce la necesidad de mejores herramientas tecnológicas para organizar pedidos, comunicarse mejor y controlar la calidad.
 
-La verificación de calidad se realiza en la recepción, revisando frescura y estado del producto. En caso de incumplimiento de los estándares o diferencias con lo solicitado, los pedidos son rechazados. Entre los principales problemas identificados se encuentran los retrasos en las entregas y la inconsistencia en la calidad de los productos. Para mitigar riesgos, trabajan con al menos tres proveedores, lo que les permite asegurar el abastecimiento.
+**Resumen – Karen Forcelledo**
 
-Finalmente, la puntualidad es crítica debido a la operación diaria de los restaurantes. Aunque se prioriza el uso de sistemas formales, la comunicación directa sigue siendo necesaria para agilizar procesos. Como oportunidad de mejora, se destaca la necesidad de optimizar los tiempos de respuesta de los proveedores, mejorar la consistencia en la calidad y hacer más eficiente la gestión de pedidos mediante soluciones digitales como FruitLogix.
+La entrevista a Karen Forcelledo, productora agrícola de 37 años, evidenció un modelo de negocio local y directo con solo dos distribuidores. La comunicación con compradores es informal a través de WhatsApp, redes sociales y trato presencial, sin sistemas formales de gestión. El control de calidad se rige por estándares de fábrica y estado físico de la fruta, aunque enfrenta desafíos por la estacionalidad y factores externos como los huaicos que dificultan las entregas. Señala problemas de eficiencia en sobreproducción o escasez y devoluciones frecuentes por la informalidad de sus compradores, evidenciando una necesidad de formalización y mejores herramientas de previsión.
 
-**Entrevista 2:**
-* **Nombre:** Rosa Arana Medina
-* **Edad:** 43
-* **Distrito:** (No proporcionado)
-* **Link:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423752_upc_edu_pe/IQD6nJ7J-6KLSqGLNPz6D73KAegbtlE5n-5Ny5JOhxBUF1U?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=2etb46
-* **Duración:** 8:19 min
+**Resumen – Jessica**
 
-![Descripción de la imagen](../assets/images/Entrevista%208.png)
+La entrevista a Jessica, comerciante con 12 años de experiencia en abastos, reveló una operativa que comienza a las 2:00 AM con el traslado al Gran Mercado Mayorista de Santa Anita para asegurar mercadería fresca. Prioriza ese mercado porque productos específicos como hierbas y verduras de hoja se encarecen en otros centros. Identificó como punto crítico la vulnerabilidad de la mercadería ante factores externos: las verduras de hoja se maltratan en el transporte y las lluvias en zonas de origen provocan pérdidas de valor comercial. Además del producto bruto, su negocio incluye valor agregado como pelado, picado y embolsado de verduras, lo que subraya la necesidad de un control de inventario que contemple también las mermas físicas.
 
-**Resumen:**
-La entrevista a Rosa Arana Medina, comerciante de 43 años en Cajamarca, permitió conocer cómo gestionan la compra de frutas en negocios pequeños como juguerías. Ella adquiere los productos principalmente en mercados mayoristas locales, aunque también realiza pedidos mediante llamadas a distribuidores que llevan la fruta directamente a su domicilio. Su proceso es mayormente tradicional y se basa en la experiencia y relaciones previas con proveedores.
+---
 
-Al elegir a un proveedor, prioriza la calidad del producto, solicitando fruta “selecta” (de primera categoría) para asegurar un buen resultado en su negocio. La verificación de calidad se realiza al momento de recibir el producto, y en caso de detectar problemas como frutas dañadas, podridas o afectadas por el clima (calor o lluvia), solicita el cambio al mayorista. Aunque menciona que los problemas no son frecuentes, sí pueden ocurrir debido a las condiciones de transporte o almacenamiento.
+### Segmento objetivo: Clientes Comerciales
 
-Trabaja con varios distribuidores, ya que cada uno se especializa en diferentes frutas, lo que le permite asegurar el abastecimiento. Sin embargo, señala que la puntualidad puede variar debido a factores como la disponibilidad del producto. Además, reconoce que gran parte de la selección de frutas se realiza previamente mediante procesos automatizados en origen, donde las frutas son clasificadas por calidad.
+URL de todas las entrevistas del segmento: https://goo.su/MrsO9
 
-Finalmente, indica que no siente una gran necesidad de herramientas digitales, ya que su gestión actual funciona gracias a la experiencia de su entorno. No obstante, identifica oportunidades de mejora relacionadas con la consistencia en la calidad de la fruta y la reducción de daños durante el transporte, lo que podría optimizar el abastecimiento y reducir pérdidas.
+| Campo | ![Entrevista1](../assets/images/Entrevista%207.png) <br/>Entrevista 1 | ![Entrevista1](../assets/images/Entrevista%209.png) <br/>Entrevista 2 | ![Entrevista1](../assets/images/Entrevista%208.png) <br/>Entrevista 3 |
+|---|-----------------------------------------------------------------------|-----------------------------------------------------------------------|-----------------------------------------------------------------------|
+| **Nombre** | Bianzel Milagritos Noriega Donayre                                    | Luciana Breña                                                         | Rosa Arana Medina                                                     |
+| **Edad** | 22 años                                                               | 25 años                                                               | 43 años                                                               |
+| **Distrito** | San Isidro                                                            | San Juan de Miraflores                                                | Cajamarca                                                             |
+| **Duración** | 0:00 – 5:39 min                                                       | 5:41 – 9:04 min                                                       | 9:14 – 17:22 min                                                      |
 
-**Entrevista 3:**
-* **Nombre:** Luciana Breña
-* **Edad:** 25 años
-* **Distrito:** San Juan de Miraflores
-* **Link:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423752_upc_edu_pe/IQBdMV3je_jYSLenA5T7jSL4AbLI9EZu_rbyDfFD6gWQn5c?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=4r6fzk
-* **Duración:** 3:31 min
+**Resumen – Bianzel Milagritos Noriega Donayre**
 
-![Descripción de la imagen](../assets/images/Entrevista%209.png)
+La entrevista a Bianzel Noriega, de 22 años y parte del área de logística de la empresa Edge, permitió entender cómo los clientes comerciales gestionan la compra de frutas. El proceso combina órdenes de compra formales con comunicación directa por llamadas, correo o WhatsApp. Al seleccionar proveedores se consideran experiencia, confiabilidad, capacidad de abastecimiento y requisitos sanitarios estrictos. La verificación de calidad se realiza en recepción revisando frescura y estado. Los principales problemas son retrasos en entregas e inconsistencia en calidad. Trabajan con al menos tres proveedores para asegurar el abastecimiento y consideran la puntualidad un factor crítico para la operación diaria de los restaurantes.
 
-**Resumen:**
-La entrevista a Luciana Breña, de 25 años y encargada de logística en una juguería ubicada en San Juan de Miraflores, permitió comprender cómo los negocios pequeños del rubro gestionan la compra de frutas. Este proceso se realiza de manera práctica y periódica: cada dos días se revisa el inventario para identificar qué frutas están por agotarse y cuáles tienen mayor rotación, con el fin de realizar pedidos ajustados a la demanda y garantizar la frescura del producto. Los pedidos se coordinan principalmente por WhatsApp, lo que agiliza la confirmación de cantidades, precios y horarios de entrega.
+**Resumen – Luciana Breña**
 
-Al seleccionar proveedores, se priorizan criterios como la calidad y frescura de la fruta, precios accesibles y, sobre todo, responsabilidad y cumplimiento. Los proveedores deben entregar la cantidad exacta solicitada en el tiempo acordado. Al momento de la entrega, se espera recibir información actualizada sobre precios, fecha de entrega y la factura correspondiente.
+La entrevista a Luciana Breña, de 25 años y encargada de logística en una juguería, mostró una gestión práctica y periódica: cada dos días revisa el inventario para identificar frutas por agotarse y realiza pedidos ajustados a la demanda. Coordina principalmente por WhatsApp. Prioriza calidad, frescura, precios accesibles y cumplimiento del proveedor. La verificación de calidad es visual y sensorial. Rechaza pedidos con fruta muy madura, dañada o que no coincide con lo solicitado. Los principales problemas son retrasos, inconsistencia en calidad y cambios de precio sin previo aviso. Considera la puntualidad un factor crítico ya que los retrasos impactan directamente la preparación de jugos y atención al cliente.
 
-La verificación de calidad se realiza de forma visual y sensorial, revisando color, olor y estado físico de la fruta. Los pedidos son rechazados si la fruta llega muy madura, dañada o si no coincide con lo solicitado. Entre los principales problemas identificados figuran los retrasos en las entregas, la inconsistencia en la calidad y los cambios de precio sin previo aviso. Para reducir estos riesgos, actualmente trabajan con dos proveedores y evalúan incorporar un tercero que brinde mayor flexibilidad operativa.
+**Resumen – Rosa Arana Medina**
 
-La puntualidad es considerada un factor crítico, ya que los retrasos impactan directamente en la preparación de los jugos y la atención al cliente. Como oportunidad de mejora, se identifica la necesidad de implementar un sistema de registro de pedidos que permita llevar un mejor control de cantidades, precios y fechas, y así optimizar la gestión y el seguimiento de ventas.
+La entrevista a Rosa Arana Medina, comerciante de 43 años en Cajamarca, mostró un proceso mayormente tradicional basado en experiencia y relaciones previas con proveedores. Adquiere productos en mercados mayoristas locales y mediante llamadas a distribuidores. Prioriza fruta selecta de primera categoría y verifica la calidad al momento de recibir el producto. Trabaja con varios distribuidores especializados en diferentes frutas para asegurar el abastecimiento. Aunque no siente urgencia por herramientas digitales, identifica oportunidades de mejora en la consistencia de calidad y reducción de daños durante el transporte.
 
 
 #### 2.2.3. Análisis de entrevistas
