@@ -10,13 +10,13 @@
 
 #### 2.1.1. Análisis competitivo
 
-![AnalisisCompe](../assets/images/AnaComp1.PNG)
+![AnalisisCompe](../assets/images/AnaComp1.png)
 
-![AnalisisCompe2](../assets/images/AnaComp2.PNG)
+![AnalisisCompe2](../assets/images/AnaComp2.png)
 
-![AnalisisCompe3](../assets/images/AnaComp3.PNG)
+![AnalisisCompe3](../assets/images/AnaComp3.png)
 
-![AnalisisCompe4](../assets/images/AnaComp4.PNG)
+![AnalisisCompe4](../assets/images/AnaComp4.png)
 
 #### 2.1.2. Estrategias y tácticas frente a competidores
 #### Estrategias:
