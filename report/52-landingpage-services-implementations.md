@@ -129,7 +129,51 @@ Estos servicios estarán orientados a funcionalidades como registro de usuarios,
 
 ##### 5.2.1.7. Software Deployment Evidence for Sprint Review
 
+#### Despliegue de la Landing Page
+El despliegue de la Landing Page de FruitLogix se realizó utilizando GitHub Pages, aprovechando sus capacidades para publicar sitios web estáticos directamente desde un repositorio. Este enfoque permitió una implementación sencilla, automatizada y accesible sin necesidad de servicios externos adicionales.
 
+#### Infraestructura de Despliegue
+
+- **Repositorio de código fuente:** GitHub
+- **Plataforma de despliegue:** GitHub Pages
+- **Tipo de aplicación:** Landing Page estática (HTML, CSS, JavaScript)
+- **Acceso:** URL pública generada por GitHub
+
+#### Proceso de Despliegue
+
+1. **Creación del repositorio**
+    - Se creó un repositorio en GitHub que contiene todos los archivos de la Landing Page (HTML, CSS, imágenes y scripts).
+    - Se organizó el proyecto asegurando que el archivo principal sea `index.html`, requerido por GitHub Pages.
+
+   ![Deployment](../assets/images/Deployment-Create-Repository.png)
+
+2. **Subida del código**
+    - Se realizó el `push` del proyecto a la rama principal (`main`) del repositorio.
+    - Se verificó que todos los recursos estén correctamente enlazados (rutas relativas).
+
+   ![Deployment](../assets/images/Deployment-Push.png)
+
+3. **Configuración de GitHub Pages**
+    - En la sección *Settings* del repositorio, se habilitó **GitHub Pages**.
+    - Se seleccionó la rama `main` como fuente de despliegue.
+    - Se definió la carpeta raíz (`/root`) como directorio de publicación.
+
+   ![Deployment](../assets/images/Deployment-GHPages.png)
+
+4. **Publicación automática**
+    - GitHub Pages procesó automáticamente el contenido del repositorio.
+    - En pocos minutos, generó una URL pública donde la Landing Page quedó disponible.
+
+   ![Deployment](../assets/images/Deployment-URL.png)
+
+5. **Actualizaciones**
+    - Cada vez que se realiza un nuevo `push` a la rama `main`, GitHub Pages actualiza automáticamente la página.
+    - Esto permite mantener la Landing Page sincronizada con los cambios del repositorio sin intervención manual adicional.
+
+#### Resultado
+La Landing Page de FruitLogix fue desplegada exitosamente mediante GitHub Pages, permitiendo su acceso público a través de una URL estable. Esto facilita la presentación del producto a usuarios potenciales y valida la propuesta de valor del sistema de manera rápida y efectiva.
+
+URL: https://upc-pre-202610-1asi0730-12242-devsteam.github.io/fruitlogix-website/
 
 ##### 5.2.1.8. Team Collaboration Insights during Sprint
 
