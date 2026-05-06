@@ -91,6 +91,8 @@ Se desarrollaron las principales secciones del *Landing Page*, incluyendo el **H
 
 A continuación, se presentan evidencias visuales de las principales vistas implementadas en este Sprint.
 
+Video de Demostración de Navegación (Landing Page): https://goo.su/TAKKGp
+
 ### Screenshots del Landing Page
 ### Vista general (Hero + Navbar)
 
@@ -116,6 +118,7 @@ A continuación, se presentan evidencias visuales de las principales vistas impl
 
 ![Footer](../assets/images/lp-footer.png)
 
+
 ##### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
 En el presente Sprint no se implementaron Web Services ni endpoints funcionales, debido a que el alcance estuvo enfocado en el desarrollo del Landing Page como primera versión del producto.
@@ -124,15 +127,9 @@ Sin embargo, se definió como parte del análisis inicial la futura implementaci
 
 Estos servicios estarán orientados a funcionalidades como registro de usuarios, autenticación y gestión de pedidos, los cuales serán documentados utilizando el estándar OpenAPI en futuras iteraciones del proyecto.
 
-https://github.com/upc-pre-202610-1asi0730-12242-DevsTeam/fruitlogix-platform
-
 ##### 5.2.1.7. Software Deployment Evidence for Sprint Review
 
-Durante el Sprint 1 se realizó el despliegue exitoso del Landing Page de FruitLogix utilizando la plataforma Vercel, lo que permitió publicar la aplicación web y hacerla accesible mediante una URL pública.
 
-El proceso de deployment incluyó la integración del repositorio de GitHub con Vercel, permitiendo automatizar el despliegue continuo (CI/CD) ante nuevos cambios en el código fuente. Esto facilita futuras iteraciones del producto, asegurando que cada actualización pueda ser publicada de manera rápida y eficiente.
-
-https://fruitlogix-website-devteams.vercel.app/
 
 ##### 5.2.1.8. Team Collaboration Insights during Sprint
 
@@ -142,25 +139,4 @@ Cada integrante asumió la responsabilidad de una parte específica del *Landing
 
 La integración del trabajo se realizó de manera progresiva, consolidando las distintas secciones en una única versión funcional del *Landing Page*.
 
-## Estrategia de colaboración
-
-- División del trabajo por secciones del *Landing Page*
-- Uso de ramas por funcionalidad (*feature branches*)
-- Integración progresiva mediante *commits*
-- Coordinación del equipo para evitar conflictos en el código
-
-## Evidencia de colaboración
-
-### Commits para landing page:
-
-![TopComitters](../assets/images/cantCommits.png)
-
-![Ramas](../assets/images/rama.png)
-
-![Contributors](../assets/images/contributors.png)
-
-#### Análisis de colaboración
-
-Se evidencia que todos los miembros del equipo participaron activamente en el desarrollo del Landing Page, realizando commits asociados a sus respectivas tareas. La distribución del trabajo permitió mantener un flujo constante de avances y facilitó la integración final del producto.
-
-El uso de GitHub permitió mantener trazabilidad sobre los cambios realizados, así como identificar la contribución individual de cada integrante.
+![Insights](../assets/images/Insights-Contributors.png)
