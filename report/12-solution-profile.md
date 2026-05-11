@@ -106,49 +106,58 @@ El objetivo actual del negocio es coordinar de manera eficiente la interacción 
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
 ### Statement 1
-**Creemos que** al implementar una plataforma web centralizada para la gestión de pedidos, los distribuidores podrán reducir la desorganización y los errores operativos.
+We believe we will achieve una reducción de errores operativos en los procesos de distribución de frutas.
 
-**Sabremos que hemos tenido éxito**
+If distribuidores de frutas
 
-**Cuando** al menos el 30% de los errores en pedidos se reduzcan y el 70% de los usuarios adopten activamente la plataforma en los primeros 3 meses
+Attain una mejor organización de pedidos y una coordinación más rápida con proveedores
+
+With una plataforma web centralizada para la gestión de pedidos y seguimiento logístico.
 
 ---
 
 ### Statement 2
-**Creemos que** al incluir un sistema de validación de calidad previo al envío, se reducirá el envío de productos defectuosos hacia los supermercados.
+We believe we will achieve una disminución de rechazos de productos por problemas de calidad.
 
-**Sabremos que hemos tenido éxito**
+If productores agrícolas y clientes comerciales
 
-**Cuando** los rechazos por calidad disminuyan en un 40% y el 80% de los pedidos sean aceptados en la primera entrega
+Attain una validación de calidad más confiable y estandarizada antes de la entrega
+
+With un módulo integrado de control y validación de calidad.
 
 ---
 
 ### Statement 3
-**Creemos que** al integrar un sistema de trazabilidad en tiempo real, los usuarios podrán tener mayor visibilidad y control del estado de los pedidos.
+We believe we will achieve una mayor visibilidad y trazabilidad en toda la cadena de suministro de frutas.
 
-**Sabremos que hemos tenido éxito**
+If distribuidores, productores y clientes comerciales
 
-**Cuando** el 75% de los usuarios consulte el estado de pedidos en la plataforma y los problemas de seguimiento se reduzcan en un 35%
+Attain acceso en tiempo real al estado de pedidos e información de productos
+
+With un sistema de trazabilidad y monitoreo en tiempo real.
 
 ---
 
 ### Statement 4
-**Creemos que** al automatizar la asignación de pedidos entre distribuidores y productores, se mejorará la eficiencia en la coordinación logística.
+We believe we will achieve una mejora en la eficiencia de coordinación logística y asignación de pedidos.
 
-**Sabremos que hemos tenido éxito**
+If distribuidores de frutas
 
-**Cuando** el tiempo de asignación de pedidos se reduzca en un 25% y el 70% de los pedidos sean asignados en menos tiempo que el proceso manual
+Attain una coordinación más rápida y precisa con productores
+
+With una funcionalidad automatizada de asignación de pedidos y coordinación de entregas.
 
 ---
 
 ### Statement 5
-**Creemos que** al integrar sensores IoT para monitorear temperatura y condiciones de transporte, se podrá garantizar la calidad del producto durante su traslado.
+We believe we will achieve una reducción de pérdidas de productos durante el transporte.
 
-**Sabremos que hemos tenido éxito**
+If productores y distribuidores
 
-**Cuando** las pérdidas por deterioro se reduzcan en un 30% y el 85% de los envíos mantengan condiciones óptimas registradas
+Attain un mejor control de las condiciones de transporte y conservación de productos
 
----
+With sensores IoT para monitoreo de temperatura y humedad durante el transporte.
+
 #### 1.2.2.4. Lean UX Canvas
 
 | 1. Business Problem | 5. Solution Ideas | 2. Business Outcomes |
