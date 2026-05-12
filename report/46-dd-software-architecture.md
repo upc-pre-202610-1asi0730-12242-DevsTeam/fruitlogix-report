@@ -99,7 +99,7 @@ Finalmente, el propósito comercial del sistema es generar confianza y formaliza
 
 #### 4.6.3. Software Architecture Container Diagrams
 
-El diagrama cumple este objetivo al mapear explícitamente las tecnologías elegidas  y definir las fronteras de cada componente ejecutable. Muestra con precisión que toda la interacción de los usuarios está centralizada en una única aplicación web y que el backend está desacoplado en microservicios especializados, lo que facilita planificar la escalabilidad independiente de módulos críticos como la ingesta de datos de IoT o el procesamiento de pagos.
+El diagrama cumple el objetivo al mapear explícitamente las tecnologías elegidas  y definir las fronteras de cada componente ejecutable. Muestra con precisión que toda la interacción de los usuarios está centralizada en una única aplicación web y que el backend está desacoplado en microservicios especializados, lo que facilita planificar la escalabilidad independiente de módulos críticos como la ingesta de datos de IoT o el procesamiento de pagos.
 
 Finalmente, el propósito del diagrama es documentar el flujo de datos y las dependencias, tanto internas como externas. Permite visualizar cómo los servicios consumen y escriben información en una base de datos común (indicado con las flechas L/E de Lectura/Escritura) y de qué manera el ecosistema de FruitLogix se integra de forma segura con servicios de terceros (Google Maps) y Dispositivos IoT para que todo el equipo  esté alineado al momento de codificar o desplegar la infraestructura.
 
