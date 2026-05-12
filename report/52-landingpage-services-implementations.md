@@ -382,6 +382,37 @@ URL: https://goo.su/XA06
 | fruitlogix-webapp | develop | 5b81dd5 | chore: initial commit | johancg04 | 2026-05-12 |
 
 #### 5.2.2.5. Execution Evidence for Sprint Review.
+En el Sprint 2 se logró implementar la primera versión funcional de la Web Application de FruitLogix, permitiendo gestionar pedidos, productores, monitoreo logístico, control de calidad y funcionalidades relacionadas con la infraestructura IoT dentro de una plataforma centralizada.
+Durante este Sprint se desarrollaron los principales módulos de la aplicación, incluyendo la gestión de pedidos y productores, seguimiento logístico en tiempo real, monitoreo de entregas, control de calidad y procesamiento de pagos. Asimismo, se implementó la navegación entre vistas mediante Vue Router, integración de estados utilizando Pinia y soporte multilenguaje mediante i18n. Adicionalmente, se avanzó en la implementación de servicios RESTful, entidades de dominio y componentes reutilizables siguiendo la arquitectura definida para el proyecto.
+A continuación, se presentan evidencias visuales de las principales vistas implementadas en este Sprint.
+
+Video de Demostración de la Web Application: https://goo.su/NOt4
+
+## Screenshots de la Web Application
+#### Dashboard Principal
+
+![Dashboard Principal](../assets/images/AppWeb8.jpeg)
+
+#### Seguimiento de Pedido
+
+![SPedidos](../assets/images/AppWeb7.jpeg)
+
+#### Eliminación de Pedido
+
+![EPedidos](../assets/images/AppWeb6.jpeg)
+
+#### Gestión de Productores
+
+![Gestión de Productores](../assets/images/AppWeb5.jpeg)
+
+#### Gestion de pagos
+
+![GestionPago](../assets/images/AppWeb3.jpeg)
+
+#### Infraestructura IoT
+
+![Monitoreo logístico en tiempo real](../assets/images/AppWeb1.jpeg)
+
 
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review.
