@@ -41,11 +41,15 @@ Este análisis permite anticipar posibles fricciones en la experiencia de usuari
 #### 4.4.3. Web Applications Mock-ups
 
 ---
+
 * Inicio Sesion
+
 ![Mockups](../assets/images/mock1.png)
 ![Mockups](../assets/images/mockup2.png)
+
 ---
-* Inicio Sesion
+
+* Distribuidor
 
 ![Mockups](../assets/images/mockup3.png)
 ![Mockups](../assets/images/mockup4.png)
@@ -55,68 +59,61 @@ Este análisis permite anticipar posibles fricciones en la experiencia de usuari
 ![Mockups](../assets/images/mockup8.png)
 ![Mockups](../assets/images/mockup9.png)
 ![Mockups](../assets/images/mockup10.png)
+
 ---
+
 * Productor
+
 ![Mockups](../assets/images/mockup11.png)
 ![Mockups](../assets/images/mockup12.png)
 ![Mockups](../assets/images/mockup13.png)
 ![Mockups](../assets/images/mockup14.png)
 
+---
+
 * Cliente Comercial
-![Mockups](../assets/images/mockup13.png)
+
+![Mockups](../assets/images/mockup11.png)
 ![Mockups](../assets/images/mockup13.png)
 
+
+  
 ---
 #### 4.4.4. Web Applications User Flow Diagrams
 
-En esta sección se presentan los User Flows de FruitLogix, los cuales detallan la ruta lógica que siguen los distintos segmentos objetivos para alcanzar sus metas dentro de la plataforma.
+
+##### User Goals: Registro
+El visitante quiere registrase a la aplicación, rellena el formulario que le sale al dar al boton de Registrarse y selecciona que tipo de usuario es
+![UserFlow](../assets/images/aaa1.png)
+
+##### User Goals: Iniciar Sesion
+El usuario ya registrado podra iniciar sesion rellenando sus datos en el formulario que le aparecerá al seleccionar el boton de "Iniciar Sesion" desde la Landing Page
+![UserFlow](../assets/images/aaa2.png)
 
 
-A diferencia de los wireflows estructurales, estos diagramas integran los Mock-ups de alta fidelidad, permitiendo visualizar la interacción real del usuario con la interfaz. Se han diseñado flujos que cubren tanto el camino ideal (Happy Path) como las rutas alternativas o de error (Unhappy Paths), garantizando que el sistema responda de manera eficiente ante datos inválidos o fallos en la cadena de suministro.
-
-![UserFlow](../assets/images/userflow1.png)
-
-![UserFlow](../assets/images/userflow2.png)
 ---
 
 
 ### Distribuidor
 
-**User Goal:** Registrar, asignar y supervisar el ciclo de vida de un pedido logístico.
+User Goals: Acceder al Dashboard
+El usuario quiere seleccionar su perfil de rol específico para ingresar al panel de control principal y visualizar las métricas, pedidos y reportes correspondientes a su operación.
+![UserFlow](../assets/images/aaa3.png)
 
+User Goals: Gestión y Creación de Pedidos
+El usuario Distribuidor desea generar una nueva orden de distribución completando los detalles de logística y productos, con el fin de registrar exitosamente un pedido en el sistema y mantener el flujo operativo.
+![UserFlow](../assets/images/aaa4.png)
 
-**Descripción del flujo:** Este diagrama ilustra el proceso central del Distribuidor. El flujo comienza en el Dashboard principal, donde se inicia el registro de un nuevo pedido (US01). Se observa un rombo de decisión crítico: si los datos ingresados son incompletos, el sistema aplica reglas de validación en tiempo real para evitar registros erróneos.
-
-
-Una vez validado, el flujo avanza hacia la asignación de un Productor Agrícola (US05/US06), culminando con la visualización de la ruta de entrega mediante la integración con la API de Google Maps (US15). Este flujo asegura que la información esté centralizada y disponible para todos los actores desde el primer momento.
-
-![UserFlow](../assets/images/userflow5.png)
----
-
+User Goals: Monitoreo Operativo y Análisis de Datos
+El usuario quiere navegar a través de los módulos especializados de Calidad, Inventario, Gestión de Productores y Reportes para auditar el estado de los lotes y optimizar la toma de decisiones basada en datos en tiempo real.
+![UserFlow](../assets/images/aaa5.png)
 
 ### Productor
-
-**User Goal:** Registrar parámetros de calidad IoT y habilitar el lote para despacho.
-
-
-**Descripción del flujo:** El flujo del Productor se centra en la integridad del producto. Tras recibir una notificación de pedido asignado (US19), el usuario procede a registrar los resultados del control de calidad (US09).
-
-
-El diagrama destaca una ruta alternativa fundamental: si los valores de madurez o temperatura recolectados por los sensores exceden los rangos permitidos, el sistema bloquea el despacho y dispara una notificación de alerta al distribuidor (US18). Si los parámetros son óptimos, el flujo finaliza con la generación del certificado de calidad, habilitando el lote para el transporte.
-
-![UserFlow](../assets/images/userflow3.png)
----
-
+User Goals: Registro de Calidad y Seguimiento de Cosecha
+El usuario productor desea gestionar sus pedidos asignados y registrar los estándares de calidad de su mercancía, con el fin de mantener un historial transparente y asegurar que los lotes cumplen con los requisitos de exportación o distribución.
+![UserFlow](../assets/images/aaa6.png)
 
 ### Cliente Comercial
-
-**User Goal:** Realizar seguimiento en tiempo real y confirmar la recepción conforme del pedido.
-
-
-**Descripción del flujo:** Este proceso está diseñado para brindar transparencia total al Cliente Comercial. El usuario accede al rastreo de su orden de compra (US13) para visualizar la ubicación y estado de los sensores IoT.
-
-
-El flujo contempla una bifurcación de decisión al momento de la entrega: si el cliente detecta anomalías físicas en la fruta, el flujo deriva hacia el registro formal de una incidencia (US11), adjuntando evidencia fotográfica. En caso de conformidad, el flujo sigue hacia la confirmación de recepción y el procesamiento del pago mediante la pasarela externa (US30), cerrando el ciclo comercial de forma segura.
-
-
-![UserFlow](../assets/images/userflow4.png)
+User Goals: Supervisión de Pedidos y Alertas de Stock
+El usuario cliente comercial desea monitorear el estatus de sus pedidos asignados y recibir alertas críticas sobre el inventario, con el fin de asegurar el abastecimiento oportuno y reaccionar rápidamente ante cualquier retraso en la cadena de suministro.
+![UserFlow](../assets/images/aaa7.png)
