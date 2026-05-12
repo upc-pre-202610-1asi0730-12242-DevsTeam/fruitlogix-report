@@ -281,3 +281,102 @@ URL: https://goo.su/XA06
 
 #### 5.2.2.4. Development Evidence for Sprint Review
 
+| Repository | Branch | Commit Id | Commit Message | Committed By | Committed On |
+|---|---|--|---|---|---|
+| fruitlogix-webapp | develop | e0c0c4a | Merge pull request #15 from feature/i18n | Daroh19 | 2026-05-12 |
+| fruitlogix-webapp | feature/i18n | f1c3305 | feat(i18n): initialize i18n configuration with English and Spanish locales | Daroh19 | 2026-05-12 |
+| fruitlogix-webapp | develop | b643f90 | Merge pull request #14 from feature/order-management | johancg04 | 2026-05-12 |
+| fruitlogix-webapp | feature/order-management | 813a543 | refactor: rename order-management.js to order-management-api.js for clarity | johancg04 | 2026-05-12 |
+| fruitlogix-webapp | develop | dc56b98 | Merge pull request #13 from feature/pinia | gonzalojaimeforcelledo | 2026-05-12 |
+| fruitlogix-webapp | develop | b2b0278 | Merge pull request #12 from feature/locales | Daroh19 | 2026-05-12 |
+| fruitlogix-webapp | feature/locales | 406d773 | feat(locales): add English and Spanish document json | Daroh19 | 2026-05-12 |
+| fruitlogix-webapp | develop | 4554916 | Merge pull request #11 from feature/server | johancg04 | 2026-05-12 |
+| fruitlogix-webapp | feature/server | 57bcf94 | feat: add initial database structure for orders, fruits, producers, clients, and deliveries | johancg04 | 2026-05-12 |
+| fruitlogix-webapp | develop | 29079fc | Merge pull request #10 from feature/logistics-monitoring | Daroh19 | 2026-05-12 |
+| fruitlogix-webapp | feature/pinia | d08df91 | docs(pinia): add .env.development | gonzalojaimeforcelledo | 2026-05-12 |
+| fruitlogix-webapp | feature/pinia | 543b337 | docs(pinia): add .env.production | gonzalojaimeforcelledo | 2026-05-12 |
+| fruitlogix-webapp | feature/logistics-monitoring | 45f3575 | feat(domain): add Alert entity for logistics monitoring alerts | Daroh19 | 2026-05-12 |
+| fruitlogix-webapp | feature/logistics-monitoring | 7fdedc4 | feat(infrastructure): implement logistics monitoring API gateway for deliveries and alerts | Daroh19 | 2026-05-12 |
+| fruitlogix-webapp | develop | 3b96a86 | Merge pull request #9 from feature/dashboard | johancg04 | 2026-05-12 |
+| fruitlogix-webapp | feature/logistics-monitoring | 0261f4a | feat(presentation): add delivery card component | Daroh19 | 2026-05-12 |
+| fruitlogix-webapp | develop | 9b872a1 | Merge pull request #2 from feature/pinia | johancg04 | 2026-05-12 |
+| fruitlogix-webapp | feature/logistics-monitoring | a0e2d79 | feat(presentation): add analytics and incidents view for real-time monitoring | Daroh19 | 2026-05-12 |
+| fruitlogix-webapp | develop | dd311cb | Merge pull request #5 from feature/payment-management | johancg04 | 2026-05-12 |
+| fruitlogix-webapp | feature/logistics-monitoring | f907ac5 | feat(presentation): add delivery details view for real-time tracking and telemetry | Daroh19 | 2026-05-12 |
+| fruitlogix-webapp | develop | 4e93fcf | Merge pull request #6 from feature/quality-control | johancg04 | 2026-05-12 |
+| fruitlogix-webapp | feature/logistics-monitoring | f5d1b39 | feat(presentation): add logistics monitoring home page for real-time order tracking | Daroh19 | 2026-05-12 |
+| fruitlogix-webapp | feature/logistics-monitoring | 510a014 | feat(presentation): add monitoring dashboard for real-time delivery tracking | Daroh19 | 2026-05-12 |
+| fruitlogix-webapp | develop | 6bf366d | Merge pull request #8 from feature/shared | johancg04 | 2026-05-12 |
+| fruitlogix-webapp | develop | 827149e | Merge pull request #7 from feature/order-management | johancg04 | 2026-05-12 |
+| fruitlogix-webapp | feature/logistics-monitoring | 0118c6c | feat(presentation): add logistics monitoring routes for dashboard and tracking | Daroh19 | 2026-05-12 |
+| fruitlogix-webapp | feature/logistics-monitoring | 0cc267c | feat(infrastructure): add TrackingLogAssembler for mapping TrackingLog entities | Daroh19 | 2026-05-12 |
+| fruitlogix-webapp | develop | bb062c6 | Merge pull request #4 from feature/profiles-and-vehicles | ECEB0704 | 2026-05-12 |
+| fruitlogix-webapp | feature/logistics-monitoring | 663b17b | feat(infrastructure): add DeliveryAssembler for mapping Delivery entities and API | Daroh19 | 2026-05-12 |
+| fruitlogix-webapp | feature/quality-control | f23091a | feat: add routing for quality control home view | Sergi9017 | 2026-05-12 |
+| fruitlogix-webapp | develop | 4bad8bd | Merge pull request #3 from feature/iot-infrastructure | ECEB0704 | 2026-05-12 |
+| fruitlogix-webapp | feature/shared | 5ae5300 | feat: add 404 page not found component with styling and navigation | johancg04 | 2026-05-12 |
+| fruitlogix-webapp | feature/quality-control | d3c14fe | feat: add placeholder view for quality control home | Sergi9017 | 2026-05-12 |
+| fruitlogix-webapp | feature/shared | cc6594c | feat: implement main layout with sidebar and topbar components | johancg04 | 2026-05-12 |
+| fruitlogix-webapp | feature/profiles-and-vehicles | 94d8d22 | feat: add Producer list view component for managing producers | ECEB0704 | 2026-05-12 |
+| fruitlogix-webapp | feature/logistics-monitoring | 83b7222 | feat(domain): add logistics Service for delivery ETA calculation and route | Daroh19 | 2026-05-12 |
+| fruitlogix-webapp | feature/profiles-and-vehicles | 8a67f1c | feat: add Producer registration form component | ECEB0704 | 2026-05-12 |
+| fruitlogix-webapp | feature/quality-control | b729b17 | feat: implement QualityControlApi for batch and incident management | Sergi9017 | 2026-05-12 |
+| fruitlogix-webapp | feature/profiles-and-vehicles | c1cf31f | feat: add lazy-loaded route definitions for Profiles & Vehicles context | ECEB0704 | 2026-05-12 |
+| fruitlogix-webapp | feature/quality-control | e9c7ca5 | feat: add Incident entity for quality control context | Sergi9017 | 2026-05-12 |
+| fruitlogix-webapp | feature/quality-control | f274e17 | feat: add HarvestBatch entity for quality control context | Sergi9017 | 2026-05-12 |
+| fruitlogix-webapp | feature/logistics-monitoring | 04ad413 | feat(domain): add notification entity and type enumeration for alerts | Daroh19 | 2026-05-12 |
+| fruitlogix-webapp | feature/profiles-and-vehicles | ccb200a | feat: implement ProfilesAndVehiclesApi for managing users, drivers, vehicles, and producers | ECEB0704 | 2026-05-12 |
+| fruitlogix-webapp | feature/logistics-monitoring | 78df662 | feat(domain): add route entity for delivery path representation | Daroh19 | 2026-05-12 |
+| fruitlogix-webapp | feature/profiles-and-vehicles | fe33df6 | feat: add ProducerAssembler for mapping Producer entity to API JSON | ECEB0704 | 2026-05-12 |
+| fruitlogix-webapp | feature/logistics-monitoring | e0371af | feat(domain): add TrackingLog entity for sensor data recording | Daroh19 | 2026-05-12 |
+| fruitlogix-webapp | feature/quality-control | e687e76 | feat: add quality control store with batch and incident fetching | Sergi9017 | 2026-05-12 |
+| fruitlogix-webapp | feature/profiles-and-vehicles | 0dbf229 | feat: add Vehicle entity definition for Profiles & Vehicles context | ECEB0704 | 2026-05-12 |
+| fruitlogix-webapp | feature/logistics-monitoring | e10904d | feat(domain): add Delivery entity and status enumeration for logistics | Daroh19 | 2026-05-12 |
+| fruitlogix-webapp | feature/profiles-and-vehicles | 38fda5a | feat: add User entity definition for Profiles & Vehicles context | ECEB0704 | 2026-05-12 |
+| fruitlogix-webapp | feature/i18n | 0a9b722 | feat: add language switcher component for locale selection | johancg04 | 2026-05-12 |
+| fruitlogix-webapp | feature/profiles-and-vehicles | d66dcfe | feat: add Producer entity definition for Profiles & Vehicles context | ECEB0704 | 2026-05-12 |
+| fruitlogix-webapp | feature/profiles-and-vehicles | 10defbd | feat: add Driver entity definition for Profiles & Vehicles context | ECEB0704 | 2026-05-12 |
+| fruitlogix-webapp | feature/profiles-and-vehicles | eeda93f | feat: add entity definitions for Driver, Producer, User, and Vehicle | ECEB0704 | 2026-05-12 |
+| fruitlogix-webapp | feature/shared | f39bdae | feat: add BaseEndpoint class for RESTful API interactions | johancg04 | 2026-05-12 |
+| fruitlogix-webapp | feature/shared | f4d5ed1 | feat: add BaseApi class with pre-configured Axios instance | johancg04 | 2026-05-12 |
+| fruitlogix-webapp | feature/profiles-and-vehicles | b88ccd4 | feat: implement Profiles & Vehicles store with CRUD operations for producers | ECEB0704 | 2026-05-12 |
+| fruitlogix-webapp | feature/profiles-and-vehicles | 7458826 | feat: add producer form validation logic | ECEB0704 | 2026-05-12 |
+| fruitlogix-webapp | feature/payment-management | c3e58b1 | feat: implement payment management views and entities | Sergi9017 | 2026-05-12 |
+| fruitlogix-webapp | feature/iot-infrastructure | 095f843 | feat(routes): add IoT infrastructure routes for device management and calibration | ECEB0704 | 2026-05-12 |
+| fruitlogix-webapp | feature/logistics-monitoring | f4d217c | feat(application): add logistics monitoring store for managing deliveries and tracking | Daroh19 | 2026-05-12 |
+| fruitlogix-webapp | feature/iot-infrastructure | fc36c0a | feat(ui): create IoT device fleet management view with real-time tracking and calibration | ECEB0704 | 2026-05-12 |
+| fruitlogix-webapp | feature/iot-infrastructure | 1cc581b | feat(ui): add placeholder view for IoT infrastructure overview | ECEB0704 | 2026-05-12 |
+| fruitlogix-webapp | feature/iot-infrastructure | 44f1f19 | feat(ui): add IoT calibration view for device monitoring and rule configuration | ECEB0704 | 2026-05-12 |
+| fruitlogix-webapp | feature/order-management | 65588a1 | feat: add lazy-loaded route definitions for order management | johancg04 | 2026-05-12 |
+| fruitlogix-webapp | feature/iot-infrastructure | 6485700 | feat(ui): implement device-card component for IoT device display | ECEB0704 | 2026-05-12 |
+| fruitlogix-webapp | feature/order-management | 8b139ff | feat: add ordering module with OrderList component for order management | johancg04 | 2026-05-12 |
+| fruitlogix-webapp | feature/dashboard | 9bb52ac | docs(dashboard): add router.js | gonzalojaimeforcelledo | 2026-05-12 |
+| fruitlogix-webapp | feature/order-management | a97456b | feat: add OrderSuccess component for displaying order confirmation in order management | johancg04 | 2026-05-12 |
+| fruitlogix-webapp | feature/order-management | 89f897d9 | feat: add OrderStateDialog component for tracking order status in order management | johancg04 | 2026-05-12 |
+| fruitlogix-webapp | feature/order-management | 062f2bc | feat: add OrderRegisterForm component for creating new orders in order management | johancg04 | 2026-05-12 |
+| fruitlogix-webapp | feature/iot-infrastructure | 2a54e4d | feat(infra): implement SensorReading assembler for DTO transformation | ECEB0704 | 2026-05-12 |
+| fruitlogix-webapp | feature/iot-infrastructure | 996b346 | feat(infra): add IoT infrastructure API service for external communication | ECEB0704 | 2026-05-12 |
+| fruitlogix-webapp | feature/order-management | 4e8d46a | feat: enhance order management with order list component and PrimeVue integration | johancg04 | 2026-05-12 |
+| fruitlogix-webapp | feature/iot-infrastructure | 0ea34bd | feat(infra): implement IoTDevice assembler for data mapping | ECEB0704 | 2026-05-12 |
+| fruitlogix-webapp | feature/iot-infrastructure | cb5ee5d | feat(domain): create ThresholdRule entity for sensor limits | ECEB0704 | 2026-05-12 |
+| fruitlogix-webapp | feature/order-management | 5c0afd9 | feat: add OrderEditDialog component for editing order details in order management | johancg04 | 2026-05-12 |
+| fruitlogix-webapp | feature/order-management | 6ee5893 | feat: add FruitSelector component for selecting fruits in order management | johancg04 | 2026-05-12 |
+| fruitlogix-webapp | feature/iot-infrastructure | a7eb430 | feat(domain): implement Sensor entity core structure define SensorReading entity for data collection | ECEB0704 | 2026-05-12 |
+| fruitlogix-webapp | feature/dashboard | b4e0611 | docs(dashboard): add pinia.js | gonzalojaimeforcelledo | 2026-05-12 |
+| fruitlogix-webapp | feature/order-management | ae914ed | feat: add AssignProducerDialog component for producer assignment in order management | johancg04 | 2026-05-12 |
+| fruitlogix-webapp | feature/dashboard | 59b9f76 | docs(dashboard): add dashboard.store.js | gonzalojaimeforcelledo | 2026-05-12 |
+| fruitlogix-webapp | feature/iot-infrastructure | a854d10 | feat(domain): add IoT enums for device states and types | ECEB0704 | 2026-05-12 |
+| fruitlogix-webapp | feature/order-management | 418f1fc | feat: implement OrderManagementApi for CRUD operations on orders and related resources | johancg04 | 2026-05-12 |
+| fruitlogix-webapp | feature/iot-infrastructure | 465256015 | feat(domain): create IoTDevice entity to represent physical hardware | ECEB0704 | 2026-05-12 |
+| fruitlogix-webapp | feature/dashboard | efc4a7f | docs(dashboard): add dashboard-stats.entity.js | gonzalojaimeforcelledo | 2026-05-12 |
+| fruitlogix-webapp | feature/iot-infrastructure | 323e2ca | feat(domain): define AlertRule entity for monitoring logic | ECEB0704 | 2026-05-12 |
+| fruitlogix-webapp | feature/order-management | 6da92b3 | feat: add OrderAssembler for mapping Order entities to/from API payloads | johancg04 | 2026-05-12 |
+| fruitlogix-webapp | feature/dashboard | 75806fa | docs(dashboard): add dashboard.assembler.js | gonzalojaimeforcelledo | 2026-05-12 |
+| fruitlogix-webapp | feature/order-management | b40b473 | feat: implement order and fruit entities with order management store | johancg04 | 2026-05-12 |
+| fruitlogix-webapp | feature/iot-infrastructure | 249b978 | feat(domain): define core models and business entities | ECEB0704 | 2026-05-12 |
+| fruitlogix-webapp | feature/dashboard | 32c36ff | docs(dashboard): add dashboard-api.js | gonzalojaimeforcelledo | 2026-05-12 |
+| fruitlogix-webapp | feature/iot-infrastructure | 35e27cd | chore: initial commit | ECEB0704 | 2026-05-12 |
+| fruitlogix-webapp | feature/order-management | 55e162b | feat: add order form validation logic | johancg04 | 2026-05-12 |
+| fruitlogix-webapp | feature/dashboard | b62605c | docs(dashboard): add dashboard-view.vue | gonzalojaimeforcelledo | 2026-05-12 |
+| fruitlogix-webapp | develop | d08c2d8 | feat: initialize Vue.js project with basic structure and configuration | johancg04 | 2026-05-12 |
+| fruitlogix-webapp | develop | 5b81dd5 | chore: initial commit | johancg04 | 2026-05-12 |
