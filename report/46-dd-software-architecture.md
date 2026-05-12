@@ -104,6 +104,7 @@ El diagrama cumple este objetivo al mapear explícitamente las tecnologías eleg
 Finalmente, el propósito del diagrama es documentar el flujo de datos y las dependencias, tanto internas como externas. Permite visualizar cómo los servicios consumen y escriben información en una base de datos común (indicado con las flechas L/E de Lectura/Escritura) y de qué manera el ecosistema de FruitLogix se integra de forma segura con servicios de terceros (Google Maps) y Dispositivos IoT para que todo el equipo  esté alineado al momento de codificar o desplegar la infraestructura.
 
 ![Container Diagrams](../assets/images/ddd2.png)
+
 **Nota:** Elaboración propia en Structurizr.
 
 #### 4.6.4. Software Architecture Components Diagrams
