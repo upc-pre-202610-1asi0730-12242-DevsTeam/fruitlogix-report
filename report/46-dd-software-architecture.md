@@ -28,7 +28,7 @@ Adicionalmente, este contexto contempla la gestión de la flota operativa del di
 
 En conjunto, este módulo establece la base organizacional y operativa del sistema, garantizando una correcta administración de usuarios y recursos logísticos.
 
-![EventStormingProfilesFleetManagement](../assets/images/EventStormingProfilesFleetManagement.jpg)
+![EventSt](../assets/images/EventStormingProfilesFleetManagement.jpg)
 
 
 #### Order Management
@@ -89,11 +89,19 @@ A partir de ello, se recopilan datos relevantes como madurez, calibre y condicio
 
 #### 4.6.2. Software Architecture Context Diagram
 
+Primero, el sistema tiene como objetivo optimizar la toma de decisiones para distribuidores y productores. Al integrar herramientas de geolocalización y monitoreo en tiempo real, el propósito es reducir las pérdidas por malas rutas o condiciones ambientales inadecuadas (como fallas en la cadena de frío), permitiendo que los actores reaccionen rápidamente ante cualquier alerta enviada por los sensores IoT.
+
+Finalmente, el propósito comercial del sistema es generar confianza y formalizar las transacciones en el sector agrícola. Al incluir pasarelas de pago y confirmaciones de recepción, FruitLogix busca crear un ecosistema seguro donde los clientes comerciales tengan la certeza de que recibirán un producto que cumple con los estándares de calidad registrados, facilitando una relación comercial más fluida y profesional entre el campo y la ciudad.
+
 ![ContextDiagram](../assets/images/ContextDiagrams.png)
 
 **Nota:** Elaboración propia en Structurizr.
 
 #### 4.6.3. Software Architecture Container Diagrams
+
+El sistema tiene como fin garantizar la seguridad y el orden en el tráfico de datos. Al utilizar el API Gateway para "orquestar" las solicitudes hacia los módulos de Usuarios, Calidad, Pedidos y Trazabilidad, el propósito es desacoplar el frontend de la complejidad del backend. Esto permite que la aplicación web gestione de forma limpia y estandarizada (vía HTTPS/JSON) tareas tan diversas como la validación de parámetros IoT o el monitoreo de rutas en tiempo real.
+
+Finalmente, el propósito de esta arquitectura es asegurar la persistencia coherente y la especialización funcional. Cada módulo tiene la responsabilidad de manejar un dominio específico del negocio antes de leer o escribir en la base de datos central de PostgreSQL. Esto permite que el sistema mantenga un ciclo de vida claro para las órdenes y los perfiles de usuario, proporcionando una base tecnológica sólida para que la información que llega a los clientes y distribuidores sea precisa y esté siempre actualizada.
 
 ![Container Diagrams](../assets/images/ContainerDiagram.png)
 **Nota:** Elaboración propia en Structurizr.
@@ -102,11 +110,19 @@ A partir de ello, se recopilan datos relevantes como madurez, calibre y condicio
 
 * Diagrama de Componentes Pedidos
 
+Primero, el diseño busca estructurar de forma limpia el ciclo de vida de las órdenes de fruta. El componente Order Controller tiene la función de actuar como el punto de contacto que recibe las llamadas REST desde el API Gateway para el registro y edición de pedidos. Inmediatamente después, la responsabilidad se traslada al Order Service, cuyo propósito fundamental es procesar la lógica comercial pesada de la plataforma, como la regla de negocio crítica que decide la asignación óptima de productores agrícolas para cumplir con cada demanda.
+
+Finalmente, el diagrama define un propósito de aislamiento y abstracción en el acceso a los datos. A través del Order Repository, el módulo encapsula todas las operaciones de lectura y escritura, traduciendo las necesidades del servicio en consultas SQL directas hacia la base de datos central en PostgreSQL. Esto asegura que la lógica de asignación y los controladores no dependan directamente de la estructura física de las tablas, facilitando futuras optimizaciones en el rendimiento de las consultas transaccionales de FruitLogix.
+
 ![ContextDiagram](../assets/images/ComponentsDiagram.png)
 
 **Nota:** Elaboración propia en Structurizr.
 
 * Diagrama de Componentes Calidad
+
+El diseño tiene como fin automatizar la ingesta de telemetría y centralizar la gestión de reportes. A través del IoT Integration Service, el sistema se encarga de procesar los datos crudos provenientes de los sensores ambientales para luego transferirlos al Quality Controller. Este componente actúa como el cerebro del módulo, sirviendo de puente para responder a las solicitudes REST delegadas por el API Gateway, asegurando que la información de calidad esté siempre estructurada y accesible.
+
+Finalmente, el diagrama destaca un propósito clave de automatización del control normativo y reglas de negocio. Al incluir el Quality Validator, el módulo adquiere la capacidad de comparar de forma autónoma los datos recolectados contra los estándares de calidad preestablecidos para la fruta. Esto permite que el sistema dictamine en tiempo real si un lote cumple o no con las condiciones óptimas para su distribución, eliminando la necesidad de inspecciones manuales y optimizando la respuesta de la cadena de suministro ante alertas en la cadena de frío.
 
 ![ContextDiagram](../assets/images/ComponentsDiagrams2.png)
 
