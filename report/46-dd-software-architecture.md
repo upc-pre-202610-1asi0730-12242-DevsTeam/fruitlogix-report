@@ -99,11 +99,11 @@ Finalmente, el propósito comercial del sistema es generar confianza y formaliza
 
 #### 4.6.3. Software Architecture Container Diagrams
 
-El sistema tiene como fin garantizar la seguridad y el orden en el tráfico de datos. Al utilizar el API Gateway para "orquestar" las solicitudes hacia los módulos de Usuarios, Calidad, Pedidos y Trazabilidad, el propósito es desacoplar el frontend de la complejidad del backend. Esto permite que la aplicación web gestione de forma limpia y estandarizada (vía HTTPS/JSON) tareas tan diversas como la validación de parámetros IoT o el monitoreo de rutas en tiempo real.
+El diagrama cumple este objetivo al mapear explícitamente las tecnologías elegidas  y definir las fronteras de cada componente ejecutable. Muestra con precisión que toda la interacción de los usuarios está centralizada en una única aplicación web y que el backend está desacoplado en microservicios especializados, lo que facilita planificar la escalabilidad independiente de módulos críticos como la ingesta de datos de IoT o el procesamiento de pagos.
 
-Finalmente, el propósito de esta arquitectura es asegurar la persistencia coherente y la especialización funcional. Cada módulo tiene la responsabilidad de manejar un dominio específico del negocio antes de leer o escribir en la base de datos central de PostgreSQL. Esto permite que el sistema mantenga un ciclo de vida claro para las órdenes y los perfiles de usuario, proporcionando una base tecnológica sólida para que la información que llega a los clientes y distribuidores sea precisa y esté siempre actualizada.
+Finalmente, el propósito del diagrama es documentar el flujo de datos y las dependencias, tanto internas como externas. Permite visualizar cómo los servicios consumen y escriben información en una base de datos común (indicado con las flechas L/E de Lectura/Escritura) y de qué manera el ecosistema de FruitLogix se integra de forma segura con servicios de terceros (Google Maps) y Dispositivos IoT para que todo el equipo  esté alineado al momento de codificar o desplegar la infraestructura.
 
-![Container Diagrams](../assets/images/ContainerDiagram.png)
+![Container Diagrams](../assets/images/ddd2.png)
 **Nota:** Elaboración propia en Structurizr.
 
 #### 4.6.4. Software Architecture Components Diagrams
