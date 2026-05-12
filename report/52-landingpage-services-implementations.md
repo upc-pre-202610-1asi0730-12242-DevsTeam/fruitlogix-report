@@ -184,3 +184,357 @@ Cada integrante asumió la responsabilidad de una parte específica del *Landing
 La integración del trabajo se realizó de manera progresiva, consolidando las distintas secciones en una única versión funcional del *Landing Page*.
 
 ![Insights](../assets/images/Insights-Contributors.png)
+
+### 5.2.2. Sprint 2
+
+#### 5.2.2.1 Sprint Planning 2
+En esta sección se describen los principales acuerdos y definiciones realizadas durante el Sprint Planning del Sprint 2, enfocado en la implementación de los módulos de gestión de pedidos, productores y seguimiento logístico de FruitLogix.
+
+| Sprint # | Sprint 2 |
+|---|---|
+| **Sprint Planning Background** | |
+| Date | 2026-05-10 |
+| Time | 19:00 |
+| Location | Reunión virtual (Google Meet) |
+| Prepared By | Evangelista Ygnacio, Sergio Joaquín |
+| Attendees (to planning meeting) | Contreras Granados, Johan Alexis - Chavez Bardales, Esteban Eduardo - Evangelista Ygnacio, Sergio Joaquín - Jaime Forcelledo, Gonzalo Alexander - Palomino Vilcañaupa, Daril Johan |
+| **Sprint 1 Review Summary** | Durante el Sprint 1 se logró implementar correctamente el Landing Page responsive de FruitLogix, incluyendo navegación entre secciones, adaptación móvil y soporte multilenguaje. Además, el equipo consolidó la estructura base del frontend y definió estándares iniciales de trabajo colaborativo utilizando GitFlow y Trello para la gestión de tareas. |
+| **Sprint 1 Retrospective Summary** | El equipo identificó como principal fortaleza la buena distribución de tareas y la comunicación constante durante el desarrollo del Sprint 1. Sin embargo, se detectaron pequeños retrasos en la integración de componentes y validaciones responsive, por lo que para este sprint se acordó mejorar la coordinación durante los merges y aumentar la frecuencia de revisiones entre integrantes. |
+| **Sprint 2 Goal** | Our focus is on developing the order and producer management modules, IoT infrastructure, logistics monitoring and payment processing for FruitLogix. We believe it delivers better logistics organization, real-time quality control and centralized operational control for distributors. This will be confirmed when users can register, edit, visualize and manage orders and producers correctly, IoT devices send and evaluate sensor readings, shipments are tracked in real time, and payments are processed and confirmed within the platform. |
+| **Sprint 2 Velocity** | 38 Story Points |
+| **Sum of Story Points** | 38 Story Points |
+
+
+| Sprint # | Nano Sprint |
+|---|---|
+| **Sprint Planning Background** | |
+| Date | 2026-05-11 |
+| Time | 10:00 - 12:30 |
+| Location | Reunión física en clase |
+| Prepared By | Velasquez Nuñez, Angel Augusto |
+| Attendees (to planning meeting) | Contreras Granados, Johan Alexis - Chavez Bardales, Esteban Eduardo - Evangelista Ygnacio, Sergio Joaquín - Palomino Vilcañaupa, Daril Johan |
+| **Sprint 2 Review Summary** | Durante el Sprint 2 se logró implementar los módulos de gestión de pedidos y productores de FruitLogix, incluyendo el formulario de registro, validaciones, tabla de pedidos, edición, eliminación lógica y lista de productores. Además, el equipo avanzó en la integración de Vue Router para la navegación entre vistas y consolidó el uso del validador externo separado en la capa de aplicación. |
+| **Sprint 2 Retrospective Summary** | El equipo identificó como principal fortaleza la correcta separación de responsabilidades entre capas (presentation, application) siguiendo la arquitectura DDD definida en el event storming. Sin embargo, se detectaron retrasos en la conexión entre componentes vía Vue Router y en la gestión de los emits entre vistas, por lo que para el Nano Sprint se acordó priorizar la integración completa del flujo de navegación y aumentar la frecuencia de revisiones entre integrantes antes de los merges. |
+| **Nano Sprint Goal** | Our focus is on developing the order and producer management modules for FruitLogix. We believe it delivers better logistics organization and centralized operational control for distributors. This will be confirmed when users can register, edit, visualize and manage orders and producers correctly within the platform. |
+| **Nano Sprint Velocity** | 9 Story Points |
+| **Sum of Story Points** | 9 Story Points |
+
+#### 5.2.2.2. Aspect Leaders and Collaborators.
+
+En esta sección se define la matriz de liderazgo y colaboración (LACX) del Sprint 2, la cual permite identificar claramente las responsabilidades de cada integrante del equipo en los distintos aspectos del desarrollo.
+
+| Team Member (Last Name, First Name) | GitHub Username | Gestión de Pedidos | Gestión de Productores | Seguimiento de Entregas y Estados |
+|---|---|---|---|---|
+| Contreras Granados, Johan Alexis | johancg04 | C | C | L |
+| Evangelista Ygnacio, Sergio Joaquín | Sergi9017 | L | C | C |
+| Chavez Bardales, Esteban Eduardo | ECEB0704 | C | L | C |
+| Jaime Forcelledo, Gonzalo Alexander | gonzalojaimeforcelledo | C | C | C |
+| Palomino Vilcañaupa, Daril Johan | Daroh19 | C | C | C |
+
+#### 5.2.2.3. Sprint Backlog 2
+El Sprint 2 tuvo como objetivo principal la implementación de las funcionalidades relacionadas con la gestión de pedidos y productores dentro de la plataforma FruitLogix, permitiendo centralizar la información logística y mejorar el seguimiento operativo de los pedidos en tiempo real.
+
+A continuación, se presenta el tablero correspondiente al Sprint 2 junto con su enlace:
+
+URL: https://goo.su/XA06
+
+| User Story ID | User Story Title | Task ID | Task Title | Description | Estimation (Hours) | Assigned To |
+|---|---|---|---|---|---|---|
+| US01 | Formulario de registro de pedidos | TASK008 | Formulario registro de pedidos | Desarrollo de la interfaz para registrar nuevos pedidos en la plataforma. | 5 | Johan |
+| US01 | Validaciones de pedido | TASK009 | Validaciones de pedido | Implementación de validaciones para campos obligatorios en pedidos. | 3 | Sergio |
+| US04 | Listar pedidos | TASK010 | Tabla de pedidos | Creación de la vista para listar y visualizar pedidos registrados. | 4 | Esteban |
+| US02 | Edición de pedidos | TASK011 | Edición de pedidos | Desarrollo de la funcionalidad para modificar información de pedidos existentes. | 4 | Gonzalo |
+| US02 | Restricción de modificación | TASK022 | Restricción de modificación | Valida el pedido y en caso contrario muestra un mensaje de restricción al Distribuidor cuando intente editar el pedido. | 3 | Daril |
+| US03 | Eliminación de pedidos | TASK012 | Eliminación de pedidos | Implementación de la eliminación lógica de pedidos dentro del sistema. | 3 | Johan |
+| US04 | Tabla de pedidos | TASK010 | Tabla de pedidos | Creación de la vista para listar y visualizar pedidos registrados. | 5 | Sergio |
+| US04 | Comprobación de registro de pedidos | TASK021 | Comprobación de registro de pedidos | Validar que el sistema muestre correctamente mensaje informativo cuando no existan datos registrados. | 2 | Esteban |
+| US05 | Registro de productores | TASK013 | Registro de productores | Desarrollo del formulario para registrar productores en la plataforma. | 5 | Gonzalo |
+| US05 | Validación de datos | TASK020 | Validación de datos | Desarrollo del registro del productor pero en caso falte algún dato, el sistema resalta los datos con error y muestra mensaje de validación. | 3 | Daril |
+| US06 | Lista de productores | TASK014 | Lista de productores | Implementación de la visualización de productores registrados. | 4 | Johan |
+| US013 | ID inválida | TASK023 | ID inválida | Implementación de la validación de códigos de pedido inexistentes al realizar una consulta de rastreo. | 2 | Sergio |
+| US014 | Actualización de estados | TASK016 | Actualización de estados | Implementación de cambios manuales en el estado logístico de pedidos. | 4 | Sergio |
+| TS004 | Crear endpoint registro de pedidos API | TASK017 | Crear endpoint registro de pedidos API | Desarrollo del endpoint REST para registrar pedidos desde el backend. | 5 | Johan |
+| TS005 | Crear endpoint consulta de pedidos API | TASK018 | Crear endpoint consulta de pedidos API | Implementación del endpoint REST para consultar pedidos registrados. | 4 | Esteban |
+| TS008 | Gestión de productores API | TASK019 | Gestión de productores API | Desarrollo de endpoints para registrar y consultar productores. | 5 | Daril |
+| US015 | Endpoint de ubicación en tiempo real | TASK024 | Implementar endpoint de ubicación en tiempo real | Crear el endpoint que retorna la última lectura de ubicación registrada por el dispositivo GPS_TRACKER asociado a un pedido. | 6 | Sergio |
+| US015 | Calibración de dispositivos IoT | TASK025 | Implementar calibración de dispositivos IoT | Desarrollar la funcionalidad calibrate() de la clase IoTDevice para permitir el ajuste de parámetros de los sensores desde la plataforma. | 5 | Johan |
+| US017 | Notificación de retraso por GPS Tracker | TASK026 | Implementar notificación de retraso por GPS Tracker | Desarrollar el servicio que consume las lecturas del GPS_TRACKER para detectar retrasos y generar notificación al Cliente Comercial. | 6 | Esteban |
+| US018 | Crear entidad IoTDevice | TASK027 | Crear entidad IoTDevice | Implementar la clase IoTDevice con atributos deviceId, deviceType, location, status y lastReading, incluyendo los métodos connect(), sendData() y calibrate(). | 4 | Daril |
+| US018 | Crear entidad SensorReading | TASK028 | Crear entidad SensorReading | Implementar la clase SensorReading con atributos readingId, deviceId, timestamp, value y unit, incluyendo los métodos validateRange() y generateAlert(). | 4 | Sergio |
+| US018 | Crear entidad AlertRule | TASK029 | Crear entidad AlertRule | Implementar la clase AlertRule con atributos ruleId, deviceType, minThreshold, maxThreshold y alertMessage, incluyendo el método evaluate(reading). | 3 | Johan |
+| US018 | Crear enumeración DeviceType | TASK030 | Crear enumeración DeviceType | Implementar el enum DeviceType con los valores TEMPERATURE_SENSOR, HUMIDITY_SENSOR, GPS_TRACKER y WEIGHT_SCALE. | 2 | Esteban |
+| US018 | Crear enumeración DeviceStatus | TASK031 | Crear enumeración DeviceStatus | Implementar el enum DeviceStatus con los valores ACTIVE, OFFLINE, MAINTENANCE y BATTERY_LOW. | 2 | Daril |
+| US018 | Repositorio de dispositivos IoT | TASK032 | Implementar repositorio de dispositivos IoT | Crear el repositorio para la persistencia de IoTDevice, SensorReading y AlertRule, incluyendo operaciones de registro, consulta y actualización. | 5 | Sergio |
+| US018 | Lógica de evaluación de alertas | TASK033 | Implementar lógica de evaluación de alertas de calidad | Desarrollar el servicio que ejecuta evaluate(reading) de AlertRule para comparar lecturas contra umbrales y generar alertas automáticas. | 5 | Johan |
+| US018 | Endpoint de registro de lectura de sensor | TASK034 | Implementar endpoint de registro de lectura de sensor | Crear el endpoint que recibe lecturas de dispositivos IoT, las persiste como SensorReading y dispara la evaluación de AlertRule. | 5 | Esteban |
+| US021 | Generación de Invoice en PDF | TASK035 | Generación de Invoice en PDF | Desarrollar la funcionalidad generatePDF() de la clase Invoice para exportar la factura en formato PDF con los datos del pedido y monto total. | 5 | Daril |
+| US021 | Endpoint de consulta de facturas | TASK036 | Implementar endpoint de consulta de facturas | Crear el endpoint que retorna el historial de facturas generadas por rango de fechas para el módulo de reportes del Distribuidor. | 4 | Sergio |
+| US030 | Crear entidad BillingInfo | TASK037 | Crear entidad BillingInfo | Implementar la clase BillingInfo con atributos billingId, clientId, creditCardToken y paymentMethodType, incluyendo processPayment() y updatePaymentMethod(). | 3 | Johan |
+| US030 | Crear entidad Invoice | TASK038 | Crear entidad Invoice | Implementar la clase Invoice con atributos invoiceId, orderId, issueDate, totalAmount y paymentStatus, incluyendo generatePDF() y markAsPaid(). | 3 | Esteban |
+| US030 | Crear entidad Transaction | TASK039 | Crear entidad Transaction | Implementar la clase Transaction con atributos transactionId, invoiceId, amount, timestamp y externalReference, incluyendo confirm() y reverse(). | 3 | Daril |
+| US030 | Crear enumeración PaymentStatus | TASK040 | Crear enumeración PaymentStatus | Implementar el enum PaymentStatus con los valores PENDING, PAID, FAILED, REFUNDED y PARTIALLY_PAID. | 2 | Sergio |
+| US030 | Repositorio de pagos | TASK041 | Implementar repositorio de pagos | Crear el repositorio para la persistencia de BillingInfo, Invoice y Transaction, incluyendo operaciones de creación y consulta. | 4 | Johan |
+| US030 | Integración con pasarela externa | TASK042 | Integración con pasarela externa | Desarrollar el servicio de integración con Culqi o Izipay para procesar pagos y recibir confirmación o rechazo de la transacción. | 8 | Esteban |
+| US030 | Endpoint de procesamiento de pago | TASK043 | Implementar endpoint de procesamiento de pago | Crear el endpoint que recibe la solicitud de pago, llama al servicio de la pasarela externa y actualiza el estado del pedido a "Pagado". | 5 | Daril |
+| US030 | Manejo de pago rechazado | TASK044 | Implementar manejo de pago rechazado | Desarrollar la lógica que gestiona la respuesta negativa de la pasarela, mantiene el pedido en "Pendiente de pago" y retorna el mensaje de error. | 4 | Sergio |
+| US030 | Confirmación de pago por correo | TASK045 | Enviar confirmación de pago por correo | Implementar el envío automático de correo de confirmación al cliente cuando la transacción es aprobada, incluyendo detalle del pedido y comprobante. | 4 | Johan |
+
+#### 5.2.2.4. Development Evidence for Sprint Review
+
+| Repository | Branch | Commit Id | Commit Message | Committed By | Committed On |
+|---|---|--|---|---|---|
+| fruitlogix-webapp | develop | e0c0c4a | Merge pull request #15 from feature/i18n | Daroh19 | 2026-05-12 |
+| fruitlogix-webapp | feature/i18n | f1c3305 | feat(i18n): initialize i18n configuration with English and Spanish locales | Daroh19 | 2026-05-12 |
+| fruitlogix-webapp | develop | b643f90 | Merge pull request #14 from feature/order-management | johancg04 | 2026-05-12 |
+| fruitlogix-webapp | feature/order-management | 813a543 | refactor: rename order-management.js to order-management-api.js for clarity | johancg04 | 2026-05-12 |
+| fruitlogix-webapp | develop | dc56b98 | Merge pull request #13 from feature/pinia | gonzalojaimeforcelledo | 2026-05-12 |
+| fruitlogix-webapp | develop | b2b0278 | Merge pull request #12 from feature/locales | Daroh19 | 2026-05-12 |
+| fruitlogix-webapp | feature/locales | 406d773 | feat(locales): add English and Spanish document json | Daroh19 | 2026-05-12 |
+| fruitlogix-webapp | develop | 4554916 | Merge pull request #11 from feature/server | johancg04 | 2026-05-12 |
+| fruitlogix-webapp | feature/server | 57bcf94 | feat: add initial database structure for orders, fruits, producers, clients, and deliveries | johancg04 | 2026-05-12 |
+| fruitlogix-webapp | develop | 29079fc | Merge pull request #10 from feature/logistics-monitoring | Daroh19 | 2026-05-12 |
+| fruitlogix-webapp | feature/pinia | d08df91 | docs(pinia): add .env.development | gonzalojaimeforcelledo | 2026-05-12 |
+| fruitlogix-webapp | feature/pinia | 543b337 | docs(pinia): add .env.production | gonzalojaimeforcelledo | 2026-05-12 |
+| fruitlogix-webapp | feature/logistics-monitoring | 45f3575 | feat(domain): add Alert entity for logistics monitoring alerts | Daroh19 | 2026-05-12 |
+| fruitlogix-webapp | feature/logistics-monitoring | 7fdedc4 | feat(infrastructure): implement logistics monitoring API gateway for deliveries and alerts | Daroh19 | 2026-05-12 |
+| fruitlogix-webapp | develop | 3b96a86 | Merge pull request #9 from feature/dashboard | johancg04 | 2026-05-12 |
+| fruitlogix-webapp | feature/logistics-monitoring | 0261f4a | feat(presentation): add delivery card component | Daroh19 | 2026-05-12 |
+| fruitlogix-webapp | develop | 9b872a1 | Merge pull request #2 from feature/pinia | johancg04 | 2026-05-12 |
+| fruitlogix-webapp | feature/logistics-monitoring | a0e2d79 | feat(presentation): add analytics and incidents view for real-time monitoring | Daroh19 | 2026-05-12 |
+| fruitlogix-webapp | develop | dd311cb | Merge pull request #5 from feature/payment-management | johancg04 | 2026-05-12 |
+| fruitlogix-webapp | feature/logistics-monitoring | f907ac5 | feat(presentation): add delivery details view for real-time tracking and telemetry | Daroh19 | 2026-05-12 |
+| fruitlogix-webapp | develop | 4e93fcf | Merge pull request #6 from feature/quality-control | johancg04 | 2026-05-12 |
+| fruitlogix-webapp | feature/logistics-monitoring | f5d1b39 | feat(presentation): add logistics monitoring home page for real-time order tracking | Daroh19 | 2026-05-12 |
+| fruitlogix-webapp | feature/logistics-monitoring | 510a014 | feat(presentation): add monitoring dashboard for real-time delivery tracking | Daroh19 | 2026-05-12 |
+| fruitlogix-webapp | develop | 6bf366d | Merge pull request #8 from feature/shared | johancg04 | 2026-05-12 |
+| fruitlogix-webapp | develop | 827149e | Merge pull request #7 from feature/order-management | johancg04 | 2026-05-12 |
+| fruitlogix-webapp | feature/logistics-monitoring | 0118c6c | feat(presentation): add logistics monitoring routes for dashboard and tracking | Daroh19 | 2026-05-12 |
+| fruitlogix-webapp | feature/logistics-monitoring | 0cc267c | feat(infrastructure): add TrackingLogAssembler for mapping TrackingLog entities | Daroh19 | 2026-05-12 |
+| fruitlogix-webapp | develop | bb062c6 | Merge pull request #4 from feature/profiles-and-vehicles | ECEB0704 | 2026-05-12 |
+| fruitlogix-webapp | feature/logistics-monitoring | 663b17b | feat(infrastructure): add DeliveryAssembler for mapping Delivery entities and API | Daroh19 | 2026-05-12 |
+| fruitlogix-webapp | feature/quality-control | f23091a | feat: add routing for quality control home view | Sergi9017 | 2026-05-12 |
+| fruitlogix-webapp | develop | 4bad8bd | Merge pull request #3 from feature/iot-infrastructure | ECEB0704 | 2026-05-12 |
+| fruitlogix-webapp | feature/shared | 5ae5300 | feat: add 404 page not found component with styling and navigation | johancg04 | 2026-05-12 |
+| fruitlogix-webapp | feature/quality-control | d3c14fe | feat: add placeholder view for quality control home | Sergi9017 | 2026-05-12 |
+| fruitlogix-webapp | feature/shared | cc6594c | feat: implement main layout with sidebar and topbar components | johancg04 | 2026-05-12 |
+| fruitlogix-webapp | feature/profiles-and-vehicles | 94d8d22 | feat: add Producer list view component for managing producers | ECEB0704 | 2026-05-12 |
+| fruitlogix-webapp | feature/logistics-monitoring | 83b7222 | feat(domain): add logistics Service for delivery ETA calculation and route | Daroh19 | 2026-05-12 |
+| fruitlogix-webapp | feature/profiles-and-vehicles | 8a67f1c | feat: add Producer registration form component | ECEB0704 | 2026-05-12 |
+| fruitlogix-webapp | feature/quality-control | b729b17 | feat: implement QualityControlApi for batch and incident management | Sergi9017 | 2026-05-12 |
+| fruitlogix-webapp | feature/profiles-and-vehicles | c1cf31f | feat: add lazy-loaded route definitions for Profiles & Vehicles context | ECEB0704 | 2026-05-12 |
+| fruitlogix-webapp | feature/quality-control | e9c7ca5 | feat: add Incident entity for quality control context | Sergi9017 | 2026-05-12 |
+| fruitlogix-webapp | feature/quality-control | f274e17 | feat: add HarvestBatch entity for quality control context | Sergi9017 | 2026-05-12 |
+| fruitlogix-webapp | feature/logistics-monitoring | 04ad413 | feat(domain): add notification entity and type enumeration for alerts | Daroh19 | 2026-05-12 |
+| fruitlogix-webapp | feature/profiles-and-vehicles | ccb200a | feat: implement ProfilesAndVehiclesApi for managing users, drivers, vehicles, and producers | ECEB0704 | 2026-05-12 |
+| fruitlogix-webapp | feature/logistics-monitoring | 78df662 | feat(domain): add route entity for delivery path representation | Daroh19 | 2026-05-12 |
+| fruitlogix-webapp | feature/profiles-and-vehicles | fe33df6 | feat: add ProducerAssembler for mapping Producer entity to API JSON | ECEB0704 | 2026-05-12 |
+| fruitlogix-webapp | feature/logistics-monitoring | e0371af | feat(domain): add TrackingLog entity for sensor data recording | Daroh19 | 2026-05-12 |
+| fruitlogix-webapp | feature/quality-control | e687e76 | feat: add quality control store with batch and incident fetching | Sergi9017 | 2026-05-12 |
+| fruitlogix-webapp | feature/profiles-and-vehicles | 0dbf229 | feat: add Vehicle entity definition for Profiles & Vehicles context | ECEB0704 | 2026-05-12 |
+| fruitlogix-webapp | feature/logistics-monitoring | e10904d | feat(domain): add Delivery entity and status enumeration for logistics | Daroh19 | 2026-05-12 |
+| fruitlogix-webapp | feature/profiles-and-vehicles | 38fda5a | feat: add User entity definition for Profiles & Vehicles context | ECEB0704 | 2026-05-12 |
+| fruitlogix-webapp | feature/i18n | 0a9b722 | feat: add language switcher component for locale selection | johancg04 | 2026-05-12 |
+| fruitlogix-webapp | feature/profiles-and-vehicles | d66dcfe | feat: add Producer entity definition for Profiles & Vehicles context | ECEB0704 | 2026-05-12 |
+| fruitlogix-webapp | feature/profiles-and-vehicles | 10defbd | feat: add Driver entity definition for Profiles & Vehicles context | ECEB0704 | 2026-05-12 |
+| fruitlogix-webapp | feature/profiles-and-vehicles | eeda93f | feat: add entity definitions for Driver, Producer, User, and Vehicle | ECEB0704 | 2026-05-12 |
+| fruitlogix-webapp | feature/shared | f39bdae | feat: add BaseEndpoint class for RESTful API interactions | johancg04 | 2026-05-12 |
+| fruitlogix-webapp | feature/shared | f4d5ed1 | feat: add BaseApi class with pre-configured Axios instance | johancg04 | 2026-05-12 |
+| fruitlogix-webapp | feature/profiles-and-vehicles | b88ccd4 | feat: implement Profiles & Vehicles store with CRUD operations for producers | ECEB0704 | 2026-05-12 |
+| fruitlogix-webapp | feature/profiles-and-vehicles | 7458826 | feat: add producer form validation logic | ECEB0704 | 2026-05-12 |
+| fruitlogix-webapp | feature/payment-management | c3e58b1 | feat: implement payment management views and entities | Sergi9017 | 2026-05-12 |
+| fruitlogix-webapp | feature/iot-infrastructure | 095f843 | feat(routes): add IoT infrastructure routes for device management and calibration | ECEB0704 | 2026-05-12 |
+| fruitlogix-webapp | feature/logistics-monitoring | f4d217c | feat(application): add logistics monitoring store for managing deliveries and tracking | Daroh19 | 2026-05-12 |
+| fruitlogix-webapp | feature/iot-infrastructure | fc36c0a | feat(ui): create IoT device fleet management view with real-time tracking and calibration | ECEB0704 | 2026-05-12 |
+| fruitlogix-webapp | feature/iot-infrastructure | 1cc581b | feat(ui): add placeholder view for IoT infrastructure overview | ECEB0704 | 2026-05-12 |
+| fruitlogix-webapp | feature/iot-infrastructure | 44f1f19 | feat(ui): add IoT calibration view for device monitoring and rule configuration | ECEB0704 | 2026-05-12 |
+| fruitlogix-webapp | feature/order-management | 65588a1 | feat: add lazy-loaded route definitions for order management | johancg04 | 2026-05-12 |
+| fruitlogix-webapp | feature/iot-infrastructure | 6485700 | feat(ui): implement device-card component for IoT device display | ECEB0704 | 2026-05-12 |
+| fruitlogix-webapp | feature/order-management | 8b139ff | feat: add ordering module with OrderList component for order management | johancg04 | 2026-05-12 |
+| fruitlogix-webapp | feature/dashboard | 9bb52ac | docs(dashboard): add router.js | gonzalojaimeforcelledo | 2026-05-12 |
+| fruitlogix-webapp | feature/order-management | a97456b | feat: add OrderSuccess component for displaying order confirmation in order management | johancg04 | 2026-05-12 |
+| fruitlogix-webapp | feature/order-management | 89f897d9 | feat: add OrderStateDialog component for tracking order status in order management | johancg04 | 2026-05-12 |
+| fruitlogix-webapp | feature/order-management | 062f2bc | feat: add OrderRegisterForm component for creating new orders in order management | johancg04 | 2026-05-12 |
+| fruitlogix-webapp | feature/iot-infrastructure | 2a54e4d | feat(infra): implement SensorReading assembler for DTO transformation | ECEB0704 | 2026-05-12 |
+| fruitlogix-webapp | feature/iot-infrastructure | 996b346 | feat(infra): add IoT infrastructure API service for external communication | ECEB0704 | 2026-05-12 |
+| fruitlogix-webapp | feature/order-management | 4e8d46a | feat: enhance order management with order list component and PrimeVue integration | johancg04 | 2026-05-12 |
+| fruitlogix-webapp | feature/iot-infrastructure | 0ea34bd | feat(infra): implement IoTDevice assembler for data mapping | ECEB0704 | 2026-05-12 |
+| fruitlogix-webapp | feature/iot-infrastructure | cb5ee5d | feat(domain): create ThresholdRule entity for sensor limits | ECEB0704 | 2026-05-12 |
+| fruitlogix-webapp | feature/order-management | 5c0afd9 | feat: add OrderEditDialog component for editing order details in order management | johancg04 | 2026-05-12 |
+| fruitlogix-webapp | feature/order-management | 6ee5893 | feat: add FruitSelector component for selecting fruits in order management | johancg04 | 2026-05-12 |
+| fruitlogix-webapp | feature/iot-infrastructure | a7eb430 | feat(domain): implement Sensor entity core structure define SensorReading entity for data collection | ECEB0704 | 2026-05-12 |
+| fruitlogix-webapp | feature/dashboard | b4e0611 | docs(dashboard): add pinia.js | gonzalojaimeforcelledo | 2026-05-12 |
+| fruitlogix-webapp | feature/order-management | ae914ed | feat: add AssignProducerDialog component for producer assignment in order management | johancg04 | 2026-05-12 |
+| fruitlogix-webapp | feature/dashboard | 59b9f76 | docs(dashboard): add dashboard.store.js | gonzalojaimeforcelledo | 2026-05-12 |
+| fruitlogix-webapp | feature/iot-infrastructure | a854d10 | feat(domain): add IoT enums for device states and types | ECEB0704 | 2026-05-12 |
+| fruitlogix-webapp | feature/order-management | 418f1fc | feat: implement OrderManagementApi for CRUD operations on orders and related resources | johancg04 | 2026-05-12 |
+| fruitlogix-webapp | feature/iot-infrastructure | 465256015 | feat(domain): create IoTDevice entity to represent physical hardware | ECEB0704 | 2026-05-12 |
+| fruitlogix-webapp | feature/dashboard | efc4a7f | docs(dashboard): add dashboard-stats.entity.js | gonzalojaimeforcelledo | 2026-05-12 |
+| fruitlogix-webapp | feature/iot-infrastructure | 323e2ca | feat(domain): define AlertRule entity for monitoring logic | ECEB0704 | 2026-05-12 |
+| fruitlogix-webapp | feature/order-management | 6da92b3 | feat: add OrderAssembler for mapping Order entities to/from API payloads | johancg04 | 2026-05-12 |
+| fruitlogix-webapp | feature/dashboard | 75806fa | docs(dashboard): add dashboard.assembler.js | gonzalojaimeforcelledo | 2026-05-12 |
+| fruitlogix-webapp | feature/order-management | b40b473 | feat: implement order and fruit entities with order management store | johancg04 | 2026-05-12 |
+| fruitlogix-webapp | feature/iot-infrastructure | 249b978 | feat(domain): define core models and business entities | ECEB0704 | 2026-05-12 |
+| fruitlogix-webapp | feature/dashboard | 32c36ff | docs(dashboard): add dashboard-api.js | gonzalojaimeforcelledo | 2026-05-12 |
+| fruitlogix-webapp | feature/iot-infrastructure | 35e27cd | chore: initial commit | ECEB0704 | 2026-05-12 |
+| fruitlogix-webapp | feature/order-management | 55e162b | feat: add order form validation logic | johancg04 | 2026-05-12 |
+| fruitlogix-webapp | feature/dashboard | b62605c | docs(dashboard): add dashboard-view.vue | gonzalojaimeforcelledo | 2026-05-12 |
+| fruitlogix-webapp | develop | d08c2d8 | feat: initialize Vue.js project with basic structure and configuration | johancg04 | 2026-05-12 |
+| fruitlogix-webapp | develop | 5b81dd5 | chore: initial commit | johancg04 | 2026-05-12 |
+
+#### 5.2.2.5. Execution Evidence for Sprint Review.
+En el Sprint 2 se logró implementar la primera versión funcional de la Web Application de FruitLogix, permitiendo gestionar pedidos, productores, monitoreo logístico, control de calidad y funcionalidades relacionadas con la infraestructura IoT dentro de una plataforma centralizada.
+Durante este Sprint se desarrollaron los principales módulos de la aplicación, incluyendo la gestión de pedidos y productores, seguimiento logístico en tiempo real, monitoreo de entregas, control de calidad y procesamiento de pagos. Asimismo, se implementó la navegación entre vistas mediante Vue Router, integración de estados utilizando Pinia y soporte multilenguaje mediante i18n. Adicionalmente, se avanzó en la implementación de servicios RESTful, entidades de dominio y componentes reutilizables siguiendo la arquitectura definida para el proyecto.
+A continuación, se presentan evidencias visuales de las principales vistas implementadas en este Sprint.
+
+Video de Demostración de la Web Application: https://goo.su/NOt4
+
+## Screenshots de la Web Application
+#### Dashboard Principal
+
+![Dashboard Principal](../assets/images/AppWeb8.jpeg)
+
+#### Seguimiento de Pedido
+
+![SPedidos](../assets/images/AppWeb7.jpeg)
+
+#### Eliminación de Pedido
+
+![EPedidos](../assets/images/AppWeb6.jpeg)
+
+#### Gestión de Productores
+
+![Gestión de Productores](../assets/images/AppWeb5.jpeg)
+
+#### Gestion de pagos
+
+![GestionPago](../assets/images/AppWeb3.jpeg)
+
+#### Infraestructura IoT
+
+![Monitoreo logístico en tiempo real](../assets/images/AppWeb1.jpeg)
+
+#### 5.2.2.6. Services Documentation Evidence for Sprint Review.
+
+En esta sección se presenta la documentación de los principales Web Services implementados durante el Sprint 2 para la Web Application de FruitLogix. Los servicios fueron diseñados bajo el estilo arquitectónico RESTful y documentados utilizando el estándar OpenAPI, permitiendo definir de manera clara las operaciones disponibles, parámetros, estructuras de request y responses esperados.
+
+Durante este Sprint se implementaron endpoints relacionados con la gestión de pedidos, productores, monitoreo logístico, infraestructura IoT, control de calidad, dashboard y procesamiento de pagos. Asimismo, los servicios fueron integrados utilizando APIs simuladas mediante MockAPI, facilitando las pruebas funcionales de la aplicación frontend.
+
+A continuación, se presenta la relación de endpoints implementados y documentados para este Sprint.
+
+| Contexto / Módulo | Endpoint Base | Acciones Implementadas |
+|---|---|---|
+| Orders | `https://6a02caf50d92f63dd2541a0a.mockapi.io/api/v1/orders` | GET, POST, PUT, DELETE |
+| Fruits | `https://6a02caf50d92f63dd2541a0a.mockapi.io/api/v1/fruits` | GET |
+| Producers | `https://69fb530388a7af0ecca8faec.mockapi.io/api/v1/producers` | GET, POST, PUT, DELETE |
+| Clients | `https://69fb530388a7af0ecca8faec.mockapi.io/api/v1/clients` | GET |
+| Sensor Readings | `https://6a02d3790d92f63dd25433f0.mockapi.io/api/v1/sensor-readings` | GET, POST |
+| Payment Transactions | `https://6a02cf8d0d92f63dd254278f.mockapi.io/api/v1/payment-transactions` | GET, POST |
+| Invoices | `https://6a02cf8d0d92f63dd254278f.mockapi.io/api/v1/invoices` | GET |
+| Tracking Logs | `https://6a02d0920d92f63dd2542b1d.mockapi.io/api/v1/trackinglogs` | GET |
+| Devices | `https://6a02d0920d92f63dd2542b1d.mockapi.io/api/v1/devices` | GET, POST, PUT |
+| Alert Rules | `https://6a02d3790d92f63dd25433f0.mockapi.io/api/v1/alert-rules` | GET, POST |
+| Dashboard | `https://6a0241850d92f63dd25375cb.mockapi.io/api/v1/dashboard` | GET |
+| Deliveries | `https://6a0241850d92f63dd25375cb.mockapi.io/api/v1/deliveries` | GET, PUT |
+
+---
+
+### Ejemplo de Documentación de Endpoint
+
+#### Orders Endpoint
+
+**Base URL:** https://6a02caf50d92f63dd2541a0a.mockapi.io/api/v1/orders
+
+#### http (get, post, put, delete, patch)
+
+![End1](../assets/images/End1.PNG)
+
+![End2](../assets/images/End2.PNG)
+
+
+### Evidencias Visuales de la Interacción
+
+Durante este Sprint, se ha logrado la definición y despliegue de los servicios web iniciales para la plataforma FruitLogix utilizando la plataforma MockAPI. Esta fase garantiza que el equipo de Front-end cuente con interfaces de datos consistentes antes de la migración definitiva a Spring Boot con OpenAPI.
+### Fruits
+
+![Fruits](../assets/images/Fruits1.jpeg)
+![Fruits2](../assets/images/Fruits2.jpeg)
+![Fruts3](../assets/images/Fruits3.jpeg)
+
+### Orders
+
+![Orders2](../assets/images/Orders.jpeg)
+![Orders](../assets/images/Orders1.jpeg)
+![Orders3](../assets/images/Orders2.jpeg)
+
+### Repositorio de Web Services
+
+Repositorio:
+https://github.com/upc-pre-202610-1asi0730-12242-devsteam/fruitlogix-webapp
+
+### Commits Relacionados con Services Documentation
+
+| Commit Id | Descripción |
+|---|---|
+| 418f1fc | Implementación de OrderManagementApi |
+| ccb200a | Implementación de ProfilesAndVehiclesApi |
+| 7fdedc4 | Implementación de Logistics Monitoring API |
+| b729b17 | Implementación de QualityControlApi |
+| 996b346 | Implementación de IoT Infrastructure API |
+| f4d5ed1 | Implementación de BaseApi para consumo REST |
+| f39bdae | Implementación de BaseEndpoint |
+
+
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review.
+
+Durante el Sprint 2 se realizaron las actividades relacionadas con el despliegue de la Web Application y configuración de servicios utilizados por FruitLogix. Para ello, se utilizaron plataformas cloud y herramientas de integración que permitieron publicar la aplicación y conectar los servicios REST utilizados durante el desarrollo.
+
+En este Sprint se trabajó principalmente en la configuración del proyecto frontend, despliegue de la aplicación web y consumo de APIs simuladas mediante MockAPI para pruebas funcionales.
+
+### Infraestructura Utilizada
+
+- GitHub como repositorio principal del proyecto.
+- GitHub Pages para el despliegue del frontend.
+- MockAPI para simulación de endpoints REST.
+- Vue.js + Vite para la construcción de la Web Application.
+
+### Proceso de Deployment
+
+#### 1. Configuración del repositorio
+
+Se creó y configuró el repositorio principal de la Web Application en GitHub, organizando la estructura del proyecto y ramas de desarrollo.
+
+#### 2. Configuración de variables de entorno
+
+Se configuraron las variables de entorno necesarias para conectar la aplicación con los servicios REST simulados mediante MockAPI.
+
+![env](../assets/images/vite.jfif)
+
+#### 3. Build de producción
+
+Se generó la versión de producción de la aplicación utilizando Vite.
+
+![Build](../assets/images/run.jfif)
+
+#### 4. Configuración de Firebase
+
+Se usó Firebase para alojar la aplicación web, configurando el hosting y conectando el repositorio de GitHub para despliegues automáticos.
+
+![Firebase](../assets/images/firebase.jfif)
+
+#### 5. Publicación de la aplicación
+
+La aplicación fue desplegada correctamente y quedó accesible mediante una URL pública
+
+![Publicacion](../assets/images/Publi.PNG)
+
+### Resultado
+
+La Web Application de FruitLogix fue desplegada exitosamente, permitiendo acceder a los módulos implementados durante el Sprint 2, incluyendo gestión de pedidos, productores, monitoreo logístico e infraestructura IoT.
+
+URL de despliegue: https://fruitlogixweb.web.app
+
+
+#### 5.2.2.8. Team Collaboration Insights during Sprint. 
+Durante el Sprint 2, el equipo desarrolló colaborativamente la primera versión de la Web Application de FruitLogix, distribuyendo tareas por módulos y bounded contexts para facilitar el trabajo paralelo. Cada integrante lideró un módulo específico de la plataforma, incluyendo gestión de pedidos, productores, calidad, trazabilidad, dashboard y servicios web. Además, se utilizó GitHub con GitFlow, ramas feature y pull requests revisados para mantener un desarrollo organizado y trazable.
+
+![Sprint2](../assets/images/Sprint2Cola.jpeg)
