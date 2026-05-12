@@ -413,12 +413,125 @@ Video de Demostración de la Web Application: https://goo.su/NOt4
 
 ![Monitoreo logístico en tiempo real](../assets/images/AppWeb1.jpeg)
 
-
-
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review.
+
+En esta sección se presenta la documentación de los principales Web Services implementados durante el Sprint 2 para la Web Application de FruitLogix. Los servicios fueron diseñados bajo el estilo arquitectónico RESTful y documentados utilizando el estándar OpenAPI, permitiendo definir de manera clara las operaciones disponibles, parámetros, estructuras de request y responses esperados.
+
+Durante este Sprint se implementaron endpoints relacionados con la gestión de pedidos, productores, monitoreo logístico, infraestructura IoT, control de calidad, dashboard y procesamiento de pagos. Asimismo, los servicios fueron integrados utilizando APIs simuladas mediante MockAPI, facilitando las pruebas funcionales de la aplicación frontend.
+
+A continuación, se presenta la relación de endpoints implementados y documentados para este Sprint.
+
+| Contexto / Módulo | Endpoint Base | Acciones Implementadas |
+|---|---|---|
+| Orders | `https://6a02caf50d92f63dd2541a0a.mockapi.io/api/v1/orders` | GET, POST, PUT, DELETE |
+| Fruits | `https://6a02caf50d92f63dd2541a0a.mockapi.io/api/v1/fruits` | GET |
+| Producers | `https://69fb530388a7af0ecca8faec.mockapi.io/api/v1/producers` | GET, POST, PUT, DELETE |
+| Clients | `https://69fb530388a7af0ecca8faec.mockapi.io/api/v1/clients` | GET |
+| Sensor Readings | `https://6a02d3790d92f63dd25433f0.mockapi.io/api/v1/sensor-readings` | GET, POST |
+| Payment Transactions | `https://6a02cf8d0d92f63dd254278f.mockapi.io/api/v1/payment-transactions` | GET, POST |
+| Invoices | `https://6a02cf8d0d92f63dd254278f.mockapi.io/api/v1/invoices` | GET |
+| Tracking Logs | `https://6a02d0920d92f63dd2542b1d.mockapi.io/api/v1/trackinglogs` | GET |
+| Devices | `https://6a02d0920d92f63dd2542b1d.mockapi.io/api/v1/devices` | GET, POST, PUT |
+| Alert Rules | `https://6a02d3790d92f63dd25433f0.mockapi.io/api/v1/alert-rules` | GET, POST |
+| Dashboard | `https://6a0241850d92f63dd25375cb.mockapi.io/api/v1/dashboard` | GET |
+| Deliveries | `https://6a0241850d92f63dd25375cb.mockapi.io/api/v1/deliveries` | GET, PUT |
+
+---
+
+### Ejemplo de Documentación de Endpoint
+
+#### Orders Endpoint
+
+**Base URL:** https://6a02caf50d92f63dd2541a0a.mockapi.io/api/v1/orders
+
+#### http (get, post, put, delete, patch)
+
+![End1](../assets/images/End1.PNG)
+
+![End2](../assets/images/End2.PNG)
+
+
+### Evidencias Visuales de la Interacción
+
+Durante este Sprint, se ha logrado la definición y despliegue de los servicios web iniciales para la plataforma FruitLogix utilizando la plataforma MockAPI. Esta fase garantiza que el equipo de Front-end cuente con interfaces de datos consistentes antes de la migración definitiva a Spring Boot con OpenAPI.
+### Fruits
+
+![Fruits](../assets/images/Fruits1.jpeg)
+![Fruits2](../assets/images/Fruits2.jpeg)
+![Fruts3](../assets/images/Fruits3.jpeg)
+
+### Orders
+
+![Orders2](../assets/images/Orders.jpeg)
+![Orders](../assets/images/Orders1.jpeg)
+![Orders3](../assets/images/Orders2.jpeg)
+
+### Repositorio de Web Services
+
+Repositorio:
+https://github.com/upc-pre-202610-1asi0730-12242-devsteam/fruitlogix-webapp
+
+### Commits Relacionados con Services Documentation
+
+| Commit Id | Descripción |
+|---|---|
+| 418f1fc | Implementación de OrderManagementApi |
+| ccb200a | Implementación de ProfilesAndVehiclesApi |
+| 7fdedc4 | Implementación de Logistics Monitoring API |
+| b729b17 | Implementación de QualityControlApi |
+| 996b346 | Implementación de IoT Infrastructure API |
+| f4d5ed1 | Implementación de BaseApi para consumo REST |
+| f39bdae | Implementación de BaseEndpoint |
 
 
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review.
+
+Durante el Sprint 2 se realizaron las actividades relacionadas con el despliegue de la Web Application y configuración de servicios utilizados por FruitLogix. Para ello, se utilizaron plataformas cloud y herramientas de integración que permitieron publicar la aplicación y conectar los servicios REST utilizados durante el desarrollo.
+
+En este Sprint se trabajó principalmente en la configuración del proyecto frontend, despliegue de la aplicación web y consumo de APIs simuladas mediante MockAPI para pruebas funcionales.
+
+### Infraestructura Utilizada
+
+- GitHub como repositorio principal del proyecto.
+- GitHub Pages para el despliegue del frontend.
+- MockAPI para simulación de endpoints REST.
+- Vue.js + Vite para la construcción de la Web Application.
+
+### Proceso de Deployment
+
+#### 1. Configuración del repositorio
+
+Se creó y configuró el repositorio principal de la Web Application en GitHub, organizando la estructura del proyecto y ramas de desarrollo.
+
+#### 2. Configuración de variables de entorno
+
+Se configuraron las variables de entorno necesarias para conectar la aplicación con los servicios REST simulados mediante MockAPI.
+
+![env](../assets/images/vite.jfif)
+
+#### 3. Build de producción
+
+Se generó la versión de producción de la aplicación utilizando Vite.
+
+![Build](../assets/images/run.jfif)
+
+#### 4. Configuración de Firebase
+
+Se usó Firebase para alojar la aplicación web, configurando el hosting y conectando el repositorio de GitHub para despliegues automáticos.
+
+![Firebase](../assets/images/firebase.jfif)
+
+#### 5. Publicación de la aplicación
+
+La aplicación fue desplegada correctamente y quedó accesible mediante una URL pública
+
+![Publicacion](../assets/images/Publi.PNG)
+
+### Resultado
+
+La Web Application de FruitLogix fue desplegada exitosamente, permitiendo acceder a los módulos implementados durante el Sprint 2, incluyendo gestión de pedidos, productores, monitoreo logístico e infraestructura IoT.
+
+URL de despliegue: https://fruitlogixweb.web.app
 
 
 #### 5.2.2.8. Team Collaboration Insights during Sprint. 
