@@ -7,6 +7,7 @@ En esta vista general se representó el dominio completo del sistema **FruitLogi
 Los contextos definidos fueron:
 
 - Infrastructure & IoT
+- Profiles Fleet Management
 - Order Management
 - Quality Control Context
 - Logistics and Monitoring
