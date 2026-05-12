@@ -184,3 +184,100 @@ Cada integrante asumió la responsabilidad de una parte específica del *Landing
 La integración del trabajo se realizó de manera progresiva, consolidando las distintas secciones en una única versión funcional del *Landing Page*.
 
 ![Insights](../assets/images/Insights-Contributors.png)
+
+### 5.2.2. Sprint 2
+
+#### 5.2.2.1 Sprint Planning 2
+En esta sección se describen los principales acuerdos y definiciones realizadas durante el Sprint Planning del Sprint 2, enfocado en la implementación de los módulos de gestión de pedidos, productores y seguimiento logístico de FruitLogix.
+
+| Sprint # | Sprint 2 |
+|---|---|
+| **Sprint Planning Background** | |
+| Date | 2026-05-10 |
+| Time | 19:00 |
+| Location | Reunión virtual (Google Meet) |
+| Prepared By | Evangelista Ygnacio, Sergio Joaquín |
+| Attendees (to planning meeting) | Contreras Granados, Johan Alexis - Chavez Bardales, Esteban Eduardo - Evangelista Ygnacio, Sergio Joaquín - Jaime Forcelledo, Gonzalo Alexander - Palomino Vilcañaupa, Daril Johan |
+| **Sprint 1 Review Summary** | Durante el Sprint 1 se logró implementar correctamente el Landing Page responsive de FruitLogix, incluyendo navegación entre secciones, adaptación móvil y soporte multilenguaje. Además, el equipo consolidó la estructura base del frontend y definió estándares iniciales de trabajo colaborativo utilizando GitFlow y Trello para la gestión de tareas. |
+| **Sprint 1 Retrospective Summary** | El equipo identificó como principal fortaleza la buena distribución de tareas y la comunicación constante durante el desarrollo del Sprint 1. Sin embargo, se detectaron pequeños retrasos en la integración de componentes y validaciones responsive, por lo que para este sprint se acordó mejorar la coordinación durante los merges y aumentar la frecuencia de revisiones entre integrantes. |
+| **Sprint 2 Goal** | Our focus is on developing the order and producer management modules, IoT infrastructure, logistics monitoring and payment processing for FruitLogix. We believe it delivers better logistics organization, real-time quality control and centralized operational control for distributors. This will be confirmed when users can register, edit, visualize and manage orders and producers correctly, IoT devices send and evaluate sensor readings, shipments are tracked in real time, and payments are processed and confirmed within the platform. |
+| **Sprint 2 Velocity** | 38 Story Points |
+| **Sum of Story Points** | 38 Story Points |
+
+
+| Sprint # | Nano Sprint |
+|---|---|
+| **Sprint Planning Background** | |
+| Date | 2026-05-11 |
+| Time | 10:00 - 12:30 |
+| Location | Reunión física en clase |
+| Prepared By | Velasquez Nuñez, Angel Augusto |
+| Attendees (to planning meeting) | Contreras Granados, Johan Alexis - Chavez Bardales, Esteban Eduardo - Evangelista Ygnacio, Sergio Joaquín - Palomino Vilcañaupa, Daril Johan |
+| **Sprint 2 Review Summary** | Durante el Sprint 2 se logró implementar los módulos de gestión de pedidos y productores de FruitLogix, incluyendo el formulario de registro, validaciones, tabla de pedidos, edición, eliminación lógica y lista de productores. Además, el equipo avanzó en la integración de Vue Router para la navegación entre vistas y consolidó el uso del validador externo separado en la capa de aplicación. |
+| **Sprint 2 Retrospective Summary** | El equipo identificó como principal fortaleza la correcta separación de responsabilidades entre capas (presentation, application) siguiendo la arquitectura DDD definida en el event storming. Sin embargo, se detectaron retrasos en la conexión entre componentes vía Vue Router y en la gestión de los emits entre vistas, por lo que para el Nano Sprint se acordó priorizar la integración completa del flujo de navegación y aumentar la frecuencia de revisiones entre integrantes antes de los merges. |
+| **Nano Sprint Goal** | Our focus is on developing the order and producer management modules for FruitLogix. We believe it delivers better logistics organization and centralized operational control for distributors. This will be confirmed when users can register, edit, visualize and manage orders and producers correctly within the platform. |
+| **Nano Sprint Velocity** | 9 Story Points |
+| **Sum of Story Points** | 9 Story Points |
+
+#### 5.2.2.2. Aspect Leaders and Collaborators.
+
+En esta sección se define la matriz de liderazgo y colaboración (LACX) del Sprint 2, la cual permite identificar claramente las responsabilidades de cada integrante del equipo en los distintos aspectos del desarrollo.
+
+| Team Member (Last Name, First Name) | GitHub Username | Gestión de Pedidos | Gestión de Productores | Seguimiento de Entregas y Estados |
+|---|---|---|---|---|
+| Contreras Granados, Johan Alexis | johancg04 | C | C | L |
+| Evangelista Ygnacio, Sergio Joaquín | Sergi9017 | L | C | C |
+| Chavez Bardales, Esteban Eduardo | ECEB0704 | C | L | C |
+| Jaime Forcelledo, Gonzalo Alexander | gonzalojaimeforcelledo | C | C | C |
+| Palomino Vilcañaupa, Daril Johan | Daroh19 | C | C | C |
+
+#### 5.2.2.3. Sprint Backlog 2
+El Sprint 2 tuvo como objetivo principal la implementación de las funcionalidades relacionadas con la gestión de pedidos y productores dentro de la plataforma FruitLogix, permitiendo centralizar la información logística y mejorar el seguimiento operativo de los pedidos en tiempo real.
+
+A continuación, se presenta el tablero correspondiente al Sprint 2 junto con su enlace:
+
+URL: https://goo.su/XA06
+
+| User Story ID | User Story Title | Task ID | Task Title | Description | Estimation (Hours) | Assigned To |
+|---|---|---|---|---|---|---|
+| US01 | Formulario de registro de pedidos | TASK008 | Formulario registro de pedidos | Desarrollo de la interfaz para registrar nuevos pedidos en la plataforma. | 5 | Johan |
+| US01 | Validaciones de pedido | TASK009 | Validaciones de pedido | Implementación de validaciones para campos obligatorios en pedidos. | 3 | Sergio |
+| US04 | Listar pedidos | TASK010 | Tabla de pedidos | Creación de la vista para listar y visualizar pedidos registrados. | 4 | Esteban |
+| US02 | Edición de pedidos | TASK011 | Edición de pedidos | Desarrollo de la funcionalidad para modificar información de pedidos existentes. | 4 | Gonzalo |
+| US02 | Restricción de modificación | TASK022 | Restricción de modificación | Valida el pedido y en caso contrario muestra un mensaje de restricción al Distribuidor cuando intente editar el pedido. | 3 | Daril |
+| US03 | Eliminación de pedidos | TASK012 | Eliminación de pedidos | Implementación de la eliminación lógica de pedidos dentro del sistema. | 3 | Johan |
+| US04 | Tabla de pedidos | TASK010 | Tabla de pedidos | Creación de la vista para listar y visualizar pedidos registrados. | 5 | Sergio |
+| US04 | Comprobación de registro de pedidos | TASK021 | Comprobación de registro de pedidos | Validar que el sistema muestre correctamente mensaje informativo cuando no existan datos registrados. | 2 | Esteban |
+| US05 | Registro de productores | TASK013 | Registro de productores | Desarrollo del formulario para registrar productores en la plataforma. | 5 | Gonzalo |
+| US05 | Validación de datos | TASK020 | Validación de datos | Desarrollo del registro del productor pero en caso falte algún dato, el sistema resalta los datos con error y muestra mensaje de validación. | 3 | Daril |
+| US06 | Lista de productores | TASK014 | Lista de productores | Implementación de la visualización de productores registrados. | 4 | Johan |
+| US013 | ID inválida | TASK023 | ID inválida | Implementación de la validación de códigos de pedido inexistentes al realizar una consulta de rastreo. | 2 | Sergio |
+| US014 | Actualización de estados | TASK016 | Actualización de estados | Implementación de cambios manuales en el estado logístico de pedidos. | 4 | Sergio |
+| TS004 | Crear endpoint registro de pedidos API | TASK017 | Crear endpoint registro de pedidos API | Desarrollo del endpoint REST para registrar pedidos desde el backend. | 5 | Johan |
+| TS005 | Crear endpoint consulta de pedidos API | TASK018 | Crear endpoint consulta de pedidos API | Implementación del endpoint REST para consultar pedidos registrados. | 4 | Esteban |
+| TS008 | Gestión de productores API | TASK019 | Gestión de productores API | Desarrollo de endpoints para registrar y consultar productores. | 5 | Daril |
+| US015 | Endpoint de ubicación en tiempo real | TASK024 | Implementar endpoint de ubicación en tiempo real | Crear el endpoint que retorna la última lectura de ubicación registrada por el dispositivo GPS_TRACKER asociado a un pedido. | 6 | Sergio |
+| US015 | Calibración de dispositivos IoT | TASK025 | Implementar calibración de dispositivos IoT | Desarrollar la funcionalidad calibrate() de la clase IoTDevice para permitir el ajuste de parámetros de los sensores desde la plataforma. | 5 | Johan |
+| US017 | Notificación de retraso por GPS Tracker | TASK026 | Implementar notificación de retraso por GPS Tracker | Desarrollar el servicio que consume las lecturas del GPS_TRACKER para detectar retrasos y generar notificación al Cliente Comercial. | 6 | Esteban |
+| US018 | Crear entidad IoTDevice | TASK027 | Crear entidad IoTDevice | Implementar la clase IoTDevice con atributos deviceId, deviceType, location, status y lastReading, incluyendo los métodos connect(), sendData() y calibrate(). | 4 | Daril |
+| US018 | Crear entidad SensorReading | TASK028 | Crear entidad SensorReading | Implementar la clase SensorReading con atributos readingId, deviceId, timestamp, value y unit, incluyendo los métodos validateRange() y generateAlert(). | 4 | Sergio |
+| US018 | Crear entidad AlertRule | TASK029 | Crear entidad AlertRule | Implementar la clase AlertRule con atributos ruleId, deviceType, minThreshold, maxThreshold y alertMessage, incluyendo el método evaluate(reading). | 3 | Johan |
+| US018 | Crear enumeración DeviceType | TASK030 | Crear enumeración DeviceType | Implementar el enum DeviceType con los valores TEMPERATURE_SENSOR, HUMIDITY_SENSOR, GPS_TRACKER y WEIGHT_SCALE. | 2 | Esteban |
+| US018 | Crear enumeración DeviceStatus | TASK031 | Crear enumeración DeviceStatus | Implementar el enum DeviceStatus con los valores ACTIVE, OFFLINE, MAINTENANCE y BATTERY_LOW. | 2 | Daril |
+| US018 | Repositorio de dispositivos IoT | TASK032 | Implementar repositorio de dispositivos IoT | Crear el repositorio para la persistencia de IoTDevice, SensorReading y AlertRule, incluyendo operaciones de registro, consulta y actualización. | 5 | Sergio |
+| US018 | Lógica de evaluación de alertas | TASK033 | Implementar lógica de evaluación de alertas de calidad | Desarrollar el servicio que ejecuta evaluate(reading) de AlertRule para comparar lecturas contra umbrales y generar alertas automáticas. | 5 | Johan |
+| US018 | Endpoint de registro de lectura de sensor | TASK034 | Implementar endpoint de registro de lectura de sensor | Crear el endpoint que recibe lecturas de dispositivos IoT, las persiste como SensorReading y dispara la evaluación de AlertRule. | 5 | Esteban |
+| US021 | Generación de Invoice en PDF | TASK035 | Generación de Invoice en PDF | Desarrollar la funcionalidad generatePDF() de la clase Invoice para exportar la factura en formato PDF con los datos del pedido y monto total. | 5 | Daril |
+| US021 | Endpoint de consulta de facturas | TASK036 | Implementar endpoint de consulta de facturas | Crear el endpoint que retorna el historial de facturas generadas por rango de fechas para el módulo de reportes del Distribuidor. | 4 | Sergio |
+| US030 | Crear entidad BillingInfo | TASK037 | Crear entidad BillingInfo | Implementar la clase BillingInfo con atributos billingId, clientId, creditCardToken y paymentMethodType, incluyendo processPayment() y updatePaymentMethod(). | 3 | Johan |
+| US030 | Crear entidad Invoice | TASK038 | Crear entidad Invoice | Implementar la clase Invoice con atributos invoiceId, orderId, issueDate, totalAmount y paymentStatus, incluyendo generatePDF() y markAsPaid(). | 3 | Esteban |
+| US030 | Crear entidad Transaction | TASK039 | Crear entidad Transaction | Implementar la clase Transaction con atributos transactionId, invoiceId, amount, timestamp y externalReference, incluyendo confirm() y reverse(). | 3 | Daril |
+| US030 | Crear enumeración PaymentStatus | TASK040 | Crear enumeración PaymentStatus | Implementar el enum PaymentStatus con los valores PENDING, PAID, FAILED, REFUNDED y PARTIALLY_PAID. | 2 | Sergio |
+| US030 | Repositorio de pagos | TASK041 | Implementar repositorio de pagos | Crear el repositorio para la persistencia de BillingInfo, Invoice y Transaction, incluyendo operaciones de creación y consulta. | 4 | Johan |
+| US030 | Integración con pasarela externa | TASK042 | Integración con pasarela externa | Desarrollar el servicio de integración con Culqi o Izipay para procesar pagos y recibir confirmación o rechazo de la transacción. | 8 | Esteban |
+| US030 | Endpoint de procesamiento de pago | TASK043 | Implementar endpoint de procesamiento de pago | Crear el endpoint que recibe la solicitud de pago, llama al servicio de la pasarela externa y actualiza el estado del pedido a "Pagado". | 5 | Daril |
+| US030 | Manejo de pago rechazado | TASK044 | Implementar manejo de pago rechazado | Desarrollar la lógica que gestiona la respuesta negativa de la pasarela, mantiene el pedido en "Pendiente de pago" y retorna el mensaje de error. | 4 | Sergio |
+| US030 | Confirmación de pago por correo | TASK045 | Enviar confirmación de pago por correo | Implementar el envío automático de correo de confirmación al cliente cuando la transacción es aprobada, incluyendo detalle del pedido y comprobante. | 4 | Johan |
+
+#### 5.2.2.4. Development Evidence for Sprint Review
+
