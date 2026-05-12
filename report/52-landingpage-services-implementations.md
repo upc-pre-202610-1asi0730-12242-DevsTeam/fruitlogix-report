@@ -380,3 +380,17 @@ URL: https://goo.su/XA06
 | fruitlogix-webapp | feature/dashboard | b62605c | docs(dashboard): add dashboard-view.vue | gonzalojaimeforcelledo | 2026-05-12 |
 | fruitlogix-webapp | develop | d08c2d8 | feat: initialize Vue.js project with basic structure and configuration | johancg04 | 2026-05-12 |
 | fruitlogix-webapp | develop | 5b81dd5 | chore: initial commit | johancg04 | 2026-05-12 |
+
+#### 5.2.2.5. Execution Evidence for Sprint Review.
+
+
+#### 5.2.2.6. Services Documentation Evidence for Sprint Review.
+
+
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review.
+
+
+#### 5.2.2.8. Team Collaboration Insights during Sprint. 
+Durante el Sprint 2, el equipo desarrolló colaborativamente la primera versión de la Web Application de FruitLogix, distribuyendo tareas por módulos y bounded contexts para facilitar el trabajo paralelo. Cada integrante lideró un módulo específico de la plataforma, incluyendo gestión de pedidos, productores, calidad, trazabilidad, dashboard y servicios web. Además, se utilizó GitHub con GitFlow, ramas feature y pull requests revisados para mantener un desarrollo organizado y trazable.
+
+![Sprint2](../assets/images/Sprint2Cola.jpeg)
