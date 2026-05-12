@@ -4,8 +4,8 @@
 
 | Entrega | Enlace |
 |----------|---------|
-| AV1 | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423752_upc_edu_pe/IQCdfCcYJLfIS6wAoJyHUOAlATpnELpjaCLZGTE5bp6ByOs?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=yFTrLt |
-| TB1 |  |
+| AV1 | https://goo.su/mdcscB |
+| TB1 | https://goo.su/fbGf |
 
 ---
 
