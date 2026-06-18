@@ -39,7 +39,7 @@ Las entrevistas tuvieron como finalidad validar la comprensión de la propuesta 
 
 ## 5.3.2. Registro de Entrevistas
 
-**Link del video consolidado de entrevistas:** [Entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423752_upc_edu_pe/IQAeYeoHtkKqQpNlKFbUsGftAQNlkzmfRXirISI_FXzZnU8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=PQuJQI)
+**Link del video consolidado de entrevistas:** [https://bit.ly/4etImQj](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423752_upc_edu_pe/IQAeYeoHtkKqQpNlKFbUsGftAQNlkzmfRXirISI_FXzZnU8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=PQuJQI)
 
 ### Entrevista 1
 
@@ -50,7 +50,7 @@ Las entrevistas tuvieron como finalidad validar la comprensión de la propuesta 
 | Nombre completo | Paola Jimenez          |
 | Edad | 25                     |
 | Distrito | San Juan de Miraflores |
-| Link | [Entrevista_Paola](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423752_upc_edu_pe/IQAeYeoHtkKqQpNlKFbUsGftATV5TI1ITN9Hj0ktiBlCsN8?e=YEgRe3&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7fX0%3D)   |
+| Link | [https://bit.ly/43E9sPY](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423752_upc_edu_pe/IQAeYeoHtkKqQpNlKFbUsGftATV5TI1ITN9Hj0ktiBlCsN8?e=YEgRe3&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7fX0%3D)   |
 
 #### Características del arquetipo
 
@@ -76,7 +76,7 @@ Paola consideró que la plataforma le permitiría ahorrar tiempo al centralizar 
 | Nombre completo | Karen Forcelledo     |
 | Edad | 37                   |
 | Distrito | San Borja            |
-| Link | [Entrevista_Karen](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423752_upc_edu_pe/IQAeYeoHtkKqQpNlKFbUsGftATV5TI1ITN9Hj0ktiBlCsN8?e=0vkcQU&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6NjExLjUyfX0%3D) |
+| Link | [https://bit.ly/4xAylJT](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423752_upc_edu_pe/IQAeYeoHtkKqQpNlKFbUsGftATV5TI1ITN9Hj0ktiBlCsN8?e=0vkcQU&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6NjExLjUyfX0%3D) |
 
 #### Características del arquetipo
 
@@ -101,7 +101,7 @@ Karen indicó que la plataforma le ahorraría tiempo al evitar intercambios cons
 | Nombre completo | Richard Palomino       |
 | Edad | 20                     |
 | Distrito | Villa El Salvador      |
-| Link | [Entrevista_Richard](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423752_upc_edu_pe/IQAeYeoHtkKqQpNlKFbUsGftATV5TI1ITN9Hj0ktiBlCsN8?e=s9mw4Z&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6OTQ4LjIxfX0%3D) |
+| Link | [https://bit.ly/4uEXXTh](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423752_upc_edu_pe/IQAeYeoHtkKqQpNlKFbUsGftATV5TI1ITN9Hj0ktiBlCsN8?e=s9mw4Z&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6OTQ4LjIxfX0%3D) |
 
 #### Características del arquetipo
 
@@ -126,7 +126,7 @@ Richard completó satisfactoriamente las tareas propuestas dentro de la platafor
 | Nombre completo | Bianzel Milagritos Noriega Donayre |
 | Edad | 22                                 |
 | Distrito | San Isidro                         |
-| Link | [Entrevista_Bianzel](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423752_upc_edu_pe/IQAeYeoHtkKqQpNlKFbUsGftATV5TI1ITN9Hj0ktiBlCsN8?e=d5ALcH&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MTU1Ni4zNH19)             |
+| Link | [https://bit.ly/4fTVPDx](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202423752_upc_edu_pe/IQAeYeoHtkKqQpNlKFbUsGftATV5TI1ITN9Hj0ktiBlCsN8?e=d5ALcH&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MTU1Ni4zNH19)             |
 
 #### Características del arquetipo
 
