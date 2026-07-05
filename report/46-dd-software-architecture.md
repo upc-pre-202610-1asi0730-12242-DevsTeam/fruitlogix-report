@@ -89,19 +89,137 @@ A partir de ello, se recopilan datos relevantes como madurez, calibre y condicio
 
 #### 4.6.2. Software Architecture Context Diagram
 
-Primero, el sistema tiene como objetivo optimizar la toma de decisiones para distribuidores y productores. Al integrar herramientas de geolocalización y monitoreo en tiempo real, el propósito es reducir las pérdidas por malas rutas o condiciones ambientales inadecuadas (como fallas en la cadena de frío), permitiendo que los actores reaccionen rápidamente ante cualquier alerta enviada por los sensores IoT.
+El *Context Diagram* es el nivel más alto de abstracción del C4 Model. Su objetivo es mostrar a **FruitLogix** como una “caja negra” en el centro del ecosistema, identificando los actores que interactúan con el sistema y los sistemas externos con los que se integra, sin detallar aún su arquitectura interna o tecnología.
 
-Finalmente, el propósito comercial del sistema es generar confianza y formalizar las transacciones en el sector agrícola. Al incluir pasarelas de pago y confirmaciones de recepción, FruitLogix busca crear un ecosistema seguro donde los clientes comerciales tengan la certeza de que recibirán un producto que cumple con los estándares de calidad registrados, facilitando una relación comercial más fluida y profesional entre el campo y la ciudad.
+El diagrama fue elaborado en Structurizr siguiendo la notación estándar del C4 Model.
+
+---
+
+## Actores
+
+**Distribuidor:**  
+Es el actor central del negocio. Registra pedidos, gestiona la relación con los productores y asigna las órdenes según disponibilidad y calidad. Es el usuario con mayor interacción diaria con el sistema.
+
+**Productor Agrícola:**  
+Registra la cosecha disponible y reporta los datos de calidad de cada lote. Puede incluir información capturada por sensores IoT (temperatura y humedad) durante el almacenamiento y transporte inicial.
+
+**Cliente Comercial:**  
+Incluye supermercados, restaurantes y juguerías. Su principal interacción es el seguimiento de pedidos en tiempo real y la confirmación de recepción de los productos, cerrando el ciclo de trazabilidad.
+
+---
+
+## Sistemas externos
+
+**Google Maps API:**  
+Provee servicios de geolocalización y cálculo de rutas óptimas entre productores, centros de distribución y clientes finales. FruitLogix la utiliza para optimizar tiempos de entrega y reducir el kilometraje en el transporte de productos perecederos.
+
+**Pasarela de Pagos:**  
+Proveedores externos que procesan pagos de forma segura mediante tarjetas de crédito, débito y transferencias. Permiten a FruitLogix evitar el manejo directo de datos sensibles, cumpliendo estándares de seguridad como PCI-DSS.
+
+**Sensores IoT:**  
+Dispositivos instalados en unidades de transporte y almacenes que monitorean temperatura y humedad en tiempo real. Envían telemetría a FruitLogix, permitiendo generar alertas ante desviaciones en la cadena de frío.
+
+---
+
+## Interacciones principales
+
+El sistema presenta tres tipos de flujos de información:
+
+- **Flujos operativos:** interacción entre actores humanos y FruitLogix para la gestión de pedidos, registro de calidad, seguimiento y confirmación de entregas.
+- **Flujos hacia servicios externos:** solicitudes a servicios como Google Maps para cálculo de rutas y optimización logística.
+- **Flujos de datos externos:** ingreso de telemetría desde sensores IoT y comunicación con pasarelas de pago para procesar transacciones.
+
+---
+
+## Propósito del sistema
+
+El sistema busca optimizar la toma de decisiones en la cadena de suministro agrícola mediante la integración de información en tiempo real, permitiendo reducir pérdidas por rutas ineficientes o fallas en la cadena de frío.
+
+Asimismo, promueve la reacción temprana ante alertas generadas por sensores IoT, mejorando la eficiencia operativa de distribuidores y productores.
+
+Desde una perspectiva comercial, FruitLogix busca formalizar y asegurar las transacciones en el sector agrícola, generando confianza entre productores, distribuidores y clientes comerciales. La integración de pagos seguros y confirmaciones de entrega permite construir un ecosistema más transparente, eficiente y profesional entre el campo y la ciudad.
 
 ![ContextDiagram](../assets/images/ContextDiagrams.png)
 
 **Nota:** Elaboración propia en Structurizr.
 
 #### 4.6.3. Software Architecture Container Diagrams
+El Container Diagram profundiza un nivel respecto al Context Diagram: descompone a FruitLogix en sus unidades desplegables (containers), como aplicaciones, servicios y almacenes de datos, y muestra la tecnología elegida para cada uno, así como los protocolos de comunicación entre ellos.
 
-El diagrama cumple el objetivo al mapear explícitamente las tecnologías elegidas  y definir las fronteras de cada componente ejecutable. Muestra con precisión que toda la interacción de los usuarios está centralizada en una única aplicación web y que el backend está desacoplado en microservicios especializados, lo que facilita planificar la escalabilidad independiente de módulos críticos como la ingesta de datos de IoT o el procesamiento de pagos.
+---
 
-Finalmente, el propósito del diagrama es documentar el flujo de datos y las dependencias, tanto internas como externas. Permite visualizar cómo los servicios consumen y escriben información en una base de datos común (indicado con las flechas L/E de Lectura/Escritura) y de qué manera el ecosistema de FruitLogix se integra de forma segura con servicios de terceros (Google Maps) y Dispositivos IoT para que todo el equipo  esté alineado al momento de codificar o desplegar la infraestructura.
+## Web Application
+
+Es el único punto de entrada para los tres tipos de usuario: **Distribuidor, Productor Agrícola y Cliente Comercial**.
+
+Se implementa como una *Single Page Application (SPA)* que consume los distintos servicios backend mediante llamadas **REST sobre HTTPS**.
+
+Centraliza:
+- Autenticación de usuarios
+- Registro y gestión de pedidos
+- Consulta de trazabilidad y rutas
+- Gestión de pagos (a través del backend)
+
+La aplicación no contiene lógica de negocio compleja, ya que esta se delega completamente a los microservicios del backend.
+
+---
+
+## Backend Services (ASP.NET Core / C#)
+
+El backend está desacoplado en seis microservicios, cada uno alineado a un *Bounded Context* del dominio bajo un enfoque de **Domain-Driven Design (DDD)**:
+
+**Order Management Service:**  
+Gestiona el ciclo de vida completo de un pedido: creación, asignación a productores y seguimiento hasta su entrega.
+
+**Profiles & Vehicles Service:**  
+Administra los perfiles de usuarios (distribuidores, productores y clientes comerciales) y el registro de la flota de vehículos de transporte.
+
+**Quality Control Service:**  
+Gestiona la validación de calidad de los lotes antes del despacho, incluyendo criterios estandarizados y evidencia fotográfica.
+
+**Logistics & Monitoring Service:**  
+Calcula rutas óptimas e integra servicios de geolocalización mediante **Google Maps API**, además de monitorear el estado de entregas en tránsito.
+
+**Infrastructure & IoT Service:**  
+Recibe e ingiere telemetría desde sensores IoT instalados en unidades de transporte y almacenes, procesando datos de temperatura y humedad para generar alertas.
+
+**Payment Management Service:**  
+Gestiona la facturación y valida transacciones de pago integrándose con pasarelas externas como **Izipay o Culqi**.
+
+---
+
+## Base de Datos
+
+Se utiliza una **base de datos relacional compartida**, organizada internamente por esquemas separados según cada *Bounded Context*.
+
+Esta decisión se tomó debido a:
+- Tamaño del equipo y del proyecto
+- Necesidad de simplicidad operativa
+- Consistencia transaccional entre contextos fuertemente relacionados (por ejemplo, pedidos y pagos)
+
+Cada microservicio accede únicamente a su propio esquema, manteniendo el desacoplamiento a nivel lógico. Esto permite una futura migración a bases de datos independientes si el sistema escala.
+
+---
+
+## Integraciones Externas
+
+El sistema se integra con tres tipos de servicios externos:
+
+- **Google Maps API:** utilizada por el Logistics & Monitoring Service para cálculo de rutas y optimización de entregas.
+- **Sensores IoT:** dispositivos que envían telemetría en tiempo real al Infrastructure & IoT Service.
+- **Pasarela de Pagos (Izipay / Culqi):** utilizada por el Payment Management Service para procesar transacciones de forma segura.
+
+---
+
+## Propósito del Diagrama
+
+El Container Diagram permite visualizar cómo se estructura FruitLogix a nivel de ejecución, mostrando claramente:
+- La separación entre frontend y backend
+- La descomposición del backend en microservicios especializados
+- La integración con sistemas externos críticos
+- El uso de una base de datos compartida por esquemas
+
+Finalmente, el diagrama evidencia cómo los datos fluyen entre containers internos y externos, permitiendo al equipo entender las dependencias del sistema, coordinar el desarrollo y preparar una arquitectura escalable, especialmente en módulos críticos como IoT y pagos.
 
 ![Container Diagrams](../assets/images/ddd2.png)
 
