@@ -558,22 +558,25 @@ En esta sección se detalla la evolución del proyecto durante el Sprint 3, el c
 ##### 5.2.3.1. Sprint Planning 3
 En esta sección se describen los acuerdos, antecedentes y objetivos establecidos durante la reunión de planificación del Sprint 3[cite: 1].
 
-| Campo | Detalle                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-| :--- |:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Sprint #** | Sprint 3                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| **Sprint Planning Background** |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| Date | 2026-06-05                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| Time | 18:30                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-| Location | Reunión virtual (Google Meet)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-| Prepared By | Evangelista Ygnacio, Sergio Joaquín                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| Attendees (to planning meeting) | Chavez Bardales, Esteban Eduardo - Evangelista Ygnacio, Sergio Joaquín - Jaime Forcelledo, Gonzalo Alexander - Palomino Vilcañaupa, Daril Johan                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| **Sprint 2 Review Summary** | Durante el Sprint 2 se consolidó la interfaz de usuario de la Web Application empleando datos simulados. Los componentes de presentación y la gestión de estados globales mediante Pinia quedaron funcionales, listos para la integración con el backend real.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| **Sprint 2 Retrospective Summary** | El equipo identificó la necesidad imperativa de erradicar la dependencia de contratos de datos estáticos. Se acordó acelerar el diseño de la capa de persistencia en C# y unificar la navegación entre el Landing Page y la Web Application para mejorar la experiencia de adquisición de usuarios.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| **Sprint Goal & User Stories** |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| Sprint 3 Goal | **Nuestro enfoque es** es habilitar la gestión de pedidos, el registro de productores y el monitoreo de dispositivos IoT con datos persistentes, integrando el acceso directo desde el Landing Page hacia la plataforma.<br><br>**Creemos que esto entrega:**<br>1. A los **Visitantes (Visitors)**: Un proceso de transición directo y sin fricciones desde la exploración de los planes promocionales hacia el formulario de registro del sistema.<br>2. A los **Usuarios (Productores, Distribuidores, Clientes Comerciales)**: Mayor seguridad, persistencia e integridad de datos al gestionar pedidos y monitorear telemetría IoT mediante una base de datos real.<br>3. Al **Equipo de Desarrollo (Developers)**: Una arquitectura en la nube escalable, con entornos separados (Frontend en Firebase, Backend en Render) y servicios con documentación viva (OpenAPI) listos para su consumo.<br><br>**Esto se confirmará cuando** los visitantes puedan acceder a las vistas de inicio de sesión de la Web App desde la Landing Page usando enlaces directos, los usuarios logren registrar información que persista en la base de datos MySQL en la nube sin políticas de bloqueo CORS, y los desarrolladores Frontend puedan consumir los endpoints oficiales guiándose exclusivamente de la interfaz de Swagger UI. |
-| User Stories incluidas en el Sprint | US01: Formulario de registro de pedidos; US04: Listar pedidos; US05: Registro de productores; US06: Lista de productores; US015: Endpoint de ubicación en tiempo real; US018: Gestión de infraestructura IoT; US030: Procesamiento y gestión de facturación.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-| **Sprint 3 Velocity** | 45 Story Points                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| **Sum of Story Points** | 45 Story Points                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| Campo | Detalle |
+|------|--------|
+| **Sprint #** | Sprint 3 |
+| **Sprint Planning Background** | — |
+| **Date** | 2026-06-05 |
+| **Time** | 18:30 |
+| **Location** | Reunión virtual (Google Meet) |
+| **Prepared By** | Evangelista Ygnacio, Sergio Joaquín |
+| **Attendees (Planning Meeting)** | Chavez Bardales, Esteban Eduardo <br> Evangelista Ygnacio, Sergio Joaquín <br> Jaime Forcelledo, Gonzalo Alexander <br> Palomino Vilcañaupa, Daril Johan |
+| **Sprint 2 Review Summary** | Durante el Sprint 2 se consolidó la interfaz de usuario de la Web Application con datos simulados. Los componentes de presentación y la gestión de estados globales mediante Pinia quedaron funcionales para la futura integración con backend real. |
+| **Sprint 2 Retrospective Summary** | Se identificó la necesidad de eliminar la dependencia de datos estáticos. Se acordó acelerar la capa de persistencia en C#, unificar la navegación entre Landing Page y Web Application y priorizar consumo de APIs reales. |
+| **Sprint Goal** | Habilitar la gestión de pedidos, registro de productores y monitoreo IoT con datos persistentes, integrando acceso directo desde Landing Page hacia la plataforma. |
+| **Value Proposition – Visitors** | Transición sin fricción desde Landing Page hacia registro y acceso al sistema. |
+| **Value Proposition – Users** | Persistencia e integridad de datos en pedidos y telemetría IoT con base de datos real. |
+| **Value Proposition – Developers** | Arquitectura cloud escalable (Firebase + Render) con APIs documentadas en OpenAPI. |
+| **Sprint Completion Criteria** | Acceso desde Landing Page a login, persistencia en MySQL cloud, sin problemas CORS y consumo de Swagger UI en frontend. |
+| **User Stories incluidas en el Sprint** | US01: Registro de pedidos (5) <br> US04: Listar pedidos (3) <br> US05: Registro de productores (5) <br> US06: Lista de productores (3) <br> US15: Ubicación en tiempo real (3) <br> TS01: Geolocalización + IoT sync (5) <br> US18: Gestión IoT (5) <br> TS02: Infraestructura cloud eventos/colas (5) <br> US30: Facturación (3) <br> TS03: Cálculo de montos y comprobantes (3) |
+| **Sprint 3 Velocity** | 40 Story Points |
+| **Sum of Story Points** | 40 Story Points |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 
 ##### 5.2.3.2. Aspect Leaders and Collaborators
 En esta sección se presenta la matriz de liderazgo y colaboración (LACX) para el desarrollo de los componentes del Sprint 3.
@@ -683,4 +686,235 @@ El despliegue de los artefactos de software se organizó de la siguiente manera:
 ![render2.png](../assets/images/render2.png)
 
 ##### 5.2.3.8. Team Collaboration Insights during Sprint
+
 La colaboración se centró en la adaptación de esquemas JSON. El uso riguroso de revisiones de *Pull Requests* antes de cada fusión a la rama `develop` permitió un trabajo continuo y libre de colisiones entre el equipo backend (C#) y el equipo frontend (Vue.js).
+
+**Landing Page**
+
+![landingpage_sprint3.png](../assets/images/landingpage_sprint3.png)
+
+**Frontend**
+![frontend_sprint3.png](../assets/images/frontend_sprint3.png)
+
+**Backend**
+
+![backend_sprint3.png](../assets/images/backend_sprint3.png)
+
+# 5.2.4. Sprint 4
+
+El objetivo principal del Sprint 4 es entregar la versión final y completamente integrada de **FruitLogix**, cubriendo autenticación real con IAM, conexión completa entre frontend y backend desplegado, corrección de bugs detectados en las entrevistas de validación y la producción de los artefactos finales del proyecto.
+
+---
+
+## 5.2.4.1. Sprint Planning 4
+
+En esta sección se describen los acuerdos, antecedentes y objetivos establecidos durante la reunión de planificación del Sprint 4.
+
+| Campo | Detalle |
+|------|--------|
+| **Sprint #** | Sprint 4 |
+| **Sprint Planning Background** | — |
+| **Date** | 2026-06-27 |
+| **Time** | 18:30 |
+| **Location** | Reunión virtual (Google Meet) |
+| **Prepared By** | Jaime Forcelledo, Gonzalo Alexander |
+| **Attendees (Planning Meeting)** | Chavez Bardales, Esteban Eduardo <br> Jaime Forcelledo, Gonzalo Alexander <br> Palomino Vilcañaupa, Daril Johan |
+
+---
+
+## Sprint 3 Review Summary
+
+Durante el Sprint 3 el equipo conectó exitosamente el Frontend (Firebase) con el Backend RESTful (Render), eliminando la dependencia de datos simulados. Se implementaron y documentaron con Swagger los endpoints de pedidos (US01, US04), productores (US05, US06), ubicación en tiempo real vía Google Maps (US15), infraestructura IoT (US18) y pago con pasarela externa (US30).
+
+El Landing Page fue actualizado con *call-to-action* que redirigen a la Web Application. El docente destacó positivamente la arquitectura DDD y la calidad de la documentación OpenAPI.
+
+---
+
+## Sprint 3 Retrospective Summary
+
+**Fortalezas:**
+- Correcta separación de bounded contexts en C#
+- Pipeline CI/CD funcional
+
+**Oportunidades de mejora:**
+- Cobertura de pruebas de integración insuficiente
+- Ausencia de manejo de errores HTTP en el frontend
+- Falta de autenticación real (IAM)
+
+**Acuerdos para Sprint 4:**
+- Implementar IAM con JWT como prioridad principal
+- Agregar interceptores Axios para manejo global de errores
+- Incluir pruebas de integración en endpoints críticos
+- Realizar demo interna a mitad de sprint para detección temprana de bloqueos
+
+---
+
+## Sprint Goal & User Stories
+
+### Sprint 4 Goal
+
+Our focus is on delivering the final and fully integrated version of **FruitLogix**, consolidating identity & access management (IAM), real-time IoT fleet monitoring, in-app messaging, operations dashboards, billing management and analytics for all user segments.
+
+We aim to deliver a complete, secure and production-ready end-to-end experience:
+
+- Authenticated access per role (JWT)
+- Persistent data management
+- Real-time sensor telemetry
+- Integrated payment processing
+- Performance reporting
+
+This will be confirmed when:
+- Todos los roles pueden autenticarse con JWT y acceder solo a sus vistas autorizadas
+- Distribuidores visualizan dashboards en tiempo real (flota, IoT, KPIs y alertas)
+- Productores registran cosechas, reportes de calidad y dashboards de pedidos
+- Clientes comerciales rastrean pedidos, califican entregas y pagan mediante pasarela integrada
+- La API está documentada en Swagger
+- CORS está restringido a dominios de producción
+- Frontend, backend y landing page están desplegados correctamente
+
+---
+
+## User Stories incluidas en el Sprint
+
+- US-IAM01 — Autenticación y control de acceso por rol (JWT) (4 SP)
+- US14 — Actualizar estado de entrega (3 SP)
+- US16 — Registrar entrega final (3 SP)
+- US17 — Notificar retraso en entrega (3 SP)
+- US19 — Ver dashboard de pedidos (Productor) (3 SP)
+- US20 — Ver dashboard general de distribución (3 SP)
+- US21 — Generar reportes de pedidos (3 SP)
+- US22 — Gestionar perfil de usuario (3 SP)
+- US24 — Ver métricas de desempeño (5 SP)
+- US25 — Enviar mensaje interno (3 SP)
+- US26 — Recibir mensajes internos (2 SP)
+- US35 — Calificar servicio de entrega (3 SP)
+- US36 — Visualizar historial de pagos (3 SP)
+- US37 — Pagar con Yape (4 SP)
+- US42 — Ver KPIs de gestión de productores (3 SP)
+- US43 — Monitorear flota en tiempo real (4 SP)
+- US44 — Gestionar incidencias operativas (3 SP)
+- US45 — Monitorear sensores IoT (4 SP)
+- US46 — Ver detalle de despacho con telemetría (3 SP)
+- US47 — Gestionar facturación (3 SP)
+
+---
+
+## Sprint 4 Velocity
+
+- **Velocity total:** 65 Story Points
+- **Sum of Story Points:** 65 Story Points
+
+---
+
+## 5.2.4.2. Aspect Leaders and Collaborators (LACX)
+
+Matriz de liderazgo y colaboración para el Sprint 4.
+
+| Team Member | GitHub Username | IAM & Backend Security | IoT Monitoring & Fleet Tracking | Frontend Integration & UX Polish | DevOps, Docs & Videos | Frontend Guards & Status |
+|------------|----------------|------------------------|---------------------------------|----------------------------------|------------------------|--------------------------|
+| Chavez Bardales, Esteban Eduardo | ECEB0704 | C | C | L | L | L |
+| Jaime Forcelledo, Gonzalo Alexander | gonzalojaimeforcelledo | C | L | C | C | C |
+| Palomino Vilcañaupa, Daril Johan | Daroh19 | L | C | C | C | C |
+
+---
+
+## 5.2.4.3. Sprint Backlog 4
+
+La descomposición de requerimientos en tareas técnicas asignadas al equipo se detalla en el Sprint Backlog.
+
+**URL del Board:**  
+https://trello.com/b/HCskh0Q8/developersteam-sprint-backlog-4
+
+![trello4_1.png](../assets/images/trello4_1.png)
+![trello4_2.png](../assets/images/trello4_2.png)
+![trello4_3.png](../assets/images/trello4_3.png)
+
+# 5.2.4.3. Sprint Backlog 4 – Development Evidence
+
+A continuación se detalla el Sprint Backlog del Sprint 4, donde cada User Story se descompone en tareas técnicas (Tasks), incluyendo su descripción, esfuerzo estimado, responsable y estado de finalización.
+
+---
+
+## US-IAM01
+
+| US / TS | Task ID | Título | Descripción | Hrs | Asignado | Status |
+|--------|---------|--------|-------------|-----|----------|--------|
+| US-IAM01 | TSK401 | Modelado User y UserRole en C# | Crear aggregate User con HashedPassword (BCrypt) y enum UserRole (Distributor, Producer, Customer) aplicando DDD | 4 | Esteban | Done |
+| US-IAM01 | TSK402 | AuthController Register y Login | Implementar endpoints POST /api/v1/auth/register y /api/v1/auth/login con JWT | 5 | Esteban | Done |
+| US-IAM01 | TSK403 | JwtTokenService para tokens | Generar y validar JWT con claims de userId, email y role | 4 | Esteban | Done |
+| US-IAM01 | TSK404 | Login y Register con API real | Conectar vistas Vue con endpoints IAM para autenticación real | 5 | Daril | Done |
+| US-IAM01 | TSK405 | Guards de rutas por rol en Vue Router | Configurar beforeEach para redirigir según rol autenticado | 4 | Daril | Done |
+
+---
+
+## TS-CON01 a TS-CON08
+
+| US / TS | Task ID | Título | Descripción | Hrs | Asignado | Status |
+|--------|---------|--------|-------------|-----|----------|--------|
+| TS-CON01 | TSK406 | Conectar vista de facturas con API | Consumir GET /api/v1/invoices en frontend cliente | 4 | Daril & Esteban | Done |
+| TS-CON02 | TSK407 | Conectar formulario de pago con API | Integrar POST /api/v1/payment-transactions en vista de pago | 5 | Gonzalo & Daril | Done |
+| TS-CON03 | TSK408 | Conectar chat interno con API | Integrar endpoints de conversaciones y mensajes | 5 | Esteban | Done |
+| TS-CON04 | TSK409 | Dashboard IoT con lecturas reales | Integrar sensor readings en dashboard del distribuidor | 4 | Esteban | Done |
+| TS-CON05 | TSK410 | Alertas IoT en frontend | Mostrar alertas en tiempo real desde API | 4 | Esteban | Done |
+| TS-CON06 | TSK411 | Tracking de entregas con API | Integrar endpoints de deliveries en logística | 5 | Daril | Done |
+| TS-CON07 | TSK412 | Nombre real de productor en pedidos | Reemplazar producerId por nombre vía API | 4 | Daril | Done |
+| TS-CON08 | TSK413 | Confirmación de entrega con API | PATCH /orders/{id}/status en vista distribuidor | 4 | Daril | Done |
+
+---
+
+## TS-BUG01 a TS-BUG03
+
+| US / TS | Task ID | Título | Descripción | Hrs | Asignado | Status |
+|--------|---------|--------|-------------|-----|----------|--------|
+| TS-BUG01 | TSK414 | Corregir errores de UI (validación) | Solucionar navegación y estados hardcodeados | 5 | Gonzalo | Done |
+| TS-BUG02 | TSK415 | Notificaciones toast en acciones API | Implementar toasts de éxito/error en llamadas API | 4 | Esteban | Done |
+| TS-BUG03 | TSK416 | Corregir mapeo de estados de pedido | Sincronizar enums Vue con backend C# | 4 | Daril | Done |
+
+---
+
+## TS-DOC01 a TS-DOC07
+
+| US / TS | Task ID | Título | Descripción | Hrs | Asignado | Status |
+|--------|---------|--------|-------------|-----|----------|--------|
+| TS-DOC01 | TSK417 | Video About-the-Product final | Video demo 1–3 min con app funcionando | 6 | Gonzalo | Done |
+| TS-DOC02 | TSK418 | Video About-the-Team final | Video de retrospectiva del equipo | 6 | Gonzalo | Done |
+| TS-DOC03 | TSK419 | Video de Exposición TB2 | Grabación final ≤ 30 min con slides | 6 | Gonzalo | Done |
+| TS-DOC04 | TSK420 | Services Documentation Evidence Sprint 4 | Documentación de endpoints REST en Markdown | 5 | Gonzalo | Done |
+| TS-DOC05 | TSK421 | Conclusiones y Recomendaciones finales | Análisis contra hipótesis Lean UX | 4 | Gonzalo | Done |
+| TS-DOC06 | TSK422 | Actualizar Student Outcome TB2 | Evidencia ABET Student Outcome 5 | 4 | Gonzalo | Done |
+| TS-DOC07 | TSK423 | Actualizar Registro de Versiones | Versión final V4.0.0 | 3 | Gonzalo | Done |
+
+---
+
+## TS-DEP01 a TS-DEP03
+
+| US / TS | Task ID | Título | Descripción | Hrs | Asignado | Status |
+|--------|---------|--------|-------------|-----|----------|--------|
+| TS-DEP01 | TSK424 | Despliegue final Frontend en Firebase | Build Vue y deploy en Firebase Hosting | 4 | Gonzalo | Done |
+| TS-DEP02 | TSK425 | Verificar Backend en producción (Render) | Validación de endpoints y migrations | 4 | Gonzalo | Done |
+| TS-DEP03 | TSK426 | Verificar URLs de despliegue en informe | Validar links en informe final | 3 | Gonzalo | Done |
+
+---
+
+## TS-PM01
+
+| US / TS | Task ID | Título | Descripción | Hrs | Asignado | Status |
+|--------|---------|--------|-------------|-----|----------|--------|
+| TS-PM01 | TSK427 | Final Performance Report TB2 | Evaluación final del equipo (nota 20/16/13/07/00) | 4 | Esteban | Done |
+
+---
+
+# 5.2.4.4. Development Evidence for Sprint Review
+
+El desarrollo del Sprint 4 se gestionó aplicando el flujo de trabajo **GitFlow**, utilizando repositorios en GitHub y commits con nomenclatura de *conventional commits*.
+
+Cada integración se validó mediante:
+- Pull Requests revisados por el equipo
+- Deploy continuo en entorno de producción (Render + Firebase)
+- Verificación de endpoints activos en Swagger
+- Pruebas funcionales sobre vistas integradas con API real
+
+Esto permitió asegurar la trazabilidad entre tareas técnicas, user stories y entregables finales del sistema FruitLogix.
+
+
+
