@@ -211,6 +211,9 @@ El alcance de esta evaluación incluye la revisión de la usabilidad de las sigu
 
 Los usuarios manifestaron la necesidad de conocer con claridad el estado de sus pedidos. La plataforma no proporciona mensajes de confirmación visibles cuando un pedido es registrado, asignado o completado exitosamente. Esto genera incertidumbre y puede provocar acciones repetidas o la búsqueda de confirmación mediante canales externos.
 
+![eu_1.png](../assets/images/eu_1.png)
+
+
 #### Recomendación
 
 Implementar notificaciones visuales y alertas automáticas en cada cambio de estado del pedido, incluyendo creación, asignación, despacho y entrega.
@@ -262,6 +265,9 @@ Crear una sección denominada **"Mi Historial"** accesible desde el menú princi
 
 La información relacionada con el transporte y la ubicación del pedido no siempre se encuentra disponible o visible durante el seguimiento.
 
+![eu_4.png](../assets/images/eu_4.png)
+
+
 #### Recomendación
 
 Incorporar un mapa en tiempo real, estimación de llegada y datos completos del conductor dentro de la pantalla de seguimiento.
@@ -295,6 +301,9 @@ Implementar un módulo centralizado que permita visualizar disponibilidad, capac
 #### Problema
 
 La información relevante para la toma de decisiones de compra no siempre está consolidada ni actualizada dentro del catálogo.
+
+![eu_6.png](../assets/images/eu_6.png)
+
 
 #### Recomendación
 
