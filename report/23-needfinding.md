@@ -3,17 +3,17 @@
 En esta sección se presentan los User Personas de los segmentos objetivo de FruitLogix, construidos a partir del análisis de entrevistas y del contexto del mercado. Estos arquetipos reflejan las principales necesidades, comportamientos y problemas de los usuarios, y sirven como base para orientar el diseño de la solución.
 #### User Persona del 1er segmento objetivo – Clientes Comerciales
 
-![UserPersonaMaria](../assets/images/UserPersona-MariaGomez.png)
+<img alt="UserPersonaMaria" height="450" src="../assets/images/UserPersona-MariaGomez.png" width="500"/>
 
 María Gómez representa al segmento de clientes comerciales, construido a partir de las entrevistas a Bianzel Noriega, Luciana Breña y Rosa Arana Medina. Se definió como una mujer de 22 años, soltera y ubicada en Lima, reflejando el perfil de encargadas de logística en negocios del rubro gastronómico como restaurantes y juguerías que gestionan el abastecimiento de frutas de forma operativa y diaria. Sus goals de asegurar abastecimiento continuo, garantizar calidad constante y reducir errores en pedidos responden directamente a lo expresado por el 100% de las entrevistadas, quienes señalaron la calidad, la puntualidad y la confiabilidad del proveedor como sus prioridades principales. Sus frustraciones de retrasos en entregas, inconsistencia en la calidad, falta de respuesta rápida y procesos fragmentados entre sistema, WhatsApp y llamadas fueron mencionadas de forma unánime en las tres entrevistas. Se eligieron Wong y Plaza Vea como marcas e influencias porque son las cadenas con las que este segmento interactúa directamente como cliente final o referente de estándares de calidad en el abastecimiento. Sus canales incluyen WhatsApp, Google, email, Excel, notas y Word porque el 66% de los entrevistados dependía de métodos tradicionales y el 33% complementaba con sistemas formales, reflejando un perfil más digitalizado que el productor pero aún sin herramientas integradas de gestión.
 #### User Persona del 2do segmento objetivo – Productores
 
-![UserPersonaAlexandra](../assets/images/UserPersona-AlexandraJimenez.png)
+<img alt="UserPersonaAlexandra" height="450" src="../assets/images/UserPersona-AlexandraJimenez.png" width="500"/>
 
 Alexandra Jiménez representa al segmento de productores agrícolas, construido a partir de las entrevistas a Renato Navarro, Karen Forcelledo y Jessica. Se definió como una mujer de 40 años, casada y ubicada en Lima, dado que el segmento incluye tanto productores rurales como comerciantes con experiencia en abastos que abastecen directamente a distribuidores. Sus goals de organizar cosechas con anticipación, reducir errores en órdenes y asegurar calidad constante responden al 100% de los entrevistados que manifestaron necesitar mejores herramientas para planificar y controlar su producción. Sus frustraciones como los pedidos de último momento, las anotaciones manuales que causan errores, el impacto del clima en la calidad y los productos que se dañan durante el transporte fueron mencionados de forma recurrente en los tres casos entrevistados. Se eligieron Danper, Camposol y Agrovision como marcas e influencias porque son referentes del sector agrícola formal con los que los productores interactúan o hacia los que aspiran en términos de estándares de calidad y buenas prácticas. Sus canales se limitaron a WhatsApp, notas y llamadas porque el 100% de los entrevistados en este segmento operaba exclusivamente con medios informales y su tecnología se redujo al celular con Android, reflejando la realidad de un segmento con acceso tecnológico básico y sin herramientas digitales integradas.
 #### User Persona del 3er segmento objetivo - Distribuidores de Frutas
 
-![UserPersonaJuan](../assets/images/UserPersona-JuanVega.png)
+<img alt="UserPersonaJuan" height="450" src="../assets/images/UserPersona-JuanVega.png" width="500"/>
 
 Juan Vega representa al segmento de distribuidores de frutas, construido a partir de los patrones identificados en las entrevistas realizadas a Jorge Contreras, Paola Jiménez y Edwin Lozano. Se definió como un hombre de 55 años, casado y ubicado en Lima, debido a que el perfil predominante en este segmento corresponde a personas con experiencia en el sector que operan de forma independiente abasteciendo a supermercados y clientes comerciales. Sus goals reflejan directamente lo expresado por los entrevistados: cumplir pedidos a tiempo, mantener estándares de calidad y reducir rechazos son las prioridades constantes en su operación diaria. Sus frustraciones surgen de la evidencia recogida, donde el 100% de los entrevistados mencionó problemas con la variabilidad del stock, la exigencia de calidad y la poca anticipación en los pedidos, mientras que el 66% destacó dificultades de coordinación con proveedores. Se eligieron Dole, Camposol y Fresh Plaza como marcas e influencias porque representan los estándares de calidad y las referencias del sector con las que Juan interactúa o aspira a alinearse. Sus canales de WhatsApp, llamadas, email y Excel responden al 100% de los entrevistados que usaban medios directos e informales, y al uso extendido de herramientas ofimáticas básicas para organizar su operación.
 
@@ -76,24 +76,31 @@ Para FruitLogix, elaborar un Empathy Mapping para cada segmento objetivo fue cla
 
 **Empathy Mapping del 1er segmento objetivo – Clientes Comerciales** 
 
-![ClienteComercial](../assets/images/empathy-mapping-c.comercial-.jpeg)
+<img alt="ClienteComercial" height="450" src="../assets/images/empathy-mapping-c.comercial-.jpeg" width="500"/>
+
 El Empathy Map de María Gómez refleja la experiencia emocional de una encargada de logística donde la frescura del producto y la puntualidad de entrega son factores críticos para la operación diaria. En Think and Feel reconoce que con una plataforma centralizada podría reducir el tiempo de coordinación y tener mayor control sobre calidad y entregas, aunque se siente estresada porque cualquier error en el abastecimiento impacta directamente el negocio y agotada por gestionar todo en múltiples canales desconectados. En See observa procesos fragmentados entre sistemas, llamadas y WhatsApp, proveedores con calidad variable y ausencia de herramientas integradas para gestionar compras. En Hear recibe reclamos del equipo sobre frutas que no llegaron a tiempo, lotes con calidad deficiente y la necesidad urgente de buscar nuevos proveedores. En Say and Do coordina pedidos mediante sistema formal, WhatsApp y llamadas, verifica productos visualmente al momento de la recepción y trabaja con varios proveedores simultáneamente para asegurar el abastecimiento. Sus Pains más críticos son los retrasos, la inconsistencia en calidad y la poca visibilidad del estado de pedidos, mientras que sus Gains apuntan a una plataforma centralizada, proveedores confiables y mayor trazabilidad en todo el proceso.
 
 **Empathy Map del 2do segmento objetivo – Productores**
 
-![ClienteComercial](../assets/images/empathy-mapping-productor.jpeg)
+<img alt="ClienteComercial" height="450" src="../assets/images/empathy-mapping-productor.jpeg" width="500"/>
+
 El Empathy Map de Alexandra Jiménez revela la experiencia emocional de una productora que abastece directamente a distribuidores con frutas frescas de temporada. En Think and Feel reconoce que con mejor organización y herramientas digitales podría reducir pérdidas y crecer de forma sostenida, pero se siente presionada por coordinar sola su operación y preocupada por los rechazos que representan pérdidas económicas directas. En See observa variación constante en la calidad según la temporada, procesos manuales poco organizados y competidores más digitalizados que empiezan a ganar terreno. En Hear recibe reclamos frecuentes por lotes rechazados, pedidos urgentes y exigencias de calidad cada vez más altas que generan tensión en sus relaciones comerciales. En Say and Do gestiona pedidos manualmente o por WhatsApp, revisa calidad de forma visual y toma decisiones rápidas sin datos históricos que la respalden. Sus Pains incluyen pedidos con poca anticipación, pérdidas por merma y dependencia del clima, mientras que sus Gains apuntan a mejor organización, control de calidad estandarizado y crecimiento sostenido del negocio.
 
 **Empathy Map del 3er segmento objetivo - Distribuidores de Frutas**
-![ClienteComercial](../assets/images/empathy-mapping-distribuidor.jpeg)
+<img alt="ClienteComercial" height="450" src="../assets/images/empathy-mapping-distribuidor.jpeg" width="500"/>
+
 El Empathy Map de Juan Vega profundiza en la dimensión emocional del distribuidor como actor central de la cadena logística. En Think and Feel reconoce que con mayor control y visibilidad podría reducir errores y cumplir mejor con sus clientes, aunque se siente presionado por coordinar todo manualmente y frustrado por depender de factores externos como el clima y la estacionalidad. En See observa exigencias estrictas de calidad por parte de supermercados, variabilidad en los productos y competencia entre distribuidores con herramientas poco integradas. En Hear recibe constantemente reclamos sobre estándares incumplidos, rechazos de lotes y pedidos incompletos que generan presión adicional en su operación. En Say and Do gestiona pedidos combinando plataforma B2B con anotaciones manuales, coordina con proveedores por llamadas y WhatsApp y verifica calidad con fichas técnicas trabajando de forma independiente. Sus Pains más críticos son los pedidos con poca anticipación, rechazos por defectos no visibles y la falta de herramientas integradas, mientras que sus Gains apuntan a mejor planificación, trazabilidad y automatización de procesos.
 
 #### 2.3.5. As-Is Scenario Maps
 El “As-is Scenario Mapping” será un componente clave de nuestro enfoque de trabajo, ya que nos ayudará a entender la situación actual de nuestros procesos, detectar oportunidades de mejora y definir las acciones necesarias para lograr nuestros objetivos. 
 #### As-Is Scenario Map del 1er segmento objetivo – Clientes Comerciales
-![AsIsClienteComercial](../assets/images/As-Is%20Clientes%20Comerciales.PNG)
+
+<img alt="AsIsClienteComercial" height="450" src="../assets/images/As-Is%20Clientes%20Comerciales.PNG" width="500"/>
+
 #### As-Is Scenario Map del 2do segmento objetivo – Productores
-![AsIsProductores](../assets/images/As-Is%20Productor%20Agricola.PNG)
+<img alt="AsIsProductores" height="450" src="../assets/images/As-Is%20Productor%20Agricola.PNG" width="500"/>
+
 #### As-Is Scenario Map del 3er segmento objetivo - Distribuidores de Frutas
-![AsIsDistribuidores](../assets/images/As-Is%20Distribuidor%20de%20Frutas.PNG)
+
+<img alt="AsIsDistribuidores" height="450" src="../assets/images/As-Is%20Distribuidor%20de%20Frutas.PNG" width="500"/>
 

@@ -18,7 +18,7 @@ A través de este proceso, logramos identificar los siguientes elementos clave:
 
 * **Puntos de Dolor (Rosado):** Se detectaron cuellos de botella importantes, principalmente en la falta de digitalización de las pruebas de calidad y la escasa trazabilidad en tiempo real durante el transporte, lo cual genera incertidumbre en el cliente comercial.
 
-![bigpicture](../assets/images/eee0.png)
+<img alt="bigpicture" height="450" src="../assets/images/eee0.png" width="500"/>
 
 ### Paso 1: Exploración Desestructurada (Unstructured Exploration)
 
@@ -28,7 +28,9 @@ Esta fase inicial consistió en una sesión de "lluvia de ideas" para identifica
 * **Completitud de Perfiles Específicos:** Hitos como `Distributor Profile Completed`, `Producer Profile Completed` y `Commercial Client Profile Completed`.
 * **Gestión de Flota:** Eventos críticos para la cadena logística, incluyendo `Driver License Validated`, `Vehicle Technical Sheet Registered` y `Fleet Resource Assigned`.
 * **Manejo de Excepciones:** Identificación preliminar de estados de falla como `Driver Registration Rejected` y `Vehicle Maintenance Required`.
-![bigpicture](../assets/images/eee1.png)
+
+* <img alt="bigpicture" height="450" src="../assets/images/eee1.png" width="500"/>
+
 ### Paso 2: Líneas de Tiempo (Timelines)
 
 En este paso, los eventos desestructurados se organizaron en un flujo cronológico para definir el **Happy Path** (camino ideal) y las ramas principales.
@@ -36,7 +38,9 @@ En este paso, los eventos desestructurados se organizaron en un flujo cronológi
 * **Lógica Secuencial:** La línea de tiempo establece una dependencia clara donde la elección del tipo de usuario (*User type chosen*) conduce a la completitud de perfiles específicos para Distribuidores, Productores o Clientes Comerciales.
 * **Prerrequisitos Operativos:** Para el segmento logístico, se ilustra que el registro de la cuenta del distribuidor (*Distributor Account Registered*) debe preceder a la creación de perfiles de conductores y al registro de vehículos.
 * **Acceso al Sistema:** El flujo culmina en un inicio de sesión exitoso (*User Session Started*) o en una denegación de acceso por motivos de seguridad (*User Access Denied*).
-![bigpicture](../assets/images/eee2.png)
+
+<img alt="bigpicture" height="450" src="../assets/images/eee2.png" width="500"/>
+
 ### Paso 3: Líneas de Tiempo con Puntos Críticos (Timelines with Hotspots)
 
 El refinamiento final de la línea de tiempo incorpora **Hotspots** (representados en púrpura), que identifican "puntos de dolor", riesgos o áreas que requieren mayor definición de políticas arquitectónicas. Las observaciones clave incluyen:
@@ -45,4 +49,5 @@ El refinamiento final de la línea de tiempo incorpora **Hotspots** (representad
 * **Riesgos de Integridad de Datos:** Se señala la falta de una conexión API en tiempo real con bases de datos gubernamentales para la verificación de identidad y licencias.
 * **Fricción Operativa y de UX:** Se resalta la confusión durante la selección del rol (*User type chosen*) y la dificultad para resolver conflictos entre productores y distribuidores respecto a los tiempos de llegada debido a la falta de registros de auditoría.
 * **Limitaciones Técnicas:** Se aborda la falta de alertas automatizadas para las fichas técnicas de vehículos que vencen, lo que puede provocar eventos abruptos de revocación de asignación de vehículos (*Vehicle Assignment Revoked*).
-![bigpicture](../assets/images/eee3.png)
+
+<img alt="bigpicture" height="450" src="../assets/images/eee3.png" width="500"/>

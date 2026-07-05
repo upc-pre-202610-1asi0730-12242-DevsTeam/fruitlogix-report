@@ -15,7 +15,7 @@ Los contextos definidos fueron:
 
 Esta representación permite visualizar cómo fluye la información entre módulos desde el registro de fruta, control de calidad, monitoreo, logística y finalmente la gestión de pagos.
 
-![EventStormingGeneral](../assets/images/EventStormingGeneral.jpg)
+<img alt="EventStormingGeneral" src="../assets/images/EventStormingGeneral.jpg" width="500"/>
 
 
 
@@ -28,7 +28,7 @@ Adicionalmente, este contexto contempla la gestión de la flota operativa del di
 
 En conjunto, este módulo establece la base organizacional y operativa del sistema, garantizando una correcta administración de usuarios y recursos logísticos.
 
-![EventSt](../assets/images/EventStormingProfilesFleetManagement.jpg)
+<img alt="EventSt" src="../assets/images/EventStormingProfilesFleetManagement.jpg" width="500"/>
 
 
 #### Order Management
@@ -42,7 +42,7 @@ El contexto también contempla el ciclo de vida completo del pedido, permitiendo
 
 Antes de proceder al despacho, el pedido pasa por una validación final de calidad del producto, garantizando que solo los lotes aprobados puedan ser enviados. De esta manera, este módulo asegura una gestión integral del pedido desde su creación hasta su preparación para la distribución.
 
-![EventStormingORDERMANAGEMENT](../assets/images/EventStormingORDERMANAGEMENT.jpg)
+<img alt="EventStormingORDERMANAGEMENT" src="../assets/images/EventStormingORDERMANAGEMENT.jpg" width="500"/>
 
 
 
@@ -57,7 +57,7 @@ Asimismo, se gestionan situaciones excepcionales como pagos fallidos o interrump
 
 En conjunto, este módulo garantiza una administración segura, automatizada y trazable de todas las transacciones económicas dentro de la plataforma.
 
-![EventStormingPAYMENTMANAGEMENT](../assets/images/EventStormingPAYMENTMANAGEMENT.jpg)
+<img alt="EventStormingPAYMENTMANAGEMENT" src="../assets/images/EventStormingPAYMENTMANAGEMENT.jpg" width="500"/>
 
 
 
@@ -65,7 +65,8 @@ En conjunto, este módulo garantiza una administración segura, automatizada y t
 Este bounded context se encarga de la gestión de dispositivos IoT y sensores que permiten monitorear variables físicas y ambientales dentro de la plataforma FruitLogix.El flujo contempla el registro, conexión y calibración de los dispositivos por parte de técnicos o administradores, asegurando su correcto funcionamiento y estado operativo. 
 Una vez activos, los sensores envían lecturas en tiempo real, las cuales son procesadas y validadas automáticamente por el sistema.
 Además, estas lecturas son evaluadas frente a reglas de monitoreo previamente definidas. Cuando se detecta que algún valor supera los umbrales establecidos, el sistema genera alertas automáticas y envía notificaciones por canales como correo electrónico o SMS. Asimismo, permite configurar y ajustar dinámicamente las reglas de control para cada tipo de dispositivo, garantizando un monitoreo continuo y trazable.
-![EventStormingInfrastructureIOT](../assets/images/EventStormingInfrastructureIOT.jpg)
+
+<img alt="EventStormingInfrastructureIOT" src="../assets/images/EventStormingInfrastructureIOT.jpg" width="500"/>
 
 
 
@@ -76,7 +77,7 @@ El flujo inicia con la preparación del envío, donde se calculan rutas óptimas
 
 Además, el sistema detecta automáticamente posibles desvíos, retrasos o incidentes durante el trayecto, facilitando su registro y seguimiento. Finalmente, se confirma la entrega del pedido y se actualiza el estado logístico correspondiente.
 
-![EventStormingLOGISTICSANDMONITORING](../assets/images/EventStormingLOGISTICSANDMONITORING.jpg)
+<img alt="EventStormingLOGISTICSANDMONITORING" src="../assets/images/EventStormingLOGISTICSANDMONITORING.jpg" width="500"/>
 
 
 
@@ -84,7 +85,7 @@ Además, el sistema detecta automáticamente posibles desvíos, retrasos o incid
 Este bounded context se enfoca en supervisar la calidad y trazabilidad de los lotes de fruta desde su origen hasta su aprobación para distribución.El proceso comienza con el registro de lotes y la documentación de la cosecha por parte de los productores. 
 A partir de ello, se recopilan datos relevantes como madurez, calibre y condiciones del producto, que son evaluados por inspectores mediante reportes de calidad.Si el lote cumple con los estándares establecidos, se aprueba para su envío. En caso contrario, el sistema activa un flujo de gestión de incidentes que permite registrar observaciones, adjuntar evidencias y escalar casos, pudiendo incluso bloquear temporalmente el lote hasta su revisión.
 
-![EventStormingQualityControlContext](../assets/images/EventStormingQualityControlContext.jpg)
+<img alt="EventStormingQualityControlContext" src="../assets/images/EventStormingQualityControlContext.jpg" width="500"/>
 
 
 #### 4.6.2. Software Architecture Context Diagram
@@ -139,7 +140,7 @@ Asimismo, promueve la reacción temprana ante alertas generadas por sensores IoT
 
 Desde una perspectiva comercial, FruitLogix busca formalizar y asegurar las transacciones en el sector agrícola, generando confianza entre productores, distribuidores y clientes comerciales. La integración de pagos seguros y confirmaciones de entrega permite construir un ecosistema más transparente, eficiente y profesional entre el campo y la ciudad.
 
-![ContextDiagram](../assets/images/ContextDiagrams.png)
+<img alt="ContextDiagram" src="../assets/images/ContextDiagrams.png" width="500"/>
 
 **Nota:** Elaboración propia en Structurizr.
 
@@ -221,7 +222,7 @@ El Container Diagram permite visualizar cómo se estructura FruitLogix a nivel d
 
 Finalmente, el diagrama evidencia cómo los datos fluyen entre containers internos y externos, permitiendo al equipo entender las dependencias del sistema, coordinar el desarrollo y preparar una arquitectura escalable, especialmente en módulos críticos como IoT y pagos.
 
-![Container Diagrams](../assets/images/ddd2.png)
+<img alt="Container Diagrams" src="../assets/images/ddd2.png" width="500"/>
 
 **Nota:** Elaboración propia en Structurizr.
 
@@ -233,7 +234,7 @@ Primero, el diseño busca estructurar de forma limpia el ciclo de vida de las ó
 
 Finalmente, el diagrama define un propósito de aislamiento y abstracción en el acceso a los datos. A través del Order Repository, el módulo encapsula todas las operaciones de lectura y escritura, traduciendo las necesidades del servicio en consultas SQL directas hacia la base de datos central en PostgreSQL. Esto asegura que la lógica de asignación y los controladores no dependan directamente de la estructura física de las tablas, facilitando futuras optimizaciones en el rendimiento de las consultas transaccionales de FruitLogix.
 
-![ContextDiagram](../assets/images/ComponentsDiagram.png)
+<img alt="ContextDiagram" src="../assets/images/ComponentsDiagram.png" width="500"/>
 
 **Nota:** Elaboración propia en Structurizr.
 
@@ -243,6 +244,6 @@ El diseño tiene como fin automatizar la ingesta de telemetría y centralizar la
 
 Finalmente, el diagrama destaca un propósito clave de automatización del control normativo y reglas de negocio. Al incluir el Quality Validator, el módulo adquiere la capacidad de comparar de forma autónoma los datos recolectados contra los estándares de calidad preestablecidos para la fruta. Esto permite que el sistema dictamine en tiempo real si un lote cumple o no con las condiciones óptimas para su distribución, eliminando la necesidad de inspecciones manuales y optimizando la respuesta de la cadena de suministro ante alertas en la cadena de frío.
 
-![ContextDiagram](../assets/images/ComponentsDiagrams2.png)
+<img alt="ContextDiagram" src="../assets/images/ComponentsDiagrams2.png" width="500"/>
 
 **Nota:** Elaboración propia en Structurizr.
