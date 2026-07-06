@@ -15,7 +15,7 @@
 
 | Descripción | Enlace |
 |------------|--------|
-| Demostración de FruitLogix: interfaz, gestión de pedidos e integración con inventario | https://n9.cl/3lg04 |
+| Demostración de FruitLogix: interfaz, gestión de pedidos e integración con inventario | https://youtu.be/7UkcMUtRT04 |
 
 ---
 
@@ -23,7 +23,7 @@
 
 | Descripción | Enlace |
 |------------|--------|
-| Retrospectiva del equipo y testimonios individuales de cada integrante | https://n9.cl/ol510 |
+| Retrospectiva del equipo y testimonios individuales de cada integrante | https://youtu.be/v3uZFR6qzbU |
 
 ---
 
@@ -44,7 +44,7 @@
 |------------|--------|
 | Deployment de la Landing Page en GitHub Pages | https://upc-pre-202610-1asi0730-12242-devsteam.github.io/fruitlogix-website/ |
 | Deployment de la Aplicación Web | https://fruitlogixweb.web.app |
-| Deployment del Platform en Render | https://fruitlogix-platform.onrender.com/ |
+| Deployment del Platform en Render | https://fruitlogix-platform.onrender.com/swagger/index.html |
 
 ---
 
