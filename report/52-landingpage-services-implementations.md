@@ -917,4 +917,48 @@ Cada integración se validó mediante:
 Esto permitió asegurar la trazabilidad entre tareas técnicas, user stories y entregables finales del sistema FruitLogix.
 
 
+| Repository | Branch | Commit Id | Date | Commit Message |
+|---|---|---|---|---|
+| fruitlogix-webapp | feature/iam-auth | 6f08fb9 | 2026-06-27 | feat(orders): connect delete modal with real DELETE endpoint via Axios |
+| fruitlogix-webapp | feature/iam-auth | f582678 | 2026-06-27 | fix: merge single constructor in DeliveriesController |
+| fruitlogix-webapp | feature/iam-auth | 353d344 | 2026-06-27 | feat(logistics): add assign fleet modal and connect to delivery API |
+| fruitlogix-webapp | feature/iam-auth | 52a8ce2 | 2026-06-27 | feat(logistics): connect delivery details view with deliveries and orders API |
+| fruitlogix-webapp | feature/iam-auth | 6882862 | 2026-06-27 | feat: add delivery details view |
+| fruitlogix-webapp | feature/iam-auth | d0faa66 | 2026-06-28 | feat(logistics): connect customer tracking view with deliveries API |
+| fruitlogix-webapp | feature/iam-auth | dc22715 | 2026-06-28 | feat(iot): connect IoT Device Fleet view to Swagger endpoints |
+| fruitlogix-webapp | feature/iam-auth | 38c642e | 2026-06-30 | feat(messaging): implement lazy initialization for order-specific chats |
+| fruitlogix-webapp | feature/iam-auth | bae1cd8 | 2026-07-01 | feat(auth): integrate real IAM login, add Axios interceptor for JWT and connect dashboards |
 
+### 5.2.4.5. Execution Evidence for Sprint Review
+
+Durante el Sprint 4 se logró la integración completa del Frontend Web Application con los servicios reales del backend, reemplazando los datos simulados (mock) utilizados en sprints anteriores. Las principales vistas implementadas y conectadas a la API incluyen la gestión de pedidos con eliminación real vía DELETE, el módulo de logística con asignación de flota y seguimiento de entregas para el cliente, el panel de monitoreo de dispositivos IoT conectado a los endpoints documentados en Swagger, el sistema de mensajería con inicialización diferida (lazy loading) de chats por pedido, y finalmente la autenticación real mediante IAM con interceptor de Axios para el manejo de JWT en los dashboards.
+
+A continuación, se presentan las evidencias visuales de las principales vistas implementadas en este Sprint.
+
+#### Screenshots de las vistas implementadas
+
+**Gestión de Pedidos — Eliminación de pedido**
+![trello4_3.png](../assets/images/trello4_3.png)
+
+**Logística — Asignación de flota y detalle de entrega**
+![trello4_3.png](../assets/images/trello4_3.png)
+
+**Logística — Seguimiento de entregas (vista cliente)**
+![trello4_3.png](../assets/images/trello4_3.png)
+
+**Monitoreo de Dispositivos IoT**
+![trello4_3.png](../assets/images/trello4_3.png)
+
+**Mensajería — Chat por pedido**
+![trello4_3.png](../assets/images/trello4_3.png)
+
+**Autenticación — Login IAM integrado**
+![trello4_3.png](../assets/images/trello4_3.png)
+
+
+
+### 5.2.4.6 Team Collaboration Insights during Sprint 
+
+Las siguientes capturas muestran los analíticos de colaboración del repositorio `fruitlogix-webapp` en GitHub para la ventana del Sprint 4 (26 de junio al 4 de julio de 2026). El gráfico de "Commits over time" evidencia una concentración de actividad entre el 26 de junio y el 1 de julio, con un total de 5 commits registrados por el contribuidor durante este periodo, incluyendo 2,786 líneas añadidas y 1,348 líneas eliminadas, correspondientes a la integración final del frontend con los servicios reales del backend.
+
+<img alt="collab-insights-sprint4.png" src="../assets/images/collab-insights-sprint4.png" width="500"/>
