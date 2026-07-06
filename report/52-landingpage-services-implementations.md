@@ -962,3 +962,19 @@ A continuación, se presentan las evidencias visuales de las principales vistas 
 Las siguientes capturas muestran los analíticos de colaboración del repositorio `fruitlogix-webapp` en GitHub para la ventana del Sprint 4 (26 de junio al 4 de julio de 2026). El gráfico de "Commits over time" evidencia una concentración de actividad entre el 26 de junio y el 1 de julio, con un total de 5 commits registrados por el contribuidor durante este periodo, incluyendo 2,786 líneas añadidas y 1,348 líneas eliminadas, correspondientes a la integración final del frontend con los servicios reales del backend.
 
 <img alt="collab-insights-sprint4.png" src="../assets/images/collab-insights-sprint4.png" width="500"/>
+
+**Landing Page**
+
+
+<img alt="backend_desploy.png" src="../assets/images/landing_deploy.png" width="500"/>
+
+**Frontend Desploy**
+
+
+<img alt="backend_desploy.png" src="../assets/images/fron_sprint4.png" width="500"/>
+
+**Backend Desploy**
+
+
+<img alt="backend_desploy.png" src="../assets/images/backend_desploy.png" width="500"/>
+

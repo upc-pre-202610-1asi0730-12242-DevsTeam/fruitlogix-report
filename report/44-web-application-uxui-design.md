@@ -9,33 +9,25 @@ Estos prototipos permiten validar la usabilidad y la disposición de los compone
 
 ---
 
-<img alt="Wireframe" src="../assets/images/wire1.png" width="500"/>
+<img alt="Wireframe" src="../assets/images/wire_1.png" width="500"/>
 
-<img alt="Wireframe" src="../assets/images/wireframe2.png" width="500"/>
+<img alt="Wireframe" src="../assets/images/wire_2.png" width="500"/>
 
-<img alt="Wireframe" src="../assets/images/wireframe3.png" width="500"/>
+<img alt="Wireframe" src="../assets/images/wire_3.png" width="500"/>
 
-<img alt="Wireframe" src="../assets/images/wireframe4.png" width="500"/>
+<img alt="Wireframe" src="../assets/images/wire_4.png" width="500"/>
 
-<img alt="Wireframe" src="../assets/images/wireframe5.png" width="500"/>
+<img alt="Wireframe" src="../assets/images/wire_5.png" width="500"/>
 
-<img alt="Wireframe" src="../assets/images/wireframe6.png" width="500"/>
+<img alt="Wireframe" src="../assets/images/wire-6.png" width="500"/>
 
-<img alt="Wireframe" src="../assets/images/wireframe7.png" width="500"/>
+<img alt="Wireframe" src="../assets/images/wire_7.png" width="500"/>
 
-<img alt="Wireframe" src="../assets/images/wireframe8.png" width="500"/>
+<img alt="Wireframe" src="../assets/images/wire_8.png" width="500"/>
 
-<img alt="Wireframe" src="../assets/images/wireframe9.png" width="500"/>
+<img alt="Wireframe" src="../assets/images/wire_9.png" width="500"/>
 
-<img alt="Wireframe" src="../assets/images/wireframe10.png" width="500"/>
-
-<img alt="Wireframe" src="../assets/images/wireframe11.png" width="500"/>
-
-<img alt="Wireframe" src="../assets/images/wireframe12.png" width="500"/>
-
-<img alt="Wireframe" src="../assets/images/wireframe13.png" width="500"/>
-
-<img alt="Wireframe" src="../assets/images/wireframe14.png" width="500"/>
+<img alt="Wireframe" src="../assets/images/wire_10.png" width="500"/>
 
 
 ---
@@ -46,13 +38,13 @@ En esta sección se presentan los wireflows de la aplicación web, los cuales co
 Este análisis permite anticipar posibles fricciones en la experiencia de usuario y garantizar que procesos críticos, como el registro de inspecciones de calidad o el seguimiento de rutas, sean lógicos y eficientes.
 
 ---
-<img alt="Wireflow" src="../assets/images/wireflow1.png" width="500"/>
+<img alt="Wireflow" src="../assets/images/wireflow_1.png" width="500"/>
 
-<img alt="Wireflow" src="../assets/images/wireflow2.png" width="500"/>
+<img alt="Wireflow" src="../assets/images/wireflow_rs.png" width="500"/>
 
-<img alt="Wireflow" src="../assets/images/wireflow3.png" width="500"/>
+<img alt="Wireflow" src="../assets/images/wireflow_cc.png" width="500"/>
 
-<img alt="Wireflow" src="../assets/images/wireflow4.png" width="500"/>
+<img alt="Wireflow" src="../assets/images/wireflow_d.png" width="500"/>
 
 #### 4.4.3. Web Applications Mock-ups
 
@@ -68,33 +60,29 @@ Este análisis permite anticipar posibles fricciones en la experiencia de usuari
 
 * Distribuidor
 
-<img alt="Mockups" src="../assets/images/mockup3.png" width="500"/>
+<img alt="Mockups" src="../assets/images/d_1.png" width="500"/>
 
-<img alt="Mockups" src="../assets/images/mockup4.png" width="500"/>
+<img alt="Mockups" src="../assets/images/d_2.png" width="500"/>
 
-<img alt="Mockups" src="../assets/images/mockup5.png" width="500"/>
+<img alt="Mockups" src="../assets/images/d_3.png" width="500"/>
 
-<img alt="Mockups" src="../assets/images/mockup6.png" width="500"/>
-
-<img alt="Mockups" src="../assets/images/mockup7.png" width="500"/>
-
-<img alt="Mockups" src="../assets/images/mockup8.png" width="500"/>
-
-<img alt="Mockups" src="../assets/images/mockup9.png" width="500"/>
-
-<img alt="Mockups" src="../assets/images/mockup10.png" width="500"/>
 
 ---
 
 * Productor
 
-<img alt="Mockups" src="../assets/images/mockup11.png" width="500"/>
+<img alt="Mockups" src="../assets/images/p_1.png" width="500"/>
 
-<img alt="Mockups" src="../assets/images/mockup12.png" width="500"/>
+<img alt="Mockups" src="../assets/images/p_2.png" width="500"/>
 
-<img alt="Mockups" src="../assets/images/mockup13.png" width="500"/>
+<img alt="Mockups" src="../assets/images/p_3.png" width="500"/>
 
-<img alt="Mockups" src="../assets/images/mockup14.png" width="500"/>
+<img alt="Mockups" src="../assets/images/p_4.png" width="500"/>
+
+<img alt="Mockups" src="../assets/images/p_5.png" width="500"/>
+
+<img alt="Mockups" src="../assets/images/p_6.png" width="500"/>
+
 
 ---
 

@@ -23,7 +23,7 @@
 
 | Descripción | Enlace |
 |------------|--------|
-| Retrospectiva del equipo y testimonios individuales de cada integrante | https://n9.cl/ol510 |
+| Retrospectiva del equipo y testimonios individuales de cada integrante | https://youtu.be/v3uZFR6qzbU |
 
 ---
 
