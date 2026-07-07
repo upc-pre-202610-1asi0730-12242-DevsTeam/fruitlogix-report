@@ -29,7 +29,7 @@ Este video sirve como evidencia de que el equipo trabajó en conjunto y logró e
 ---
 
 **Link del video:**  
-https://n9.cl/3lg04
+https://www.youtube.com/watch?v=v3uZFR6qzbU
 
 <img alt="ContextDiagram" src="../assets/images/about_the_team.png" width="500"/>
 

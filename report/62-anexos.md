@@ -7,7 +7,7 @@
 | AV1 | Presentación de la propuesta de negocio, Lean UX Process y primera versión del Landing Page de FruitLogix | https://goo.su/mdcscB |
 | TB1 | Sustentación del diseño de producto, arquitectura y primera versión de la Web Application de FruitLogix   | https://goo.su/fbGf   |
 | AV2 | Sustentación de la implementación en la nube, servicios web y validación de FruitLogix                    | https://goo.su/5S9rcl |
-| TB2 | Sustentación final del proyecto  de FruitLogix                                                            |                       |                                             | — |
+| TB2 | Sustentación final del proyecto  de FruitLogix                                                            | https://goo.su/g31cn  |                                             | — |
 
 ---
 
