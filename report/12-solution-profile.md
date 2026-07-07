@@ -15,150 +15,303 @@ Desarrollando las preguntas clave usando el modelo de las 5W y 2H, ya que es imp
 | How Much? | ¿Cuánto impacto tiene?              | Provoca pérdidas económicas, disminución de la calidad del producto, insatisfacción de los clientes y menor competitividad en el mercado.                                           |
 
 ### 1.2.2 Lean UX Process
-#### 1.2.2.1. Lean UX Problem Statements
-El objetivo actual del negocio es ayudar a los distribuidores de frutas a gestionar de manera eficiente los pedidos y cumplir con los estándares exigidos por los clientes comerciales en cuanto a calidad y tiempos de entrega. Sin embargo, un problema es la gestión manual o el uso de herramientas aisladas, lo que genera errores operativos, desorganización y dificultades en la coordinación del proceso logístico. Ante ello, ¿Cómo podríamos diseñar una plataforma que optimice la gestión logística y reduzca los errores operativos en la distribución de frutas?
+### 1.2.2.1 Lean UX Problem Statements
 
-El objetivo actual del negocio es asegurar que los productos agrícolas cumplan con los requisitos de calidad establecidos por los clientes antes de su envío. No obstante, un problema es que la validación del estado de los productos depende del criterio humano, lo que puede generar inconsistencias y ocasionar pérdidas económicas debido a rechazos. Ante ello, ¿Cómo podríamos diseñar un sistema que permita validar la calidad de los productos antes de su entrega para reducir el riesgo de rechazo?
+Actualmente, la logística agrícola y la cadena de suministro de frutas en el Perú dependen en gran medida de procesos manuales, como hojas de cálculo, registros en papel y aplicaciones de mensajería, para coordinar las operaciones entre productores, distribuidores y clientes comerciales. Esta situación genera problemas como la desorganización en la gestión de pedidos, la falta de trazabilidad durante el proceso de distribución y retrasos que afectan la calidad del servicio y la toma de decisiones.
 
-El objetivo actual del negocio es coordinar de manera eficiente la interacción entre distribuidores, productores y clientes comerciales dentro de la cadena de suministro. Sin embargo, un problema es la falta de trazabilidad y de información centralizada, lo que dificulta el seguimiento de los pedidos y reduce la capacidad de tomar decisiones oportunas. Ante ello, ¿Cómo podríamos diseñar una solución que permita centralizar la información y mejorar la trazabilidad en toda la cadena de distribución?
+Las soluciones existentes no ofrecen una plataforma accesible y especializada que integre las necesidades de estos tres actores dentro de un mismo ecosistema digital. Como consecuencia, los distribuidores enfrentan dificultades para monitorear el estado de los pedidos, controlar la calidad de los productos y coordinar eficientemente la comunicación con productores y clientes.
 
-#### 1.2.2.2. Lean UX Assumptions
-**Assumptions Worksheet**
+**¿Cómo podríamos** reducir la desorganización y la falta de trazabilidad en la cadena de suministro de frutas, proporcionando una plataforma digital integrada para distribuidores medianos de Lima Metropolitana que abastecen a supermercados, mercados mayoristas y restaurantes, de manera que se logre reducir en un **30%** los errores operativos y en un **25%** los pedidos rechazados por problemas de calidad durante los primeros seis meses de uso?
 
-**Business Assumptions:**
+### 1.2.2.2. Lean UX Assumptions
 
-* **Domain:** Nos encontramos en el dominio de la logística agrícola y cadena de suministro de frutas, donde la digitalización es aún incipiente y los procesos manuales predominan entre productores, distribuidores y clientes comerciales en el Perú.
+#### Business Assumptions
 
-
-* **Customer Segments:** Nuestros usuarios principales son distribuidores de frutas medianos que operan en Lima, productores agrícolas en distintas zonas rurales, y clientes comerciales como supermercados, restaurantes y juguerías que requieren abastecimiento constante de productos frescos.
-
-
-* **Pain Points:** Los distribuidores enfrentan desorganización en la gestión de pedidos, falta de trazabilidad y dependencia de procesos manuales propensos a errores. Los productores tienen dificultades para coordinar entregas y reciben retroalimentación tardía sobre la calidad de su producto. Los clientes comerciales sufren retrasos en las entregas, inconsistencia en la calidad recibida y ausencia de sistemas formales de seguimiento.
-
-
-* **Gap:** Actualmente no existe una solución accesible y especializada en el mercado peruano que integre en una sola plataforma la gestión de pedidos, el control de calidad y la trazabilidad para la distribución de frutas entre estos tres actores.
-
-
-* **Vision / Strategy:** Nuestra visión es convertirnos en la plataforma de referencia para la digitalización de la cadena de suministro frutícola en el Perú, comenzando con distribuidores medianos en Lima y expandiéndonos hacia otras regiones y productos agrícolas. La estrategia consiste en ofrecer una solución accesible con un modelo de suscripción basado en volumen de pedidos, conectando la aplicación con los tres segmentos identificados.
-
-
-* **Initial Segment:** Nuestro segmento inicial son los distribuidores de frutas medianos con operaciones activas en Lima Metropolitana que abastecen a cadenas de retail o restaurantes, ya que son el actor central de la cadena y quienes más se benefician de una plataforma integrada.
-
-**User Assumptions:**
-
-* **¿Dónde encaja nuestro producto en su trabajo o vida?** Nuestro producto sería usado en su día a día durante la gestión de pedidos, coordinación con productores, validación de calidad y seguimiento de entregas dentro de la cadena de distribución de frutas.
-
-
-* **¿Qué problemas tiene nuestro producto que debe resolver?** Limitaciones en la organización de pedidos, dependencia a los procesos manuales, falta de trazabilidad, y dificultades en la coordinación entre los actores de la cadena.
-
-
-* **¿Cuándo y cómo es usado nuestro producto?** El producto será utilizado en la rutina diaria de trabajo de distribuidores y productores, especialmente en momentos de recepción de pedidos, preparación de productos, control de calidad y despacho. Se usará mediante una aplicación web donde los usuarios monitorean pedidos, calidad y entregas en tiempo real.
-
-
-* **¿Qué características son importantes?** Registro y gestión de pedidos, monitoreo de calidad, trazabilidad de pedidos, integración con sensores IoT (a futuro), dashboard visual con indicadores claros, notificaciones y alertas, y comunicación entre actores.
-
-
-* **¿Cómo debe verse nuestro producto y cómo comportarse?** El diseño debe ser intuitivo, visual y fácil de usar, permitiendo que usuarios con bajo nivel técnico comprendan rápidamente la información. Debe comportarse de manera confiable, rápida y precisa, asegurando la trazabilidad y el control del proceso logístico.
-
-**Feature Assumptions:**
-
-* Creemos que nuestros clientes necesitan una plataforma centralizada que elimine el uso de procesos manuales y herramientas aisladas para mejorar la organización y reducir errores operativos en la gestión logística.
-
-
-* Estas necesidades se pueden resolver con una aplicación web que permita gestionar pedidos, coordinar proveedores y monitorear la calidad en tiempo real dentro de una sola plataforma.
-
-
-* El valor #1 que un cliente quiere de nuestro servicio es mejorar la eficiencia en la gestión de pedidos y reducir los errores operativos en su proceso logístico.
-
-
-* El cliente también puede obtener estos beneficios adicionales: mayor control de calidad, mejor trazabilidad de los productos, reducción de pérdidas económicas y mejor coordinación con proveedores y clientes.
-
-
-* Vamos a adquirir la mayoría de nuestros clientes a través de contactos directos en el rubro, recomendaciones y demostraciones del sistema mostrando mejoras en sus procesos actuales.
-
-
-* Haremos dinero a través de un modelo de suscripción basado en la cantidad de pedidos gestionados mensualmente.
-
-
-* Nuestra competencia principal en el mercado serán AgroData Perú, SAP Agri y TrazAgro, además de métodos tradicionales como Excel, papel, WhatsApp y sistemas logísticos genéricos no especializados.
-
-
-* Los venceremos debido a que nuestra plataforma está especializada en la distribución de frutas, integrando gestión logística, control de calidad y trazabilidad en un solo sistema.
-
-
-* Nuestro mayor riesgo de producto es que los usuarios no adopten la plataforma debido a resistencia al cambio o falta de familiaridad con herramientas digitales.
-
-
-* Resolveremos esto a través de validaciones tempranas, entrevistas, pruebas de usuario y un diseño simple e intuitivo que facilite la adopción.
-
-
-* Otra suposición es que los usuarios estarán dispuestos a digitalizar sus procesos. Si esto resulta falso, el sistema no será adoptado, lo que afectaría la viabilidad del proyecto.
-
-**Business Outcomes:**
-
-* Reducción de errores operativos en un 30% en los primeros 6 meses de uso.
-
-
-* Disminución de rechazos de productos en un 25% tras la implementación del módulo de calidad.
-
-
-* Mejora en la eficiencia del proceso logístico medida por reducción del tiempo promedio de preparación de pedidos.
-
-#### 1.2.2.3. Lean UX Hypothesis Statements
-### Statement 1
-**Creemos que** al implementar una plataforma web centralizada para la gestión de pedidos, los distribuidores podrán reducir la desorganización y los errores operativos.
-
-**Sabremos que hemos tenido éxito**
-
-**Cuando** al menos el 30% de los errores en pedidos se reduzcan y el 70% de los usuarios adopten activamente la plataforma en los primeros 3 meses
+- Operamos en un dominio donde la digitalización de la logística agrícola y la cadena de suministro de frutas en el Perú aún es limitada, predominando procesos manuales mediante Excel, papel y WhatsApp.
+- Los distribuidores medianos de Lima Metropolitana experimentan problemas de desorganización, falta de trazabilidad y errores operativos que justifican la adopción de una plataforma digital especializada.
+- Los productores agrícolas presentan dificultades para coordinar entregas y reciben retroalimentación tardía sobre la calidad de sus productos, afectando su relación con los distribuidores.
+- Los clientes comerciales (supermercados, restaurantes y juguerías) valoran la trazabilidad y la calidad constante de los productos, estando dispuestos a preferir distribuidores que utilicen herramientas digitales de seguimiento.
+- Actualmente no existe en el mercado peruano una solución accesible y especializada que integre gestión de pedidos, control de calidad y trazabilidad para estos tres actores.
+- Un modelo de negocio basado en suscripción según el volumen de pedidos gestionados resulta económicamente viable para distribuidores medianos.
+- La integración de gestión logística, control de calidad y trazabilidad en una sola plataforma constituye una ventaja competitiva diferenciadora.
+- Los distribuidores medianos que abastecen comercios de Lima Metropolitana representan el segmento más adecuado para validar el producto.
 
 ---
 
-### Statement 2
-**Creemos que** al incluir un sistema de validación de calidad previo al envío, se reducirá el envío de productos defectuosos hacia los supermercados.
+#### Business Outcomes
 
-**Sabremos que hemos tenido éxito**
+##### Impact Metric 1 – Reducción de errores operativos
 
-**Cuando** los rechazos por calidad disminuyan en un 40% y el 80% de los pedidos sean aceptados en la primera entrega
+**Meta:** Reducir en un **30%** los errores de registro, despacho y duplicidad durante los primeros seis meses.
+
+**Asumimos que esto ocurrirá si:**
+
+- Al menos el **90%** de los pedidos se registran directamente en la plataforma.
+- El **80%** de los usuarios activos utiliza diariamente el sistema para gestionar sus operaciones.
+
+##### Impact Metric 2 – Disminución de rechazos por calidad
+
+**Meta:** Reducir en un **25%** los pedidos rechazados por problemas de calidad.
+
+**Asumimos que esto ocurrirá si:**
+
+- Los productores reportan el estado de calidad de cada lote antes del despacho en al menos el **80%** de los envíos.
+
+##### Impact Metric 3 – Mejora de la eficiencia logística
+
+**Meta:** Reducir progresivamente el tiempo promedio de preparación de pedidos.
+
+**Asumimos que esto ocurrirá si:**
+
+- El tiempo entre la creación del pedido y su confirmación por parte del productor disminuye gracias a notificaciones automáticas.
+
+##### Impact Metric 4 – Mayor confianza y trazabilidad
+
+**Meta:** Reducir significativamente las consultas manuales de los clientes comerciales.
+
+**Asumimos que esto ocurrirá si:**
+
+- Los clientes pueden consultar el estado y la trazabilidad de sus pedidos directamente desde la plataforma, reduciendo en un **50%** las llamadas y mensajes de seguimiento.
 
 ---
 
-### Statement 3
-**Creemos que** al integrar un sistema de trazabilidad en tiempo real, los usuarios podrán tener mayor visibilidad y control del estado de los pedidos.
+#### User Assumptions
 
-**Sabremos que hemos tenido éxito**
+### Carlos – Distribuidor
 
-**Cuando** el 75% de los usuarios consulte el estado de pedidos en la plataforma y los problemas de seguimiento se reduzcan en un 35%
+**Rol:** Gestiona pedidos y coordina productores y clientes comerciales.
+
+**Características**
+
+- Utiliza smartphone o computadora durante su jornada laboral.
+- Necesita reducir errores y controlar todo el flujo de pedidos.
+- Actualmente depende de herramientas dispersas como Excel, papel y WhatsApp.
+
+### Rosa – Productora
+
+**Rol:** Gestiona la disponibilidad y entrega de frutas.
+
+**Características**
+
+- Posee conocimientos digitales básicos.
+- Requiere una interfaz simple e intuitiva.
+- Necesita recibir retroalimentación inmediata sobre la calidad de sus productos.
+
+### Miguel – Cliente Comercial
+
+**Rol:** Compra frutas para supermercados, restaurantes o juguerías.
+
+**Características**
+
+- Gestiona varios proveedores simultáneamente.
+- Busca trazabilidad y entregas puntuales.
+- Actualmente depende de llamadas y mensajes para conocer el estado de sus pedidos.
 
 ---
 
-### Statement 4
-**Creemos que** al automatizar la asignación de pedidos entre distribuidores y productores, se mejorará la eficiencia en la coordinación logística.
+#### Early Validation Assumptions
 
-**Sabremos que hemos tenido éxito**
+Se asume que:
 
-**Cuando** el tiempo de asignación de pedidos se reduzca en un 25% y el 70% de los pedidos sean asignados en menos tiempo que el proceso manual
+- Carlos representa adecuadamente al segmento objetivo de distribuidores medianos de Lima Metropolitana.
+- Rosa y Miguel experimentan los problemas identificados durante la investigación.
+- Los tres actores están dispuestos a reemplazar procesos manuales por una plataforma digital si esta demuestra beneficios claros.
+
+---
+
+#### User Outcomes and Benefits
+
+### Carlos – Distribuidor
+
+**Objetivo**
+
+- Gestionar todos sus pedidos desde una única plataforma.
+
+**Beneficios esperados**
+
+- Reducir en un **40%** el tiempo dedicado al registro y seguimiento de pedidos.
+- Detectar incidencias antes del despacho.
+- Obtener mayor control operativo.
+
+### Rosa – Productora
+
+**Objetivo**
+
+- Coordinar entregas y conocer oportunamente los resultados del control de calidad.
+
+**Beneficios esperados**
+
+- Recibir retroalimentación inmediata.
+- Reducir pérdidas ocasionadas por rechazos tardíos.
+- Mejorar la coordinación con distribuidores.
+
+### Miguel – Cliente Comercial
+
+**Objetivo**
+
+- Recibir productos de calidad y conocer el estado de sus pedidos.
+
+**Beneficios esperados**
+
+- Consultar la trazabilidad en tiempo real.
+- Disminuir la incertidumbre durante el proceso de entrega.
+- Reducir la necesidad de realizar llamadas de seguimiento.
 
 ---
 
-### Statement 5
-**Creemos que** al integrar sensores IoT para monitorear temperatura y condiciones de transporte, se podrá garantizar la calidad del producto durante su traslado.
+#### Proposed Solution
 
-**Sabremos que hemos tenido éxito**
+La plataforma **FruitLogix** integra los procesos más importantes de la cadena de suministro mediante los siguientes módulos:
 
-**Cuando** las pérdidas por deterioro se reduzcan en un 30% y el 85% de los envíos mantengan condiciones óptimas registradas
+- **Gestión de pedidos:** Registro, seguimiento y actualización del estado de pedidos.
+- **Control de calidad:** Validación de productos antes del despacho.
+- **Trazabilidad:** Seguimiento completo desde el productor hasta el cliente comercial.
+- **Notificaciones automáticas:** Alertas sobre cambios importantes del proceso.
+- **Comunicación integrada:** Canal único entre distribuidores, productores y clientes.
+- **Dashboard de indicadores:** Visualización de métricas para la toma de decisiones.
+
+**Propuesta de valor**
+
+Mejorar la eficiencia logística mediante la reducción de errores operativos, incrementando la trazabilidad, el control de calidad y la coordinación entre todos los participantes de la cadena de suministro.
 
 ---
+
+#### Additional Business Assumptions
+
+- El modelo de suscripción por volumen de pedidos permitirá capturar el valor generado por la plataforma.
+- Las notificaciones proactivas tendrán mayor impacto que un dashboard pasivo.
+- La interfaz destinada a los productores debe requerir la menor cantidad posible de interacciones para garantizar la actualización constante de la información.
+
+---
+
+#### Business Context
+
+**Modelo de adquisición**
+
+- Contacto directo con distribuidores.
+- Demostraciones del sistema.
+- Recomendaciones dentro del sector agrícola.
+
+**Competencia**
+
+- AgroData Perú.
+- SAP Agri.
+- TrazAgro.
+- Procesos tradicionales mediante Excel, papel y WhatsApp.
+
+**Diferenciador**
+
+Plataforma especializada exclusivamente en la distribución de frutas que integra logística, control de calidad y trazabilidad en una única solución.
+
+**Mayor riesgo**
+
+La resistencia al cambio y la baja adopción tecnológica por parte de los usuarios.
+
+**Mitigación**
+
+- Entrevistas con usuarios.
+- Validaciones tempranas.
+- Pruebas de usabilidad.
+- Diseño simple e intuitivo.
+## 1.2.2.3 Lean UX Hypothesis Statements – FruitLogix
+
+A continuación se presentan los *Hypothesis Statements* elaborados como parte del proceso Lean UX para el desarrollo del producto **FruitLogix**. Cada hipótesis establece la relación entre el resultado de negocio esperado (*Achieve*), el segmento de usuarios (*If*), el beneficio esperado (*Attain*) y la funcionalidad principal (*With*).
+
+Las hipótesis están ordenadas según su nivel de riesgo y valor, siguiendo la lógica de la *Hypothesis Prioritization Canvas*: primero se validan las funcionalidades núcleo de mayor impacto y menor complejidad técnica, dejando para etapas posteriores aquellas que dependen de mayor adopción o complejidad (como IoT).
+
+Estas hipótesis serán validadas mediante entrevistas con usuarios, pruebas de usabilidad y análisis de métricas de uso durante el ciclo de vida del producto.
+
+---
+
+## Statement 1
+
+**Achieve:**  
+Creemos que lograremos una reducción significativa de los errores operativos en los procesos de distribución de frutas, medida por una disminución del 30 % en los incidentes de pedidos incorrectos durante los primeros tres meses de uso.
+
+**If:**  
+Si los distribuidores de frutas que actualmente gestionan sus pedidos de forma manual o mediante herramientas aisladas adoptan FruitLogix como su plataforma central de gestión logística.
+
+**Attain:**  
+Alcanzarán una mejor organización de los pedidos, mayor visibilidad del estado de cada envío y una coordinación más rápida y precisa con sus proveedores agrícolas.
+
+**With:**  
+Con una plataforma web centralizada que integra la gestión de pedidos, el seguimiento logístico en tiempo real y la comunicación directa entre distribuidores y productores dentro de un único ecosistema digital.
+
+---
+
+## Statement 2
+
+**Achieve:**  
+Creemos que lograremos una disminución de al menos el 25 % en la tasa de rechazo de productos por problemas de calidad, reduciendo las pérdidas económicas asociadas a devoluciones y mermas durante el primer semestre de operación.
+
+**If:**  
+Si los productores agrícolas y los clientes comerciales que enfrentan inconsistencias en la validación manual de productos integran el módulo de control de calidad de FruitLogix en su flujo de trabajo habitual.
+
+**Attain:**  
+Alcanzarán una validación de calidad más confiable, estandarizada y trazable antes de cada entrega, con registros de inspección accesibles para todos los actores involucrados.
+
+**With:**  
+Con un módulo integrado de control y validación de calidad que permite registrar el estado de los lotes, adjuntar evidencia fotográfica y generar informes de conformidad que dan seguimiento al producto a lo largo de toda la cadena de suministro.
+
+---
+
+## Statement 3
+
+**Achieve:**  
+Creemos que lograremos una mejora sustancial en la visibilidad y trazabilidad de toda la cadena de suministro de frutas, logrando que el 80 % de los pedidos cuenten con un seguimiento completo desde su origen hasta la entrega final.
+
+**If:**  
+Si los distribuidores, productores y clientes comerciales que actualmente carecen de información centralizada y en tiempo real sobre el estado de sus operaciones adoptan activamente las funcionalidades de trazabilidad de FruitLogix.
+
+**Attain:**  
+Alcanzarán acceso en tiempo real al estado de los pedidos, la ubicación de los envíos y la trazabilidad completa del historial de cada lote de productos, permitiéndoles tomar decisiones más oportunas y reducir la incertidumbre operativa.
+
+**With:**  
+Con un sistema de monitoreo y trazabilidad en tiempo real que centraliza la información de todos los actores de la cadena de suministro, integrando actualizaciones automáticas del estado de los pedidos y un historial auditable de cada operación.
+
+---
+
+## Statement 4
+
+**Achieve:**  
+Creemos que lograremos una mejora en la eficiencia de la coordinación logística y la asignación de pedidos, reduciendo en un 40 % el tiempo promedio de confirmación de envíos en comparación con el proceso manual actual.
+
+**If:**  
+Si los distribuidores de frutas que coordinan manualmente la asignación de pedidos entre múltiples productores y puntos de entrega utilizan las funcionalidades de automatización de FruitLogix para gestionar sus operaciones diarias.
+
+**Attain:**  
+Alcanzarán una coordinación más rápida y precisa con los productores, mediante una asignación optimizada de pedidos basada en criterios predefinidos de disponibilidad, capacidad y calidad.
+
+**With:**  
+Con una funcionalidad de asignación automatizada de pedidos y coordinación de entregas que sugiere el productor más adecuado para cada pedido, notifica en tiempo real a todas las partes involucradas y reduce la intervención manual en el proceso.
+
+---
+
+## Statement 5
+
+**Achieve:**  
+Creemos que lograremos una reducción de al menos el 20 % en las pérdidas de productos durante el transporte, gracias al monitoreo continuo de las condiciones ambientales a lo largo de la ruta de distribución.
+
+**If:**  
+Si los productores y distribuidores que transportan productos perecederos sin controles ambientales integran los sensores IoT de FruitLogix en sus unidades de transporte y utilizan el panel de monitoreo de la plataforma.
+
+**Attain:**  
+Alcanzarán un mayor control de las condiciones de transporte y almacenamiento de los productos, recibiendo alertas preventivas ante desviaciones de temperatura o humedad que les permitan actuar antes de que se produzcan pérdidas.
+
+**With:**  
+Con sensores IoT para el monitoreo de la temperatura y la humedad durante el transporte, integrados con el panel de control de FruitLogix, que envían alertas en tiempo real cuando los parámetros salen del rango óptimo definido para cada tipo de producto.
+
+
 #### 1.2.2.4. Lean UX Canvas
 
 | 1. Business Problem | 5. Solution Ideas | 2. Business Outcomes |
 |--------------------|------------------|----------------------|
-| La cadena de distribución de frutas entre productores, distribuidores y supermercados opera de forma manual y descoordinada, lo que genera errores en pedidos, rechazos por falta de calidad y pérdida de trazabilidad. Esto resulta en costos logísticos elevados, pérdidas económicas por devoluciones y baja satisfacción de los clientes finales. | - Plataforma web centralizada para el registro y seguimiento de pedidos. <br> - Módulo de validación de calidad con criterios estandarizados. <br> - Asignación automatizada de órdenes entre distribuidores y productores. <br> - Integración de sensores IoT para monitorear temperatura y humedad durante el transporte. <br> - Visualización de datos y reportes de trazabilidad en tiempo real. | - Reducir los errores operativos en la gestión de pedidos. <br> - Disminuir los rechazos por calidad en los centros de distribución. <br> - Mejorar la trazabilidad de los productos a lo largo de toda la cadena. <br> - Optimizar los tiempos de entrega y la coordinación entre actores. |
+| La cadena de distribución de frutas entre productores, distribuidores y clientes comerciales opera de forma manual y descoordinada (Excel, papel, WhatsApp), lo que genera errores en pedidos, falta de trazabilidad, rechazos por calidad y retrasos en la entrega. Esto ocasiona costos logísticos elevados, pérdidas económicas por devoluciones y baja satisfacción del cliente final. | - Plataforma web centralizada para gestión de pedidos en tiempo real. <br> - Módulo de control de calidad con criterios estandarizados por lote. <br> - Sistema de trazabilidad de productos a lo largo de la cadena de suministro. <br> - Asignación automatizada de pedidos entre productores y distribuidores. <br> - Notificaciones automáticas y comunicación integrada entre actores. <br> - Dashboard de KPIs para monitoreo de desempeño logístico. | - Reducir en 30% los errores operativos en la gestión de pedidos. <br> - Disminuir en 25% los rechazos por problemas de calidad. <br> - Mejorar la trazabilidad de los productos de extremo a extremo. <br> - Reducir tiempos de coordinación y confirmación de pedidos. <br> - Disminuir la dependencia de llamadas y mensajes para seguimiento. |
 
 | 3. Users and Customers | 4. User Benefits |
 |------------------------|------------------|
-| - **Usuarios directos:** Distribuidores medianos que gestionan pedidos y coordinan con productores y supermercados. <br><br> - **Clientes finales:** Grandes cadenas de retail como Plaza Vea. <br><br> - **Usuarios indirectos:** Productores agrícolas que preparan y despachan pedidos según estándares. | - Acceso a información centralizada y en tiempo real. <br><br> - Reducción de rechazos gracias a validación previa. <br><br> - Planificación eficiente de rutas y asignación. <br><br> - Mayor confianza y transparencia en decisiones logísticas. |
+| - **Carlos (Distribuidor):** gestiona pedidos y coordina productores y clientes. Necesita visibilidad total y reducir errores causados por Excel/WhatsApp. <br><br> - **Rosa (Productora):** prepara y despacha fruta. Necesita coordinación clara y feedback oportuno sobre calidad y entregas. <br><br> - **Miguel (Cliente comercial):** compra fruta para retail o restaurantes. Necesita trazabilidad y seguridad en la calidad del producto. | - Acceso a información centralizada y en tiempo real. <br><br> - Reducción de errores en pedidos y coordinación logística. <br><br> - Feedback inmediato sobre calidad de productos. <br><br> - Mayor confianza y transparencia en la cadena de suministro. <br><br> - Menor dependencia de llamadas y comunicación manual. |
 
 | 6. Hypotheses | 7. Assumptions | 8. Experiments |
 |--------------|--------------|----------------|
-| - Creemos que una plataforma centralizada reducirá errores operativos y mejorará la adopción digital. <br><br> - Creemos que el módulo de calidad disminuirá los rechazos. <br><br> - Creemos que la trazabilidad en tiempo real dará mayor visibilidad. | - Asumimos acceso a computadoras o smartphones. <br><br> - Asumimos falta de herramientas centralizadas actuales. <br><br> - Asumimos disposición a adoptar soluciones digitales. <br><br> - Asumimos reducción de costos con mejor trazabilidad. | - Piloto con 3 distribuidores y 2 supermercados (4 semanas). <br><br> - Medir reducción de errores vs proceso manual. <br><br> - Validar adopción ≥70% en el primer mes. <br><br> - Recoger feedback de usabilidad y utilidad. |
+| - Creemos que una plataforma centralizada reducirá en 30% los errores operativos si los distribuidores gestionan pedidos en tiempo real. <br><br> - Creemos que el módulo de calidad reducirá en 25% los rechazos si los productores validan sus lotes antes del despacho. <br><br> - Creemos que la trazabilidad en tiempo real mejorará la confianza del cliente final si los pedidos pueden ser rastreados end-to-end. | - Asumimos que los usuarios tienen acceso a smartphone o computadora con internet estable. <br><br> - Asumimos que actualmente no existe una herramienta centralizada de gestión logística. <br><br> - Asumimos disposición de adopción de herramientas digitales si reducen errores y tiempos. <br><br> - Asumimos que mejorar la trazabilidad reduce costos por devoluciones y rechazos. | - Piloto con 3 distribuidores y 2 supermercados durante 4 semanas. <br><br> - Medición de reducción de errores vs proceso manual (línea base). <br><br> - Validación de adopción ≥70% de uso activo en el primer mes. <br><br> - Entrevistas post-piloto para evaluar usabilidad y valor percibido. |

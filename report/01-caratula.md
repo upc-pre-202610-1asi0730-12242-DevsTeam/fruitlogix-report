@@ -1,39 +1,49 @@
-﻿![Logo](../assets/images/upc_logo.png)
+﻿<div align="center">
 
----
+![Logo](../assets/images/logo_upc20.png)
 
-# UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS
+#### Universidad Peruana de Ciencias Aplicadas
 
-## FACULTAD DE INGENIERÍA
+#### Carrera de Ingeniería de Software
 
----
+----
 
-### INGENIERÍA DE SOFTWARE
+### 1ASI030 
+### Aplicaciones Web 
+#### NRC 
+### 12242
 
-### CICLO 5
-
----
-
-**1ASI0730 – Aplicaciones Web**  
-**NRC:** 12242  
-**Profesor:** Velasquez Nuñez Angel Augusto
-
----
 ## Informe del Trabajo Final
 
-### DevelopersTeam
+----
 
-FruitLogix
----
+#### Docente
+### Velásquez Núñez, Ángel Augusto
 
-### Integrantes:
+----
 
-- Contreras Granados, Johan Alexis — u202423752
-- Chavez Bardales, Esteban Eduardo — u20241b761
-- Evangelista Ygnacio, Sergio Joaquín — u202211295
-- Jaime Forcelledo, Gonzalo Alexander — u202319329
-- Palomino Vilcañaupa, Daril Johan — u202317338
 
----
+#### Equipo
+### Developers Team
 
-### Marzo, 2026
+#### Proyecto
+### FruitLogix
+
+----
+
+#### Integrantes:
+
+
+u20241b761 - Chavez Bardales, Esteban Eduardo
+
+u202319329 - Jaime Forcelledo, Gonzalo Alexander
+
+u202317338 - Palomino Vilcañaupa, Daril Johan
+
+----
+
+#### Período 202610
+
+#### Julio 2026
+
+</div>

@@ -2,8 +2,13 @@
  El Impact Mapping es una herramienta de planificación estrategica que nos permite conectar los objetivos de negocio de FruitLogix con los comportamientos de cada segmento objetivo.
  
 #### Impact Map - Segmento 1: Cliente Comercial
-![ImpactMapClienteComercial](../assets/images/Impactmap-ClienteComercial.png)
+
+<img alt="ImpactMapClienteComercial" height="450" src="../assets/images/Impactmap-ClienteComercial.png" width="500"/>
+
 #### Impact Map - Segmento 2: Productor
-![ImpactMapProductor](../assets/images/Impactmap-Productor.png)
+
+<img alt="ImpactMapProductor" height="450" src="../assets/images/Impactmap-Productor.png" width="500"/>
+
 #### Impact Map - Segmento 3: Distribuidor de Frutas
-![ImpactMapDistribuidor](../assets/images/Impactmap-Distribuidor.png)
+
+<img alt="ImpactMapDistribuidor" height="450" src="../assets/images/Impactmap-Distribuidor.png" width="500"/>
